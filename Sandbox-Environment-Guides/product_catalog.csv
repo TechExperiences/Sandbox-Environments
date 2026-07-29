@@ -1,0 +1,501 @@
+﻿ProductID,ProductName,Category,SubCategory,Cost,ListPrice
+PROD00001,Signature Menswear Pack 350,Apparel,Menswear,203.22,456.07
+PROD00002,Lite Outerwear Series 130,Apparel,Outerwear,87.04,136.14
+PROD00003,Smart Accessories Collection 529,Electronics,Accessories,200.74,410.62
+PROD00004,Signature Phones Bundle 448,Electronics,Phones,252.25,388.63
+PROD00005,Ultra Beverages Bundle 199,Grocery,Beverages,325,557.16
+PROD00006,Signature Stationery Unit 649,Office,Stationery,114.97,286.86
+PROD00007,Classic Outerwear Line 982,Apparel,Outerwear,327.39,494.22
+PROD00008,Essential Menswear Kit 891,Apparel,Menswear,262.58,356.51
+PROD00009,Lite Fitness Pack 564,Sports,Fitness,573.21,998.83
+PROD00010,Smart Pantry Pack 818,Grocery,Pantry,843.18,1791.63
+PROD00011,Signature Lighting Kit 267,Home & Garden,Lighting,417.65,674.27
+PROD00012,Pro Team Sports Kit 941,Sports,Team Sports,31.79,53.28
+PROD00013,Smart Stationery Line 997,Office,Stationery,646.97,994.42
+PROD00014,Essential Technical Unit 246,Books,Technical,240.6,380.86
+PROD00015,Lite Supplies Line 508,Office,Supplies,327.71,850.86
+PROD00016,Max Lighting Edition 873,Home & Garden,Lighting,45.26,63.27
+PROD00017,Deluxe Tools Edition 494,Home & Garden,Tools,345.31,896
+PROD00018,Pro Supplies Edition 798,Office,Supplies,796.66,1803.39
+PROD00019,Classic Beverages Bundle 261,Grocery,Beverages,409.99,1040.41
+PROD00020,Eco Supplies Collection 208,Office,Supplies,783.86,1295.64
+PROD00021,Premium Cycling Model 652,Sports,Cycling,858.29,2141.68
+PROD00022,Premium Accessories Unit 119,Electronics,Accessories,103.35,179.83
+PROD00023,Pro Printers Kit 999,Office,Printers,511.92,694.33
+PROD00024,Compact Fiction Model 231,Books,Fiction,594.8,1503.8
+PROD00025,Compact Decor Line 533,Home & Garden,Decor,868.03,2173.58
+PROD00026,Lite Team Sports Set 548,Sports,Team Sports,809.95,1506.11
+PROD00027,Ultra Cycling Set 121,Sports,Cycling,530.71,828.26
+PROD00028,Ultra Fitness Series 334,Sports,Fitness,63.46,82.02
+PROD00029,Compact Beverages Kit 385,Grocery,Beverages,603.07,928.26
+PROD00030,Deluxe Lighting Unit 348,Home & Garden,Lighting,706.8,1654
+PROD00031,Ultra Fitness Bundle 462,Sports,Fitness,382.95,720.13
+PROD00032,Pro Laptops Bundle 845,Electronics,Laptops,307.35,741.71
+PROD00033,Smart Cycling Collection 559,Sports,Cycling,128.74,192.82
+PROD00034,Ultra Non-Fiction Unit 927,Books,Non-Fiction,775.63,1545.78
+PROD00035,Pro Accessories Edition 871,Electronics,Accessories,764.28,1126.95
+PROD00036,Smart Technical Bundle 160,Books,Technical,150.68,188.79
+PROD00037,Max Outdoor Pack 533,Toys,Outdoor,627.84,1403.96
+PROD00038,Smart Non-Fiction Pack 322,Books,Non-Fiction,871.93,1771.67
+PROD00039,Pro Audio Series 698,Electronics,Audio,430.68,1072.9
+PROD00040,Compact Furniture Edition 971,Home & Garden,Furniture,169.68,348.4
+PROD00041,Ultra Outdoor Line 352,Sports,Outdoor,522.29,680.88
+PROD00042,Essential Activewear Line 678,Apparel,Activewear,471.94,1185.44
+PROD00043,Smart Team Sports Pack 505,Sports,Team Sports,120.4,255.42
+PROD00044,Ultra Children Series 569,Books,Children,560.18,1125.99
+PROD00045,Compact Menswear Kit 618,Apparel,Menswear,240.88,604.58
+PROD00046,Premium Womenswear Pack 261,Apparel,Womenswear,396.05,785.5
+PROD00047,Essential Supplies Collection 108,Office,Supplies,602.07,1203.37
+PROD00048,Classic Womenswear Edition 209,Apparel,Womenswear,668.95,976.57
+PROD00049,Smart Supplies Set 308,Office,Supplies,619.68,1488.12
+PROD00050,Pro Children Edition 749,Books,Children,382.95,621.73
+PROD00051,Eco Audio Pack 265,Electronics,Audio,667.88,1332.27
+PROD00052,Pro Plush Edition 177,Toys,Plush,850.71,1856.99
+PROD00053,Pro Lighting Set 696,Home & Garden,Lighting,498.62,912.58
+PROD00054,Premium Audio Series 466,Electronics,Audio,191.44,303.79
+PROD00055,Compact Footwear Bundle 735,Apparel,Footwear,675.28,1688.05
+PROD00056,Eco Cycling Bundle 125,Sports,Cycling,163.89,409.41
+PROD00057,Classic Games Model 906,Toys,Games,632.05,1116.47
+PROD00058,Smart Cameras Kit 936,Electronics,Cameras,826.85,1423.87
+PROD00059,Pro Cycling Kit 508,Sports,Cycling,297.45,718.9
+PROD00060,Essential Furniture Collection 509,Office,Furniture,612.53,1463.3
+PROD00061,Ultra Beverages Pack 282,Grocery,Beverages,523.79,1350.22
+PROD00062,Deluxe Laptops Bundle 453,Electronics,Laptops,656.5,1098.63
+PROD00063,Deluxe Activewear Kit 360,Apparel,Activewear,42.81,78.71
+PROD00064,Lite Team Sports Edition 780,Sports,Team Sports,828.93,1733.51
+PROD00065,Compact Footwear Pack 782,Apparel,Footwear,369.33,662.3
+PROD00066,Eco Supplies Kit 530,Office,Supplies,599.44,1056.12
+PROD00067,Deluxe Lighting Pack 515,Home & Garden,Lighting,494.5,618.4
+PROD00068,Lite Printers Line 721,Office,Printers,590.27,1108.37
+PROD00069,Compact Non-Fiction Unit 912,Books,Non-Fiction,811.36,1886.11
+PROD00070,Classic Furniture Collection 779,Home & Garden,Furniture,570.75,971.7
+PROD00071,Smart Team Sports Kit 250,Sports,Team Sports,24.91,39.37
+PROD00072,Ultra Reference Unit 524,Books,Reference,797.86,1617.39
+PROD00073,Lite Building Kit 251,Toys,Building,591.48,743.78
+PROD00074,Smart Activewear Model 923,Apparel,Activewear,862.3,1680.83
+PROD00075,Smart Accessories Edition 567,Electronics,Accessories,122.61,230.17
+PROD00076,Deluxe Frozen Collection 536,Grocery,Frozen,748.02,1488.28
+PROD00077,Max Tools Pack 869,Home & Garden,Tools,224.77,474.45
+PROD00078,Classic Non-Fiction Unit 179,Books,Non-Fiction,643.05,1007.38
+PROD00079,Compact Pantry Edition 241,Grocery,Pantry,138.3,244.39
+PROD00080,Ultra Kitchen Bundle 517,Home & Garden,Kitchen,299.8,563.32
+PROD00081,Lite Phones Bundle 888,Electronics,Phones,526.92,1153.4
+PROD00082,Pro Building Set 405,Toys,Building,678.87,1630.75
+PROD00083,Signature Plush Collection 919,Toys,Plush,544.12,842.15
+PROD00084,Lite Team Sports Unit 129,Sports,Team Sports,351.8,757.42
+PROD00085,Max Games Model 737,Toys,Games,482.11,1192.91
+PROD00086,Essential Laptops Bundle 238,Electronics,Laptops,780.57,1167.21
+PROD00087,Premium Storage Kit 565,Office,Storage,296.18,674.6
+PROD00088,Lite Outdoor Pack 954,Toys,Outdoor,76.47,97.59
+PROD00089,Smart Audio Edition 899,Electronics,Audio,861.69,1123.94
+PROD00090,Smart Phones Series 736,Electronics,Phones,139.69,198.42
+PROD00091,Smart Outerwear Unit 816,Apparel,Outerwear,232.85,407.02
+PROD00092,Classic Womenswear Edition 692,Apparel,Womenswear,26.03,43.5
+PROD00093,Signature Building Kit 177,Toys,Building,534.11,1266.52
+PROD00094,Signature Fitness Pack 970,Sports,Fitness,616.78,1441.7
+PROD00095,Compact Audio Bundle 777,Electronics,Audio,335.4,648.34
+PROD00096,Lite Beverages Unit 208,Grocery,Beverages,391.87,681.44
+PROD00097,Lite Non-Fiction Model 851,Books,Non-Fiction,471.01,1002.36
+PROD00098,Lite Technical Line 374,Books,Technical,292.11,461.95
+PROD00099,Max Footwear Kit 868,Apparel,Footwear,419.84,870.73
+PROD00100,Pro Outdoor Unit 971,Toys,Outdoor,294.54,562.04
+PROD00101,Premium Pantry Pack 710,Grocery,Pantry,631.96,1025.65
+PROD00102,Smart Accessories Edition 347,Electronics,Accessories,648.91,1239.15
+PROD00103,Essential Outdoor Unit 558,Sports,Outdoor,714.26,982.55
+PROD00104,Signature Outdoor Kit 413,Sports,Outdoor,598.57,1046.41
+PROD00105,Signature Frozen Collection 438,Grocery,Frozen,318.57,593.35
+PROD00106,Smart Furniture Edition 838,Office,Furniture,175.75,248.05
+PROD00107,Smart Kitchen Unit 383,Home & Garden,Kitchen,652.95,1677.05
+PROD00108,Smart Stationery Pack 332,Office,Stationery,326.71,541.71
+PROD00109,Pro Decor Series 666,Home & Garden,Decor,265.05,669.12
+PROD00110,Pro Fiction Line 391,Books,Fiction,424.05,782.22
+PROD00111,Classic Furniture Unit 216,Home & Garden,Furniture,740.44,1326.09
+PROD00112,Essential Outerwear Series 255,Apparel,Outerwear,136.83,275.01
+PROD00113,Smart Stationery Edition 671,Office,Stationery,688.71,1424.62
+PROD00114,Lite Water Sports Unit 553,Sports,Water Sports,269.73,551.47
+PROD00115,Deluxe Outdoor Line 161,Toys,Outdoor,549.84,1236.66
+PROD00116,Classic Cycling Edition 260,Sports,Cycling,218.16,435.27
+PROD00117,Lite Furniture Unit 805,Home & Garden,Furniture,535.65,880.18
+PROD00118,Signature Team Sports Pack 819,Sports,Team Sports,774.07,1041.97
+PROD00119,Essential Team Sports Line 777,Sports,Team Sports,724.1,1098.5
+PROD00120,Smart Outerwear Model 372,Apparel,Outerwear,744.49,1002.38
+PROD00121,Deluxe Decor Line 395,Home & Garden,Decor,396.92,747.3
+PROD00122,Classic Storage Collection 652,Office,Storage,445.93,605.84
+PROD00123,Signature Cameras Set 718,Electronics,Cameras,227.58,312.53
+PROD00124,Deluxe Audio Series 881,Electronics,Audio,681.37,1284.5
+PROD00125,Eco Children Line 546,Books,Children,572.4,1095.48
+PROD00126,Premium Activewear Bundle 441,Apparel,Activewear,290.99,404.83
+PROD00127,Lite Decor Unit 395,Home & Garden,Decor,597.34,1069.6
+PROD00128,Ultra Cameras Set 358,Electronics,Cameras,292.98,749.96
+PROD00129,Pro Plush Collection 573,Toys,Plush,373.68,561.73
+PROD00130,Max Household Unit 878,Grocery,Household,49.3,79.4
+PROD00131,Max Decor Unit 224,Home & Garden,Decor,28.9,60.71
+PROD00132,Classic Cycling Collection 114,Sports,Cycling,498.37,685.67
+PROD00133,Ultra Activewear Model 610,Apparel,Activewear,839.59,1380.3
+PROD00134,Max Storage Unit 349,Office,Storage,412.74,596.52
+PROD00135,Compact Water Sports Model 984,Sports,Water Sports,65.62,150.47
+PROD00136,Compact Outdoor Pack 940,Toys,Outdoor,5.3,11.82
+PROD00137,Max Non-Fiction Collection 595,Books,Non-Fiction,312.58,623.62
+PROD00138,Premium Building Kit 814,Toys,Building,217.21,383.81
+PROD00139,Premium Educational Unit 822,Toys,Educational,822.35,1451.17
+PROD00140,Pro Tools Model 614,Home & Garden,Tools,868.92,1475.59
+PROD00141,Ultra Activewear Collection 567,Apparel,Activewear,16.77,24.23
+PROD00142,Max Furniture Pack 446,Home & Garden,Furniture,562.06,1004.18
+PROD00143,Essential Footwear Collection 489,Apparel,Footwear,858.86,1800.32
+PROD00144,Pro Reference Line 170,Books,Reference,213.59,464.33
+PROD00145,Signature Printers Edition 544,Office,Printers,880.57,2004.62
+PROD00146,Eco Activewear Pack 129,Apparel,Activewear,44.25,102.87
+PROD00147,Premium Furniture Bundle 249,Office,Furniture,222.05,401.08
+PROD00148,Eco Kitchen Edition 724,Home & Garden,Kitchen,784.14,1636.19
+PROD00149,Deluxe Outdoor Model 337,Sports,Outdoor,416.65,663.67
+PROD00150,Max Stationery Pack 793,Office,Stationery,493.3,665.81
+PROD00151,Classic Household Bundle 806,Grocery,Household,227.34,543.61
+PROD00152,Max Outdoor Edition 342,Sports,Outdoor,345.08,598.57
+PROD00153,Pro Furniture Bundle 381,Office,Furniture,10.26,24.81
+PROD00154,Signature Accessories Unit 952,Electronics,Accessories,814.03,1332.05
+PROD00155,Premium Water Sports Kit 751,Sports,Water Sports,173.55,275.66
+PROD00156,Essential Furniture Series 416,Home & Garden,Furniture,710.38,919.97
+PROD00157,Ultra Snacks Pack 434,Grocery,Snacks,673.49,1001.56
+PROD00158,Premium Lighting Collection 613,Home & Garden,Lighting,822.4,1950.02
+PROD00159,Classic Storage Set 923,Office,Storage,106.31,271.08
+PROD00160,Essential Kitchen Bundle 966,Home & Garden,Kitchen,724.72,1263.76
+PROD00161,Classic Educational Collection 226,Toys,Educational,410.94,886.94
+PROD00162,Lite Supplies Set 210,Office,Supplies,608.33,1147.61
+PROD00163,Smart Household Edition 750,Grocery,Household,742,1838.43
+PROD00164,Ultra Storage Model 146,Office,Storage,851.8,1414.75
+PROD00165,Ultra Fiction Kit 650,Books,Fiction,124.69,232.23
+PROD00166,Signature Plush Model 524,Toys,Plush,590.46,1402.63
+PROD00167,Pro Outdoor Set 322,Toys,Outdoor,400.71,1015.1
+PROD00168,Essential Beverages Set 657,Grocery,Beverages,811.82,1721.48
+PROD00169,Classic Cameras Kit 225,Electronics,Cameras,854.26,2018.32
+PROD00170,Essential Womenswear Line 121,Apparel,Womenswear,48.37,82.24
+PROD00171,Smart Lighting Edition 949,Home & Garden,Lighting,689.35,1054.47
+PROD00172,Premium Cycling Model 907,Sports,Cycling,810.78,1016.58
+PROD00173,Compact Kitchen Pack 917,Home & Garden,Kitchen,159.52,341.76
+PROD00174,Pro Phones Set 908,Electronics,Phones,710.22,1452.37
+PROD00175,Classic Phones Series 229,Electronics,Phones,668.32,1310.05
+PROD00176,Max Activewear Set 625,Apparel,Activewear,535.52,996.18
+PROD00177,Pro Water Sports Collection 408,Sports,Water Sports,413.86,1055.94
+PROD00178,Lite Cameras Bundle 802,Electronics,Cameras,99.84,220.82
+PROD00179,Ultra Fiction Set 722,Books,Fiction,136.06,193.25
+PROD00180,Deluxe Frozen Collection 401,Grocery,Frozen,409.98,847.56
+PROD00181,Essential Menswear Collection 838,Apparel,Menswear,779.35,1426.67
+PROD00182,Premium Outdoor Unit 508,Sports,Outdoor,376.14,518.46
+PROD00183,Essential Outdoor Pack 483,Toys,Outdoor,858.37,1868.85
+PROD00184,Ultra Fiction Edition 195,Books,Fiction,390.39,880.41
+PROD00185,Compact Snacks Series 700,Grocery,Snacks,861.09,1729.3
+PROD00186,Premium Activewear Bundle 988,Apparel,Activewear,824.51,1087.9
+PROD00187,Classic Supplies Set 206,Office,Supplies,521.39,801.48
+PROD00188,Ultra Non-Fiction Set 965,Books,Non-Fiction,501.97,705.32
+PROD00189,Smart Supplies Bundle 965,Office,Supplies,506.19,1157.17
+PROD00190,Essential Accessories Pack 129,Electronics,Accessories,164.83,362.4
+PROD00191,Premium Furniture Series 285,Office,Furniture,783.27,1577.92
+PROD00192,Eco Educational Series 193,Toys,Educational,672.26,1035.57
+PROD00193,Premium Building Model 478,Toys,Building,282.54,476.9
+PROD00194,Eco Menswear Model 872,Apparel,Menswear,557.2,1203.47
+PROD00195,Essential Storage Bundle 597,Office,Storage,547.55,990.6
+PROD00196,Ultra Water Sports Set 540,Sports,Water Sports,102.47,221.91
+PROD00197,Essential Reference Pack 146,Books,Reference,200.81,517.89
+PROD00198,Smart Laptops Pack 316,Electronics,Laptops,691.31,1577.3
+PROD00199,Ultra Furniture Series 609,Office,Furniture,673.07,1000.98
+PROD00200,Signature Plush Kit 612,Toys,Plush,504.18,1084.93
+PROD00201,Lite Beverages Series 546,Grocery,Beverages,19.81,49.4
+PROD00202,Lite Household Line 514,Grocery,Household,639.42,1159.84
+PROD00203,Pro Activewear Set 275,Apparel,Activewear,721.79,1504.55
+PROD00204,Lite Beverages Edition 349,Grocery,Beverages,393.8,705.14
+PROD00205,Classic Activewear Set 326,Apparel,Activewear,301.76,445.69
+PROD00206,Compact Outerwear Kit 894,Apparel,Outerwear,316.39,706.17
+PROD00207,Ultra Kitchen Model 362,Home & Garden,Kitchen,179.95,371.28
+PROD00208,Essential Womenswear Unit 575,Apparel,Womenswear,679.74,1546.98
+PROD00209,Essential Reference Line 430,Books,Reference,778.23,1631.75
+PROD00210,Ultra Tools Unit 552,Home & Garden,Tools,569.35,1323.76
+PROD00211,Compact Audio Edition 417,Electronics,Audio,417.18,542.66
+PROD00212,Ultra Pantry Edition 729,Grocery,Pantry,535.89,948.02
+PROD00213,Deluxe Cameras Kit 429,Electronics,Cameras,545.69,1051.46
+PROD00214,Ultra Cameras Set 831,Electronics,Cameras,78.64,166.9
+PROD00215,Signature Phones Unit 549,Electronics,Phones,473.09,980.83
+PROD00216,Classic Pantry Bundle 518,Grocery,Pantry,697.69,1511.55
+PROD00217,Ultra Audio Set 196,Electronics,Audio,503.49,892.11
+PROD00218,Eco Supplies Set 183,Office,Supplies,525.72,757.52
+PROD00219,Essential Pantry Bundle 232,Grocery,Pantry,536.75,1350.63
+PROD00220,Lite Supplies Set 932,Office,Supplies,117.63,258.65
+PROD00221,Compact Activewear Set 118,Apparel,Activewear,328.25,490.19
+PROD00222,Max Team Sports Kit 331,Sports,Team Sports,899.98,1313.23
+PROD00223,Compact Stationery Collection 955,Office,Stationery,665.56,1305.04
+PROD00224,Eco Household Line 485,Grocery,Household,141.36,211.21
+PROD00225,Pro Tools Bundle 473,Home & Garden,Tools,609.7,957.63
+PROD00226,Classic Reference Unit 339,Books,Reference,482.01,803.89
+PROD00227,Premium Non-Fiction Line 551,Books,Non-Fiction,417.13,680.09
+PROD00228,Compact Plush Bundle 265,Toys,Plush,735.75,1715.55
+PROD00229,Pro Decor Unit 995,Home & Garden,Decor,335.98,843.75
+PROD00230,Ultra Footwear Model 379,Apparel,Footwear,406.04,788.95
+PROD00231,Smart Educational Unit 457,Toys,Educational,837.63,1516.2
+PROD00232,Premium Plush Kit 495,Toys,Plush,895.09,1571.9
+PROD00233,Ultra Audio Set 910,Electronics,Audio,134.01,174.44
+PROD00234,Signature Non-Fiction Unit 559,Books,Non-Fiction,554.97,1372.39
+PROD00235,Smart Audio Model 661,Electronics,Audio,846.38,1753.69
+PROD00236,Classic Educational Kit 408,Toys,Educational,112.3,176.52
+PROD00237,Ultra Fiction Unit 711,Books,Fiction,483.84,1017.58
+PROD00238,Classic Cycling Bundle 101,Sports,Cycling,554.48,873.17
+PROD00239,Essential Games Edition 636,Toys,Games,877.27,1176.74
+PROD00240,Max Cameras Series 750,Electronics,Cameras,350.03,613.94
+PROD00241,Ultra Audio Set 346,Electronics,Audio,660.45,1385.72
+PROD00242,Pro Snacks Set 659,Grocery,Snacks,306.68,649.48
+PROD00243,Essential Technical Model 930,Books,Technical,123.96,274.78
+PROD00244,Classic Fiction Kit 144,Books,Fiction,712.62,1742.94
+PROD00245,Compact Pantry Bundle 934,Grocery,Pantry,490.1,780.23
+PROD00246,Premium Team Sports Series 986,Sports,Team Sports,591.19,957.04
+PROD00247,Lite Frozen Unit 495,Grocery,Frozen,307.12,461.36
+PROD00248,Compact Children Pack 920,Books,Children,77.1,140.56
+PROD00249,Eco Plush Collection 400,Toys,Plush,291.13,395.38
+PROD00250,Max Furniture Line 834,Office,Furniture,385.23,840.26
+PROD00251,Pro Frozen Set 729,Grocery,Frozen,898.34,1455.89
+PROD00252,Essential Laptops Bundle 472,Electronics,Laptops,463.24,1048.02
+PROD00253,Eco Furniture Line 794,Home & Garden,Furniture,703.84,912.87
+PROD00254,Essential Womenswear Set 470,Apparel,Womenswear,346.42,698.31
+PROD00255,Premium Tools Set 554,Home & Garden,Tools,687.49,1392.03
+PROD00256,Premium Frozen Pack 355,Grocery,Frozen,864.59,1110.98
+PROD00257,Compact Tools Bundle 675,Home & Garden,Tools,108.63,249.44
+PROD00258,Deluxe Non-Fiction Pack 810,Books,Non-Fiction,825.08,1578.48
+PROD00259,Ultra Womenswear Unit 276,Apparel,Womenswear,809.12,1497.6
+PROD00260,Essential Footwear Set 826,Apparel,Footwear,61.25,121.39
+PROD00261,Signature Printers Model 912,Office,Printers,327.26,508.15
+PROD00262,Smart Cycling Unit 126,Sports,Cycling,326.72,660.82
+PROD00263,Eco Reference Line 188,Books,Reference,61.98,110.79
+PROD00264,Lite Reference Bundle 943,Books,Reference,518.69,736.12
+PROD00265,Max Beverages Unit 796,Grocery,Beverages,467.07,664.76
+PROD00266,Lite Kitchen Collection 989,Home & Garden,Kitchen,52.71,74.72
+PROD00267,Eco Decor Model 430,Home & Garden,Decor,841.46,1307.95
+PROD00268,Classic Stationery Kit 750,Office,Stationery,860.85,1395.02
+PROD00269,Compact Supplies Edition 614,Office,Supplies,577.97,1184.23
+PROD00270,Essential Kitchen Line 837,Home & Garden,Kitchen,812.09,1385.25
+PROD00271,Ultra Laptops Series 756,Electronics,Laptops,694.61,1116.44
+PROD00272,Lite Water Sports Line 754,Sports,Water Sports,30.17,73.92
+PROD00273,Max Furniture Kit 924,Office,Furniture,727.19,1307.65
+PROD00274,Signature Fiction Series 261,Books,Fiction,397.33,756.41
+PROD00275,Deluxe Team Sports Model 420,Sports,Team Sports,775.75,1304.1
+PROD00276,Eco Frozen Set 627,Grocery,Frozen,506.8,851.83
+PROD00277,Classic Fiction Unit 353,Books,Fiction,129.37,170.55
+PROD00278,Lite Plush Kit 986,Toys,Plush,812.37,1907.6
+PROD00279,Eco Snacks Unit 627,Grocery,Snacks,421.73,1027.65
+PROD00280,Ultra Fiction Bundle 617,Books,Fiction,413.14,650.69
+PROD00281,Pro Beverages Pack 606,Grocery,Beverages,538.97,1286.98
+PROD00282,Compact Children Series 967,Books,Children,99.42,142.25
+PROD00283,Lite Furniture Set 146,Office,Furniture,362.32,731.84
+PROD00284,Compact Team Sports Pack 175,Sports,Team Sports,349.55,649.46
+PROD00285,Essential Supplies Line 221,Office,Supplies,118.41,163.47
+PROD00286,Compact Pantry Set 873,Grocery,Pantry,132.41,273.2
+PROD00287,Pro Plush Series 139,Toys,Plush,125.92,214.01
+PROD00288,Max Reference Model 720,Books,Reference,804.14,1156.92
+PROD00289,Lite Snacks Line 857,Grocery,Snacks,758.81,1556.72
+PROD00290,Classic Reference Unit 935,Books,Reference,17.92,30.41
+PROD00291,Deluxe Activewear Pack 915,Apparel,Activewear,809.19,1964.17
+PROD00292,Max Accessories Pack 771,Electronics,Accessories,705.26,1620.56
+PROD00293,Deluxe Fitness Unit 274,Sports,Fitness,473.24,1052.29
+PROD00294,Essential Games Kit 132,Toys,Games,516.6,1134.3
+PROD00295,Max Fitness Set 528,Sports,Fitness,138.83,302.95
+PROD00296,Deluxe Plush Unit 993,Toys,Plush,763.99,1705.22
+PROD00297,Smart Lighting Collection 432,Home & Garden,Lighting,898.32,1703.04
+PROD00298,Eco Outdoor Unit 645,Toys,Outdoor,310.07,535.89
+PROD00299,Max Supplies Kit 352,Office,Supplies,253.27,418.65
+PROD00300,Signature Furniture Kit 806,Office,Furniture,635.37,1066.15
+PROD00301,Signature Household Pack 394,Grocery,Household,112.32,243
+PROD00302,Premium Building Model 397,Toys,Building,40.73,103.44
+PROD00303,Max Footwear Pack 865,Apparel,Footwear,432.73,658.96
+PROD00304,Signature Supplies Pack 240,Office,Supplies,100.98,227.23
+PROD00305,Pro Cycling Collection 331,Sports,Cycling,575.24,759.81
+PROD00306,Signature Outdoor Unit 202,Toys,Outdoor,614.03,881.49
+PROD00307,Essential Tools Unit 588,Home & Garden,Tools,586.53,1331.7
+PROD00308,Classic Furniture Series 887,Office,Furniture,83.25,168.59
+PROD00309,Lite Phones Model 137,Electronics,Phones,897.46,1602.81
+PROD00310,Signature Non-Fiction Pack 997,Books,Non-Fiction,36.61,60.51
+PROD00311,Classic Footwear Unit 756,Apparel,Footwear,490.34,939.87
+PROD00312,Max Lighting Pack 297,Home & Garden,Lighting,728.51,1235.86
+PROD00313,Signature Children Model 114,Books,Children,663.75,1538.26
+PROD00314,Deluxe Cycling Bundle 946,Sports,Cycling,386.65,654.48
+PROD00315,Eco Educational Model 588,Toys,Educational,293.27,464.79
+PROD00316,Smart Storage Unit 871,Office,Storage,242.49,411.02
+PROD00317,Essential Audio Set 809,Electronics,Audio,214.96,462.49
+PROD00318,Eco Children Bundle 802,Books,Children,453.76,1115.53
+PROD00319,Essential Stationery Pack 476,Office,Stationery,554.32,856.88
+PROD00320,Eco Tools Unit 865,Home & Garden,Tools,889.99,1561.39
+PROD00321,Essential Reference Kit 880,Books,Reference,224.98,510.46
+PROD00322,Max Outerwear Collection 820,Apparel,Outerwear,327.52,814.96
+PROD00323,Compact Menswear Collection 307,Apparel,Menswear,516.71,750.42
+PROD00324,Max Household Edition 796,Grocery,Household,187.25,381.47
+PROD00325,Max Outerwear Series 564,Apparel,Outerwear,121.35,219.74
+PROD00326,Max Accessories Pack 840,Electronics,Accessories,22.53,35.9
+PROD00327,Deluxe Phones Edition 146,Electronics,Phones,383.06,841.02
+PROD00328,Max Laptops Series 393,Electronics,Laptops,369.75,846.03
+PROD00329,Lite Outdoor Unit 990,Toys,Outdoor,825.65,1452.83
+PROD00330,Eco Outerwear Set 221,Apparel,Outerwear,163.09,322.15
+PROD00331,Pro Kitchen Series 405,Home & Garden,Kitchen,418.31,928.97
+PROD00332,Lite Plush Kit 353,Toys,Plush,416.18,607.38
+PROD00333,Pro Fitness Bundle 729,Sports,Fitness,690.15,1686.09
+PROD00334,Smart Phones Edition 203,Electronics,Phones,535.77,992.62
+PROD00335,Signature Phones Series 511,Electronics,Phones,396.75,785.04
+PROD00336,Compact Phones Pack 339,Electronics,Phones,734.76,1644.06
+PROD00337,Deluxe Household Set 342,Grocery,Household,273.68,395.03
+PROD00338,Classic Outdoor Pack 162,Sports,Outdoor,502.38,1029.25
+PROD00339,Compact Tools Unit 148,Home & Garden,Tools,875.14,2206.35
+PROD00340,Premium Plush Bundle 518,Toys,Plush,136.85,240.61
+PROD00341,Smart Non-Fiction Pack 978,Books,Non-Fiction,637.7,1490.81
+PROD00342,Lite Accessories Bundle 670,Electronics,Accessories,478.4,848.86
+PROD00343,Premium Printers Edition 560,Office,Printers,762.88,1048.83
+PROD00344,Classic Fitness Bundle 789,Sports,Fitness,545.66,711.21
+PROD00345,Deluxe Womenswear Collection 322,Apparel,Womenswear,433.02,1049.55
+PROD00346,Pro Pantry Kit 294,Grocery,Pantry,865.98,1219.63
+PROD00347,Signature Non-Fiction Line 820,Books,Non-Fiction,186.45,463.41
+PROD00348,Lite Pantry Unit 646,Grocery,Pantry,584.9,974.66
+PROD00349,Max Household Unit 200,Grocery,Household,723.13,1609.15
+PROD00350,Premium Snacks Set 523,Grocery,Snacks,44.01,106.35
+PROD00351,Classic Furniture Collection 698,Home & Garden,Furniture,522.49,947.66
+PROD00352,Premium Kitchen Kit 488,Home & Garden,Kitchen,514.1,813.17
+PROD00353,Max Pantry Unit 571,Grocery,Pantry,153.91,357.57
+PROD00354,Signature Kitchen Collection 600,Home & Garden,Kitchen,168.09,411.93
+PROD00355,Pro Accessories Edition 937,Electronics,Accessories,602.39,1374.57
+PROD00356,Essential Games Kit 169,Toys,Games,637.33,804.53
+PROD00357,Pro Children Line 753,Books,Children,601.08,1251.63
+PROD00358,Pro Technical Series 644,Books,Technical,497.82,630.24
+PROD00359,Classic Supplies Series 614,Office,Supplies,732.4,1581.94
+PROD00360,Ultra Furniture Collection 252,Home & Garden,Furniture,219.15,457.3
+PROD00361,Classic Furniture Bundle 180,Office,Furniture,337.63,607.1
+PROD00362,Classic Cycling Edition 769,Sports,Cycling,892.53,1898.73
+PROD00363,Lite Laptops Bundle 486,Electronics,Laptops,498.77,661.25
+PROD00364,Ultra Phones Unit 965,Electronics,Phones,392.22,905.6
+PROD00365,Pro Outerwear Kit 316,Apparel,Outerwear,811.44,1772.66
+PROD00366,Pro Children Edition 800,Books,Children,833.25,2053.19
+PROD00367,Premium Phones Series 312,Electronics,Phones,529.57,1199.76
+PROD00368,Classic Educational Model 677,Toys,Educational,218.7,519.8
+PROD00369,Premium Plush Bundle 873,Toys,Plush,666.55,1544.51
+PROD00370,Signature Outerwear Set 154,Apparel,Outerwear,90.62,141.67
+PROD00371,Deluxe Footwear Line 709,Apparel,Footwear,358.84,823.29
+PROD00372,Max Audio Unit 333,Electronics,Audio,322.16,812.02
+PROD00373,Essential Games Line 776,Toys,Games,343.93,788.43
+PROD00374,Signature Printers Edition 184,Office,Printers,243.37,429.06
+PROD00375,Premium Tools Set 209,Home & Garden,Tools,85.09,214.68
+PROD00376,Classic Children Edition 235,Books,Children,81.31,148.95
+PROD00377,Pro Educational Edition 462,Toys,Educational,500.14,1028.21
+PROD00378,Pro Frozen Pack 523,Grocery,Frozen,350.86,478.69
+PROD00379,Compact Water Sports Model 801,Sports,Water Sports,344.52,495.22
+PROD00380,Max Furniture Model 164,Office,Furniture,152.99,248.23
+PROD00381,Ultra Storage Set 357,Office,Storage,849.97,1889.67
+PROD00382,Deluxe Reference Kit 568,Books,Reference,98.95,164.38
+PROD00383,Deluxe Outdoor Bundle 923,Toys,Outdoor,776.39,1431.9
+PROD00384,Eco Plush Pack 428,Toys,Plush,544.08,1190.8
+PROD00385,Eco Children Bundle 426,Books,Children,264.43,578.62
+PROD00386,Smart Reference Set 485,Books,Reference,254.43,587.97
+PROD00387,Deluxe Beverages Kit 706,Grocery,Beverages,897.55,1339.95
+PROD00388,Signature Cameras Kit 548,Electronics,Cameras,718.52,1704.5
+PROD00389,Essential Activewear Unit 242,Apparel,Activewear,571.1,900.47
+PROD00390,Lite Tools Edition 559,Home & Garden,Tools,891.66,1691.45
+PROD00391,Compact Plush Bundle 656,Toys,Plush,35.98,92.01
+PROD00392,Smart Menswear Set 270,Apparel,Menswear,583.36,764.09
+PROD00393,Lite Outdoor Edition 110,Toys,Outdoor,91.45,141.72
+PROD00394,Premium Outdoor Bundle 574,Sports,Outdoor,695.79,1422.61
+PROD00395,Pro Decor Unit 207,Home & Garden,Decor,268,668.05
+PROD00396,Signature Menswear Model 456,Apparel,Menswear,282.77,527.28
+PROD00397,Max Water Sports Set 587,Sports,Water Sports,90.57,201.49
+PROD00398,Ultra Children Pack 145,Books,Children,729.74,1025.55
+PROD00399,Essential Beverages Model 858,Grocery,Beverages,221.79,329.47
+PROD00400,Compact Decor Bundle 573,Home & Garden,Decor,210.97,379.07
+PROD00401,Essential Kitchen Bundle 505,Home & Garden,Kitchen,29.19,60.69
+PROD00402,Deluxe Outdoor Bundle 498,Sports,Outdoor,6.99,10.76
+PROD00403,Deluxe Stationery Edition 918,Office,Stationery,785.17,1179.64
+PROD00404,Max Snacks Edition 368,Grocery,Snacks,604.62,1155.31
+PROD00405,Lite Household Line 501,Grocery,Household,529.54,910.65
+PROD00406,Eco Reference Pack 729,Books,Reference,532.38,1148.53
+PROD00407,Smart Beverages Pack 219,Grocery,Beverages,167.19,365.5
+PROD00408,Deluxe Building Model 688,Toys,Building,347.19,521.05
+PROD00409,Eco Lighting Unit 395,Home & Garden,Lighting,128.85,215.78
+PROD00410,Pro Reference Set 109,Books,Reference,437.69,662.41
+PROD00411,Compact Plush Unit 518,Toys,Plush,617.17,1117.76
+PROD00412,Eco Technical Edition 678,Books,Technical,30.68,69.87
+PROD00413,Classic Stationery Kit 650,Office,Stationery,261.94,603.51
+PROD00414,Compact Reference Edition 686,Books,Reference,105.44,242.13
+PROD00415,Pro Household Unit 659,Grocery,Household,199.03,363.02
+PROD00416,Pro Team Sports Unit 369,Sports,Team Sports,315.67,742.64
+PROD00417,Smart Fiction Kit 930,Books,Fiction,664.64,1449.13
+PROD00418,Deluxe Games Model 903,Toys,Games,188.34,288.04
+PROD00419,Premium Accessories Collection 387,Electronics,Accessories,538.38,795.35
+PROD00420,Deluxe Furniture Pack 978,Office,Furniture,464.43,1144.92
+PROD00421,Lite Womenswear Series 383,Apparel,Womenswear,780.74,1109.67
+PROD00422,Eco Kitchen Set 948,Home & Garden,Kitchen,225.06,537.62
+PROD00423,Eco Building Line 747,Toys,Building,244.04,441.52
+PROD00424,Essential Fiction Edition 512,Books,Fiction,465.51,756.74
+PROD00425,Max Frozen Set 695,Grocery,Frozen,5.22,11.98
+PROD00426,Essential Activewear Set 970,Apparel,Activewear,59.81,117.91
+PROD00427,Smart Outdoor Unit 374,Sports,Outdoor,292.61,477.79
+PROD00428,Max Lighting Set 798,Home & Garden,Lighting,686.74,901.02
+PROD00429,Ultra Fiction Model 551,Books,Fiction,412.5,1067.95
+PROD00430,Signature Games Model 765,Toys,Games,273.77,665.39
+PROD00431,Essential Stationery Set 356,Office,Stationery,76.93,165.18
+PROD00432,Lite Furniture Pack 843,Home & Garden,Furniture,630.4,987.27
+PROD00433,Pro Menswear Kit 588,Apparel,Menswear,72.91,149.57
+PROD00434,Pro Fiction Set 936,Books,Fiction,111.17,268.08
+PROD00435,Ultra Tools Kit 492,Home & Garden,Tools,83.13,194.36
+PROD00436,Premium Footwear Pack 240,Apparel,Footwear,346.3,813.13
+PROD00437,Ultra Kitchen Collection 676,Home & Garden,Kitchen,10.6,22.55
+PROD00438,Signature Children Kit 743,Books,Children,674.2,1680.01
+PROD00439,Ultra Non-Fiction Edition 243,Books,Non-Fiction,677.94,1387.01
+PROD00440,Lite Outdoor Set 910,Toys,Outdoor,128.43,208.56
+PROD00441,Compact Womenswear Line 714,Apparel,Womenswear,649.9,1062.35
+PROD00442,Smart Audio Collection 721,Electronics,Audio,460.04,1039.5
+PROD00443,Smart Stationery Unit 495,Office,Stationery,104.13,200.39
+PROD00444,Pro Outerwear Set 424,Apparel,Outerwear,121.39,292.8
+PROD00445,Compact Outdoor Model 881,Toys,Outdoor,425.5,1099.04
+PROD00446,Deluxe Menswear Edition 114,Apparel,Menswear,238.18,310.53
+PROD00447,Compact Cameras Pack 743,Electronics,Cameras,642.23,1467.88
+PROD00448,Ultra Building Collection 650,Toys,Building,555.59,902.6
+PROD00449,Compact Stationery Kit 927,Office,Stationery,142.37,240.76
+PROD00450,Signature Footwear Bundle 847,Apparel,Footwear,858.22,1349.26
+PROD00451,Lite Fitness Edition 564,Sports,Fitness,552.23,731.31
+PROD00452,Pro Furniture Model 818,Home & Garden,Furniture,13.18,25.31
+PROD00453,Compact Household Pack 270,Grocery,Household,336.57,761.39
+PROD00454,Pro Stationery Set 926,Office,Stationery,388.1,759.59
+PROD00455,Essential Supplies Edition 608,Office,Supplies,411.31,714.1
+PROD00456,Eco Reference Set 261,Books,Reference,231.84,322.01
+PROD00457,Signature Womenswear Collection 102,Apparel,Womenswear,42.5,102.64
+PROD00458,Max Fitness Set 492,Sports,Fitness,828.44,1235.7
+PROD00459,Signature Accessories Bundle 329,Electronics,Accessories,291.66,528.47
+PROD00460,Ultra Pantry Line 481,Grocery,Pantry,110.1,237.7
+PROD00461,Smart Phones Collection 147,Electronics,Phones,858.81,1153.43
+PROD00462,Classic Children Set 188,Books,Children,499.12,629.27
+PROD00463,Deluxe Team Sports Pack 857,Sports,Team Sports,561.58,1053.69
+PROD00464,Signature Non-Fiction Collection 878,Books,Non-Fiction,716.99,1041.98
+PROD00465,Smart Educational Collection 454,Toys,Educational,573.44,1253.64
+PROD00466,Pro Audio Bundle 969,Electronics,Audio,665.06,1107.42
+PROD00467,Smart Water Sports Bundle 603,Sports,Water Sports,865.18,2217.42
+PROD00468,Ultra Decor Series 337,Home & Garden,Decor,807.87,1576.7
+PROD00469,Signature Frozen Edition 694,Grocery,Frozen,88.73,126.91
+PROD00470,Deluxe Educational Line 163,Toys,Educational,393.18,1003.28
+PROD00471,Classic Team Sports Set 920,Sports,Team Sports,355.48,843.58
+PROD00472,Max Pantry Pack 339,Grocery,Pantry,69.99,106.64
+PROD00473,Ultra Womenswear Model 560,Apparel,Womenswear,421.05,757.38
+PROD00474,Max Snacks Pack 574,Grocery,Snacks,240.71,339.85
+PROD00475,Signature Decor Line 141,Home & Garden,Decor,195.87,471.34
+PROD00476,Signature Furniture Kit 464,Home & Garden,Furniture,358.43,471.72
+PROD00477,Eco Furniture Series 514,Office,Furniture,769.58,1539.57
+PROD00478,Max Fitness Edition 923,Sports,Fitness,715.05,1011.05
+PROD00479,Eco Phones Kit 943,Electronics,Phones,362.32,788.58
+PROD00480,Deluxe Outerwear Pack 932,Apparel,Outerwear,70.26,182.41
+PROD00481,Eco Outdoor Edition 967,Sports,Outdoor,746.93,1267.98
+PROD00482,Pro Cameras Model 687,Electronics,Cameras,391.54,872.34
+PROD00483,Lite Fiction Bundle 276,Books,Fiction,320.49,793.6
+PROD00484,Max Furniture Model 135,Office,Furniture,553.85,1153.62
+PROD00485,Lite Storage Collection 590,Office,Storage,57.7,93.92
+PROD00486,Smart Tools Collection 355,Home & Garden,Tools,568.79,1326.95
+PROD00487,Signature Cameras Set 591,Electronics,Cameras,491.43,935.84
+PROD00488,Classic Frozen Model 126,Grocery,Frozen,289.03,446.75
+PROD00489,Max Stationery Collection 466,Office,Stationery,690.86,1795.87
+PROD00490,Smart Furniture Kit 372,Home & Garden,Furniture,481.72,1116.71
+PROD00491,Deluxe Phones Bundle 463,Electronics,Phones,841.88,2179.28
+PROD00492,Smart Kitchen Line 425,Home & Garden,Kitchen,726.17,1591.62
+PROD00493,Deluxe Audio Line 245,Electronics,Audio,508.11,764.26
+PROD00494,Classic Reference Model 602,Books,Reference,37.05,49.12
+PROD00495,Compact Fitness Unit 100,Sports,Fitness,300.57,624.91
+PROD00496,Signature Decor Model 921,Home & Garden,Decor,760.32,1282.54
+PROD00497,Deluxe Phones Model 892,Electronics,Phones,102.5,200.95
+PROD00498,Premium Beverages Bundle 700,Grocery,Beverages,93.63,155.18
+PROD00499,Signature Kitchen Bundle 910,Home & Garden,Kitchen,576.42,1099.65
+PROD00500,Signature Snacks Collection 810,Grocery,Snacks,800.97,1664.82
