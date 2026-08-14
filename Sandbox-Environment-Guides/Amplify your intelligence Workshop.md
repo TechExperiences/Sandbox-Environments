@@ -167,7 +167,7 @@ Copy/use this template:
 
 https://fy27-caip-whiteboard-experiences.azurewebsites.net/landing/demo1/microsoft-iq-solution-accelerator
 
-### Step 4: Microsoft IQ Solution Accelerator whiteboarding story
+### Step 4: Microsoft IQ Solution Accelerator Whiteboarding Story
 
 Use the whiteboard to guide a customer through how Microsoft IQ can unify enterprise data, knowledge, and decisions across Work IQ, Foundry IQ, and Fabric IQ. The session can start with the customer's current pain points, map those to future-state capabilities, then identify where Solution Accelerators can speed up pilots and production adoption.
 
