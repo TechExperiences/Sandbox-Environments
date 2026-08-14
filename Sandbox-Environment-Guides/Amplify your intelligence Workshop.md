@@ -143,7 +143,7 @@ The following Licenses, Subscriptions, and Software are assigned, installed, or 
 
 Whiteboarding helps customers quickly align on business goals, current challenges, future-state architecture, and solution priorities. It turns abstract ideas into a shared visual plan and helps accelerate decisions for Microsoft IQ Solution Accelerators.
 
-### Step 2: How to copy the whiteboard using an existing template URL
+### Step 2: How to Copy the Whiteboard using an existing template URL
 
 1. Open the existing Whiteboard template URL.
 
@@ -169,5 +169,14 @@ https://fy27-caip-whiteboard-experiences.azurewebsites.net/landing/demo1/microso
 
 ### Step 4: Microsoft IQ Solution Accelerator Whiteboarding Story
 
-Use the whiteboard to guide a customer through how Microsoft IQ can unify enterprise data, knowledge, and decisions across Work IQ, Foundry IQ, and Fabric IQ. The session can start with the customer's current pain points, map those to future-state capabilities, then identify where Solution Accelerators can speed up pilots and production adoption.
+Use the Whiteboard to guide a customer through how Microsoft IQ can unify enterprise data, knowledge, and decisions across Work IQ, Foundry IQ, and Fabric IQ. The session can start with the customer's current pain points, map those to future-state capabilities, then identify where Solution Accelerators can speed up pilots and Production adoption.
+
+### Step 5: Rapid Protyping using GitHub Copilot
+
+
+
+
+
+
+
 
