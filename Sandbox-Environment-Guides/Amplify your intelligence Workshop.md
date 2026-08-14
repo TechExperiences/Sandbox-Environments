@@ -2,7 +2,7 @@
 
 ## Overview
 
-> **Note:** Workshop completion status may take **3-4 hours** to be reflected in the system.
+> **Note:** Workshop completion status may take **3-4 hours**.
 
 This workshop is designed to deepen technical expertise across the Microsoft IQ portfolio, including **Fabric IQ**, **Foundry IQ**, **Work IQ**, and **Web IQ**. Participants will gain hands-on experience, improve execution consistency, and build the confidence to lead outcome-driven customer conversations focused on business value and measurable results.
 
