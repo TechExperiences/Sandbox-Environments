@@ -145,11 +145,21 @@ Whiteboarding helps customers quickly align on business goals, current challenge
 
 ### Step 2: How to copy the whiteboard using an existing template URL
 
-1. Open the existing whiteboard template URL.
-2. Sign in with your Microsoft account.
-3. Select **Copy** or **Duplicate** to create your own editable version.
-4. Rename the copy for the customer/session.
-5. Share it with participants before or during the envisioning session.
+1. Open the existing Whiteboard template URL.
+
+1. Sign in with your Microsoft account.
+
+1. The Whiteboard template will be displayed as shown below.
+
+   ![](../Sandbox-Environment-Guides/Images/amp10.png)
+
+   ![](../Sandbox-Environment-Guides/Images/amp11.png)   
+
+1. Select **Copy** or **Duplicate** to create your own editable version.
+
+1. Rename the copy for the customer/session.
+
+1. Share it with participants before or during the envisioning session.
 
 ### Step 3: Microsoft IQ Solution Accelerator whiteboard URL
 
