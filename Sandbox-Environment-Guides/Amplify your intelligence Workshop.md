@@ -1,4 +1,4 @@
-# Amplify Your intelligence Technical Workshop Sandbox Environment
+# Amplify Your Intelligence Technical Workshop Sandbox Environment
 
 ## Overview
 
@@ -21,11 +21,18 @@ After completing this workshop, you will be able to:
 - Identifying business outcomes and success criteria
 
 ## Rapid Prototyping
+
+Rapid Prototyping using:
+
 ### GitHub Copilot
 - Accelerate solution development and code generation
 - Explore AI-assisted productivity scenarios
 
-### Microsoft IQ Accelerators
+## Microsoft IQ Accelerators
+
+Microsoft IQ Accelerators bring together organizational context, enterprise data, knowledge, and trusted web information to ground AI with the right intelligence.
+
+Microsoft IQ Accelerators cover the following four areas: Work IQ, Fabric IQ, Foundry IQ, and Web IQ.
 
 ### Work IQ
 
@@ -63,16 +70,16 @@ Web IQ enriches AI experiences with trusted external information, including:
 - Images and multimedia assets
 - Videos and external knowledge sources
 
-### - Rapid solution prototyping using pre-built accelerators
+## Rapid Solution Prototyping using pre-built accelerators
 
-## Workshop Outcome
+### Workshop Outcome
 
 By the end of this workshop, you will understand how Microsoft IQ capabilities work together to deliver intelligent, context-aware AI solutions. Through hands-on labs and an envisioning session, you will learn how to identify business opportunities, map customer challenges to Microsoft IQ capabilities, and design outcome-driven AI solutions powered by organizational knowledge, trusted business data, enterprise content, and external information.
 
 You will gain the confidence to lead business-focused customer conversations, articulate solution value, and envision AI-powered transformation scenarios that improve productivity, accelerate decision-making, and drive measurable business outcomes.
 
 
-## 1. Overview about Amplify Your intelligence
+### 1. Overview about Amplify Your Intelligence
 
 **Workshop Purpose:** This workshop helps technical teams design and deliver integrated Microsoft IQ solutions that unify work context, business data, and enterprise knowledge into a single intelligence layer. Participants learn how to architect end-to-end solutions, connect data and context across systems, and guide customer conversations toward meaningful proof-of-concept outcomes.
 
@@ -97,7 +104,7 @@ The workshop is organized into a series of technical modules, each focusing on a
 ![](../Sandbox-Environment-Guides/Images/amp9.png)
 
 
-## 2. Outcomes and Scenarios of Amplify Your intelligence
+### 2. Outcomes and Scenarios of Amplify Your intelligence
 
 The following are the key outcomes of Amplify Your Intelligence:
 
@@ -109,22 +116,22 @@ The following are the key outcomes of Amplify Your Intelligence:
 
 
 
-## 3. Sandbox Environment – Included Licenses, Capacity, and Azure Resources
+### 3. Sandbox Environment – Included Licenses, Capacity, and Azure Resources
 
-## License and Software Requirements
+### License and Software Requirements
 
-The following licenses, subscriptions, and software must be assigned, installed, or enabled before the workshop readiness review.
+The following Licenses, Subscriptions, and Software are assigned, installed, or enabled in the Sandbox Environment.
 
 | Item | Requirement | Readiness Check |
 |--------|-------------|-----------------|
 | Fabric Capacity | F16 SKU | Capacity is available for workshop use. |
-| Microsoft 365 (M365) | E5/E7 License | Required Microsoft 365 services are available. |
+| Microsoft 365 (M365) | E5 License | Required Microsoft 365 services are available. |
 | Microsoft Foundry | Access Enabled | Foundry opens successfully for assigned users. |
 | Azure Subscription | Active Subscription | Subscription is available and accessible for workshop activities. |
 | Microsoft Copilot Studio | Product Access Enabled | Copilot Studio opens successfully for assigned users. |
 | Microsoft Copilot Studio User License | User License Assigned | Users can author and use Copilot Studio as required. |
 | Microsoft Teams | Enabled | Teams access is available for all participants. |
-| Microsoft 365 Copilot | License Assigned | Copilot is available to licensed users. |
+| Microsoft 365 Copilot | License Assigned | Copilot is available to Users. |
 | Microsoft Whiteboard | Enabled for All Users | Templates can be opened and copied by customers. |
 | GitHub Copilot Enterprise | License/Access Assigned | GitHub Copilot features work in Visual Studio Code. |
 | Visual Studio Code (VS Code) | Installed in Workshop VM | VS Code launches successfully in the workshop environment. |
@@ -132,7 +139,7 @@ The following licenses, subscriptions, and software must be assigned, installed,
 
 ## Envisioning Session Using Whiteboarding
 
-### Step 1: Why customers should use whiteboarding
+### Step 1: Why Customers should use Whiteboarding
 
 Whiteboarding helps customers quickly align on business goals, current challenges, future-state architecture, and solution priorities. It turns abstract ideas into a shared visual plan and helps accelerate decisions for Microsoft IQ Solution Accelerators.
 
