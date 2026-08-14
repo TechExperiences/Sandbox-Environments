@@ -914,4 +914,68 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. After some time, Copilot will ask you a few questions. Review each question carefully and select the appropriate response. For most questions, the default answer will already be selected.
 
-   - Choose the Default Subscription
+   - Choose the Default Subscription and move to the next selection.
+
+     ![](../Sandbox-Environment-Guides/Images/amp37.png)
+
+   -  Select **Yes** to create new RG and move to the next.
+
+      ![](../Sandbox-Environment-Guides/Images/amp38.png)     
+
+   - Confirm the location and move to the next.
+
+     ![](../Sandbox-Environment-Guides/Images/amp39.png)     
+
+   - Leave the default industry and move to the next.
+
+     ![](../Sandbox-Environment-Guides/Images/amp40.png)     
+
+   - Enter **F16** for Fabric capacity sku and move to next.
+
+     ![](../Sandbox-Environment-Guides/Images/amp41.png) 
+   
+   - Leave default value and move to next.
+
+     ![](../Sandbox-Environment-Guides/Images/amp42.png) 
+
+   - Provide the your UPN **<inject key="AzureAdUserEmail"></inject>** and move to next.
+
+     ![](../Sandbox-Environment-Guides/Images/amp43.png)   
+
+   - Choose the suggested role and move to the next.
+
+     ![](../Sandbox-Environment-Guides/Images/amp44.png)      
+
+   - Confirm **Yes** and proceed to next.
+
+     ![](../Sandbox-Environment-Guides/Images/amp45.png)    
+
+   - Choose **Must be fully automated** and move to the next.
+
+     ![](../Sandbox-Environment-Guides/Images/amp46.png)      
+
+   - Leave the default to resource retension **(1)** and then **Submit (2)**.
+
+     ![](../Sandbox-Environment-Guides/Images/amp47.png) 
+
+1. Allow Copilot to continue processing and wait until the Deployment checkpoint appears with the prompt **`Proceed with azd up`**. Once it appears, enter **Proceed with azd up** in the chat and submit it to continue the deployment.
+
+   ![](../Sandbox-Environment-Guides/Images/amp48.png) 
+
+1. Wait for the deployment to complete. This may take approximately 10–20 minutes. Once completed, you will see a Summary/Conclusion similar to the example below, although the details may vary.
+
+   ![](../Sandbox-Environment-Guides/Images/amp49.png)
+
+1. Once the deployment is complete, you can verify the deployed resources by navigating to the newly created resource group.
+
+1. Navigate to the Azure portal. Click on **Resource group**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp52.png)
+
+1. Selected the newly created **rg-miq-accelerator**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp50.png)
+
+1. You can see the deployed resources.
+
+   ![](../Sandbox-Environment-Guides/Images/amp51.png)
