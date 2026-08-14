@@ -245,8 +245,35 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![](../Sandbox-Environment-Guides/Images/amp26.png)
 
+1. Select **File (1)** and then **Open Folder (2)**.
 
+   ![](../Sandbox-Environment-Guides/Images/amp27.png)
 
+1. Navigate to **Downloads (1)**, click on **New folder (2)** to create a new folder. Name the folder as **miq (3)** and then **Select folder (4)**.
 
+   ![](../Sandbox-Environment-Guides/Images/amp28.png)
 
+1. From the **GitHub Copilt** Chat, select **Models (1)** and then select **Trust Workspace to enable models (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp29.png)
+
+1. Select **Trust Folder and Continue**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp30.png)
+
+1. Click **Auto (1)** and then set the model to **Claude Sonnet 5 (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp31.png)
+
+1. Click on **Default permission (1)** and then set it to **Allow all (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp32.png)
+
+1. Select **Enable**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp33.png)
+
+1. Send the below Natural language business use case/scenario in the chat to deploy the Microsoft IQ Solution Accelerator.
+
+   ![](../Sandbox-Environment-Guides/Images/amp34.png)
 
