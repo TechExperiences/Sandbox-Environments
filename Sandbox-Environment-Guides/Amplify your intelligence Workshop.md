@@ -165,6 +165,7 @@ The following Licenses, Subscriptions, and Software are assigned, installed, or 
 
    ![](../Sandbox-Environment-Guides/Images/amp17.png)
 
+1. You will return to this portal in the upcoming steps. Keep the portal open and proceed with the next steps.
 
 ## Envisioning Session Using Whiteboarding
 
@@ -172,7 +173,7 @@ The following Licenses, Subscriptions, and Software are assigned, installed, or 
 
 Whiteboarding helps customers quickly align on business goals, current challenges, future-state architecture, and solution priorities. It turns abstract ideas into a shared visual plan and helps accelerate decisions for Microsoft IQ Solution Accelerators.
 
-### Step 2: How to Copy the Whiteboard using an existing template URL
+### Step 2: How to copy the Whiteboard using an existing template URL
 
 1. Open the existing Whiteboard template URL.
 
@@ -202,6 +203,19 @@ Use the Whiteboard to guide a customer through how Microsoft IQ can unify enterp
 
 ### Step 5: Rapid Protyping using GitHub Copilot
 
+You will use GitHub Copilot to generate ARM or Bicep templates from the provided natural language business use case/scenario.
+
+1. Click on the **Visual Studio Code** from the VM desktop.
+
+   ![](../Sandbox-Environment-Guides/Images/amp14.png)
+
+1. Click on **Continue with GitHub** to sign in to GitHub Copilot.
+
+   ![](../Sandbox-Environment-Guides/Images/amp18.png)
+
+1. Paste the GitHub Username and then select **Sign in with your identity provider (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp19.png)
 
 
 
