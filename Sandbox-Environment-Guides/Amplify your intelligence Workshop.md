@@ -273,7 +273,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![](../Sandbox-Environment-Guides/Images/amp33.png)
 
-1. Send the below Natural language business use case/scenario in the chat to deploy the Microsoft IQ Solution Accelerator.
+1. Copy and paste the below Natural language business use case/scenario in the chat to deploy the Microsoft IQ Solution Accelerator.
 
    ```
    You are the deployment agent operating inside a Windows Azure VM using VS Code, PowerShell, Azure CLI, Azure Developer CLI, Python, Git, and the currently authenticated Azure identity.
