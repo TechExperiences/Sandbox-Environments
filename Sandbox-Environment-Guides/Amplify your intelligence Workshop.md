@@ -277,7 +277,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ```
    You are the deployment agent operating inside a Windows Azure VM using VS Code, PowerShell, Azure CLI, Azure Developer CLI, Python, Git, and the currently authenticated Azure identity.
-   
+
    Your objective is to deploy the complete canonical Microsoft IQ Solution Accelerator from:
 
    https://github.com/microsoft/microsoft-iq-solution-accelerator
@@ -410,7 +410,9 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    * Accessible subscriptions
    * Current default subscription
    * azd authentication status
-   * Existing resource groups
+   * Existing resource groups are reported for AWARENESS ONLY. Never deploy into
+   an existing resource group. This deployment must always create a brand-new,
+   empty resource group dedicated to this run.
    * Resource-provider registration status
 
    If only one subscription is accessible, report its name and ID but still include it in the deployment checkpoint.
@@ -470,9 +472,25 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    Do not use microsoft-iq-solution-accelerator as the environment name because it exceeds the canonical Bicep constraint.
 
-   Prefer a resource group following:
+   The resource group for this deployment MUST be newly created. Never reuse,
+   deploy into, or add resources to any pre-existing resource group, even if
+   its name matches the expected pattern below.
 
-   rg-<short-environment-name>
+   Resource group naming: rg-<short-environment-name>
+
+   Before creating the azd environment, check whether a resource group with
+   that exact name already exists in the target subscription:
+
+   * If it does NOT exist, proceed with that name.
+   * If it DOES exist, do not reuse it under any circumstances. Automatically
+   generate a new, unique environment/resource-group name (for example,
+   append a short random or incrementing suffix such as rg-miq-accelerator-02
+   or rg-miq-accelerator-<4-char-suffix>), and use that new name for the azd
+   environment instead.
+
+   Report the final, confirmed-unique resource-group name in the deployment
+   checkpoint. Do not ask the user to manually check for conflicts — perform
+   this check yourself before presenting the checkpoint.
 
    7. Separate administrator mechanisms
 
@@ -624,6 +642,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    * Deploying principal type and identifiers
    * azd environment name
    * Resource-group name
+   * Confirmation that the resource group is newly created and did not previously exist (not a reused or pre-existing group)
    * Azure location
    * AI deployment location
    * Use case
@@ -686,6 +705,8 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    * Use a compliant short name
    * Reapply environment values individually
    * Verify all values before retrying
+
+   If a resource-group name collision is discovered only after an azd environment was already created, do not proceed into that group. Recreate the azd environment under a new unique name, following the same naming rule as Section 6, and re-verify before continuing.
 
    If Graph resolution fails:
 
@@ -881,10 +902,16 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    * The intended human can see and administer the Fabric workspace
    * Remaining Power Platform/Copilot Studio work is clearly handed off
    * The final report accurately describes completed, partial, and manual work
-   ```
+    ```
  
     ![](../Sandbox-Environment-Guides/Images/amp34.png)
 
 1. Once the deployment starts, you can monitor the progress directly in the chat. Copilot will take some time to explore and analyze the MIQ Accelerator scripts before proceeding with the deployment.
 
    ![](../Sandbox-Environment-Guides/Images/amp35.png)
+
+1. Once Copilot starts generating the response, monitor the process closely. Do not take any action; simply watch the progress.
+
+1. After some time, Copilot will ask you a few questions. Review each question carefully and select the appropriate response. For most questions, the default answer will already be selected.
+
+   - Choose the Default Subscription
