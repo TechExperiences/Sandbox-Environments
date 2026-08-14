@@ -885,6 +885,6 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
  
     ![](../Sandbox-Environment-Guides/Images/amp34.png)
 
-1. Once the deployment starts, you can see the progress in the Chat.
+1. Once the deployment starts, you can monitor the progress directly in the chat. Copilot will take some time to explore and analyze the MIQ Accelerator scripts before proceeding with the deployment.
 
    ![](../Sandbox-Environment-Guides/Images/amp35.png)
