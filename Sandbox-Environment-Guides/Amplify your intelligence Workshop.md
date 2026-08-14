@@ -76,7 +76,7 @@ You will gain the confidence to lead business-focused customer conversations, ar
 
 **Workshop Purpose:** This workshop helps technical teams design and deliver integrated Microsoft IQ solutions that unify work context, business data, and enterprise knowledge into a single intelligence layer. Participants learn how to architect end-to-end solutions, connect data and context across systems, and guide customer conversations toward meaningful proof-of-concept outcomes.
 
-![](../Sandbox-Environment-Guides/Images/amp7.png)
+![](../Sandbox-Environment-Guides/Images/AmplifyImg.png)
 
 **Modularity / flexibility:** The workshop can be delivered end-to-end as a structured engagement or broken into targeted modules focused on work context, business context, or knowledge integration depending on customer priorities.
 
