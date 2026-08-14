@@ -115,7 +115,6 @@ The following are the key outcomes of Amplify Your Intelligence:
 - **Outcome 3: Trust intelligence that drives action**
 
 
-
 ### 3. Sandbox Environment – Included Licenses, Capacity, and Azure Resources
 
 ### License and Software Requirements
@@ -979,3 +978,20 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 1. You can see the deployed resources.
 
    ![](../Sandbox-Environment-Guides/Images/amp51.png)
+
+
+### Microsoft IQ Solution Accelerator Fallback Path
+
+If your unable to deploy the generated template with GitHub Copilot, the pre-deployed Microsoft IQ Solution Accelerator is available in the sandbox environment. 
+
+1. Navigate to the Azure portal. Click on **Resource group**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp52.png)
+
+1. Select the pre deployed **rg-miqsolution** resource group.
+
+   ![](../Sandbox-Environment-Guides/Images/amp53.png)
+
+1. Here you can view the pre-deployed Microsoft IQ Solution Accelerator resources.
+
+   ![](../Sandbox-Environment-Guides/Images/amp54.png)
