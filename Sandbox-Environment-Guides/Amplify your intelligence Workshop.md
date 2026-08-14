@@ -72,7 +72,7 @@ Web IQ enriches AI experiences with trusted external information, including:
 - Images and multimedia assets
 - Videos and external knowledge sources
 
-## Rapid Solution Prototyping using pre-built accelerators
+## Rapid Solution Prototyping using Pre-built accelerators
 
 ### Workshop Outcome
 
