@@ -213,10 +213,37 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![](../Sandbox-Environment-Guides/Images/amp18.png)
 
-1. Paste the GitHub Username and then select **Sign in with your identity provider (2)**.
+1. On the **Sign in to GitHub** tab, enter the provided **GitHub username** **(1)** in the input field, and click on **Sign in with your identity provider** to continue **(2)**.
 
-   ![](../Sandbox-Environment-Guides/Images/amp19.png)
+    - **Username:** <inject key="GitHub User Name" enableCopy="true"/>
 
+     ![](../Sandbox-Environment-Guides/Images/amp19.png)
+
+1. Click on **Continue** on the **Single sign-on to CloudLabs Organizations** page to proceed.
+
+   ![](../Sandbox-Environment-Guides/Images/amp20.png)
+
+1. Click on **Accept**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp21.png)
+
+1. Select **Continue** to **Authorize Visual Studio Code**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp22.png)
+
+1. Select **Authorize Visual Studio Code**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp23.png)
+
+1. Select **Open**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp24.png)
+
+1. Visual Studio code opens, **Close** the suggestion.
+
+   ![](../Sandbox-Environment-Guides/Images/amp25.png)
+
+   ![](../Sandbox-Environment-Guides/Images/amp26.png)
 
 
 
