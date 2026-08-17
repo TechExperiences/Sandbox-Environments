@@ -968,3 +968,25 @@ If your unable to deploy the generated template with GitHub Copilot, the pre-dep
 1. Here you can view the pre-deployed Microsoft IQ Solution Accelerator resources.
 
    ![](../Sandbox-Environment-Guides/Images/amp54.png)
+
+#### Navigate to the Fabric workspace
+
+1. Click on the **App launcher (1)** and select **Microsoft fabric** icon.
+
+   ![](../Sandbox-Environment-Guides/Images/amp55.png)
+
+1. In the left navigation, select **Workspaces (1)** and then select the created workspcae **Microsoft IQ - miqsolution{suffix} (2)**
+
+   ![](../Sandbox-Environment-Guides/Images/amp56.png)
+
+1. You'll land on the workspace's item list, organized into folders:
+
+   - **dashboards:**	Power BI reports (Sales Overview, Supply Chain Management) built on the semantic models
+   - **data_agent:**	The `RetailSC Ontology Agent` — a Fabric Data Agent you can query in natural language over the ontology
+   - **lakehouses:**	The `miqsadata` lakehouse, containing all ingested sample tables
+   - **notebooks:**	Data pipeline notebooks — pipeline_main (the orchestrator that ingests data), pipeline_update, and per-domain loaders
+   - **ontology:**	The `RetailSupplyChainOntologyModel`, defining how the underlying data entities relate to each other
+
+   - Click into any folder to open its items. Start with the notebooks folder if you want to see how data flows in, or data_agent if you want to jump straight to asking questions in natural language.   
+
+     ![](../Sandbox-Environment-Guides/Images/amp57.png)
