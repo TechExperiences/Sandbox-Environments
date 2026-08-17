@@ -1020,6 +1020,6 @@ If your unable to deploy the generated template with GitHub Copilot, the pre-dep
 
    ![](../Sandbox-Environment-Guides/Images/amp63.png)
 
-1. Click on **Manage (1)** from the top navigation bar. Select **Connected resources (2)** to see the connected resources.
+1. Click on **Manage (1)** from the top navigation bar. Select **Connected resources (2)** to see the connected resources **(3)**.
 
    ![](../Sandbox-Environment-Guides/Images/amp64.png)
