@@ -991,6 +991,36 @@ If your unable to deploy the generated template with GitHub Copilot, the pre-dep
 
      ![](../Sandbox-Environment-Guides/Images/amp57.png)
 
+1. Click on the **Dashboards**. This folder documents Power BI reports shipped with the Microsoft IQ Solution Accelerator. Click on the **Report** to view thr Summary.
+
+   ![](../Sandbox-Environment-Guides/Images/amp65.png)
+
+1. Navigate back to Workspace, open the **Lakehouse** folder. From the accelerator's own structure, your workspace has a single lakehouse: **miqsadata**.    
+
+   ![](../Sandbox-Environment-Guides/Images/amp67.png)
+
+1. Inside, you'll find two areas.
+
+   - **Tables:** Structured, queryable data organized into six business domains: customer, finance, inventory, product, sales, and supplychain. Each of these holds real tables of data that the rest of the system (ontology, reports, and the data agent) reads from.
+   - **Files:** Supporting files and raw data drops, including a short summary document (sample_inventory_data_summary.md).
+
+     ![](../Sandbox-Environment-Guides/Images/amp68.png)   
+
+1. Navigate back to Workspace, open the **Ontology** folder. This defines a semantic layer over your lakehouse data. Open **RetailSupplyChainOntologyModel**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp66.png)
+
+   - Confirm the entities and relationships are populated (e.g. products, suppliers, inventory, sales, tied together via keys) — this is the semantic layer that lets the agent translate natural language into meaningful queries rather than raw SQL guessing.
+
+1. Navigate back to Workspace, open the **data_agent** folder. Open the already created **RetailSC Ontology Agent**
+
+   ![](../Sandbox-Environment-Guides/Images/amp69.png)
+
+1. Confirm its data source is set to the ontology model **RetailSupplyChainOntologyModel**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp70.png)
+
+
 
 #### Navigate to the Foundry project to validate th deployment.
 
