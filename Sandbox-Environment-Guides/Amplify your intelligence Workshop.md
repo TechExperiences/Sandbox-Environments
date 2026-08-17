@@ -1019,3 +1019,7 @@ If your unable to deploy the generated template with GitHub Copilot, the pre-dep
 1. Navigate to **Knowledge (1)** to see the Knowledge base created **{suffix}-kb** and Status Ready, listing **{suffix}-ks** as its source **(2)**.
 
    ![](../Sandbox-Environment-Guides/Images/amp63.png)
+
+1. Click on **Manage (1)** from the top navigation bar. Select **Connected resources (2)** to see the connected resources.
+
+   ![](../Sandbox-Environment-Guides/Images/amp64.png)
