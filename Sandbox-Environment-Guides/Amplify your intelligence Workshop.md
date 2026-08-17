@@ -990,3 +990,32 @@ If your unable to deploy the generated template with GitHub Copilot, the pre-dep
    - Click into any folder to open its items. Start with the notebooks folder if you want to see how data flows in, or data_agent if you want to jump straight to asking questions in natural language.   
 
      ![](../Sandbox-Environment-Guides/Images/amp57.png)
+
+
+#### Navigate to the Foundry project to validate th deployment.
+
+1. Navigate back to the Azure portal.
+
+1. Select the Foundry project.
+
+   ![](../Sandbox-Environment-Guides/Images/amp58.png)
+
+1. Click on **Go to Foundry portal**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp59.png)
+
+1. Click on **Build (1)**, then select **Agents (2)** and make sure that **ChatAgent (3)** has been created.
+
+   ![](../Sandbox-Environment-Guides/Images/amp60.png)
+
+1. Navigate to **Tools (1)**, it shows the **{suffix}-kb-mcp-connection (2)** MCP tool attached
+
+   ![](../Sandbox-Environment-Guides/Images/amp61.png)
+
+1. Navigate to **Models (1)**, you can see **gpt-5-mini** (chat) and **text-embedding-3-small** (embeddings) **(2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp62.png)
+
+1. Navigate to **Knowledge (1)** to see the Knowledge base created **{suffix}-kb** and Status Ready, listing **{suffix}-ks** as its source **(2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp63.png)
