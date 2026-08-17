@@ -17,20 +17,20 @@ After completing this workshop, you will be able to:
 - Improve consistency in workshop execution and solution demonstrations.
 - Connect enterprise data, knowledge, people, and external information to create intelligent AI experiences.
 
-## Envisioning Session
+## 1. Envisioning Session
 - Customer business challenges and opportunities
 - Whiteboarding real-world customer use cases
 - Identifying business outcomes and success criteria
 
-## Rapid Prototyping
+## 2. Rapid Prototyping
 
 Rapid Prototyping using:
 
-### GitHub Copilot
+### 2.1 GitHub Copilot
 - Accelerate solution development and code generation
 - Explore AI-assisted productivity scenarios
 
-## Microsoft IQ Accelerators
+### 2.2 Microsoft IQ Accelerators
 
 Microsoft IQ Accelerators bring together organizational context, enterprise data, knowledge, and trusted web information to ground AI with the right intelligence.
 
@@ -139,7 +139,7 @@ The following Licenses, Subscriptions, and Software are assigned, installed, or 
 
 1. You will return to this portal in the upcoming steps. Keep the portal open and proceed with the next steps.
 
-## Envisioning Session Using Whiteboarding
+## 1. Envisioning Session Using Whiteboarding
 
 ### Step 1: Why Customers should use Whiteboarding
 
@@ -165,7 +165,9 @@ Whiteboarding helps customers quickly align on business goals, current challenge
 
 Use the Whiteboard to guide a customer through how Microsoft IQ can unify enterprise data, knowledge, and decisions across Work IQ, Foundry IQ, and Fabric IQ. The session can start with the customer's current pain points, map those to future-state capabilities, then identify where Solution Accelerators can speed up pilots and Production adoption.
 
-### Step 4: Rapid Protyping using GitHub Copilot
+## 2. Rapid Prototyping
+
+### 2.1 Rapid Prototyping using GitHub Copilot
 
 You will use GitHub Copilot to generate ARM or Bicep templates from the provided natural language business use case/scenario.
 
@@ -945,7 +947,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    ![](../Sandbox-Environment-Guides/Images/amp51.png)
 
 
-### Microsoft IQ Solution Accelerator Fallback Path
+### 2.2 Microsoft IQ Solution Accelerator Fallback Path
 
 If your unable to deploy the generated template with GitHub Copilot, the pre-deployed Microsoft IQ Solution Accelerator is available in the sandbox environment. 
 
