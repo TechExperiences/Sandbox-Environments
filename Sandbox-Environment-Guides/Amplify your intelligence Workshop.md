@@ -1271,3 +1271,29 @@ If your unable to deploy the generated template with GitHub Copilot, the pre-dep
    ```
    What is the minimum reliability score required?
    ```    
+
+1. Now lets Connect the Fabric Data Agent as a Tool in ChatAgent. We can add the Fabric Data Agent (**RetailSCOntologyAgent**) as a tool inside **ChatAgent**.
+
+1. Scroll down to **Tools**, click on **Add** drop down **(1)** and then **Add tools (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/a28.png)   
+
+1. Select **Fabric IQ(OneLake Catalog) (1)** and then **Add tool (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/a32.png)   
+
+1. Select **RetailSC Ontology Agent (1)** data agent and then **Add (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/a30.png)   
+
+1. Update the Instructions as below.
+
+   ```
+   You have two knowledge sources:
+   1. A document knowledge base — for policies, contracts, supplier terms, and procedures.
+   2. A Fabric IQ data agent (RetailSCOntologyAgent2) — for structured, live data questions about products, inventory, suppliers, purchase orders, and demand forecasts.
+
+   Route each question to the appropriate source. If a question needs both (e.g. "which supplier had disruptions, and what does our risk policy say about that"), use both tools and synthesize the answer, citing each source clearly.
+   ```   
+
+   ![](../Sandbox-Environment-Guides/Images/a31.png)  
