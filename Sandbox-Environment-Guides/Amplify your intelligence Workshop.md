@@ -1274,7 +1274,7 @@ If your unable to deploy the generated template with GitHub Copilot, the pre-dep
 
 1. Now lets Connect the Fabric Data Agent as a Tool in ChatAgent. We can add the Fabric Data Agent (**RetailSCOntologyAgent**) as a tool inside **ChatAgent**.
 
-1. Scroll down to **Tools**, click on **Add** drop down **(1)** and then **Add tools (2)**.
+1. Scroll down to **Tools**, click on **Add** drop down **(1)** and then **Add tools (2)**. A tool is simply a capability we plug into an agent so it can reach outside its own knowledge and pull in something it couldn't otherwise access — in this case, live data from our Fabric ontology.
 
    ![](../Sandbox-Environment-Guides/Images/a28.png)   
 
@@ -1297,3 +1297,19 @@ If your unable to deploy the generated template with GitHub Copilot, the pre-dep
    ```   
 
    ![](../Sandbox-Environment-Guides/Images/a31.png)  
+
+1. Try sending a prompt provided below tocheck the agent's response and tool-call details to see how it invokes the Fabric Data Agent to query the ontology behind the scenes.
+
+   ```
+   List all suppliers.
+   ```
+
+   ![](../Sandbox-Environment-Guides/Images/a33.png)  
+
+
+   ```
+   Which products are supplied by Fabrikam?
+   ```
+
+   ![](../Sandbox-Environment-Guides/Images/a34.png)  
+
