@@ -1062,7 +1062,7 @@ If your unable to deploy the generated template with GitHub Copilot, the pre-dep
    - Target entity type: **DimDate (3)**
    - Select **Create (4)**
 
-     ![](../Sandbox-Environment-Guides/Images/a10.png)   
+     ![](../Sandbox-Environment-Guides/Images/a12.png)   
 
 1. Add one more relation by clicking on **Manage relationship** drop down and select **+ Add new relationship**.
 
@@ -1071,11 +1071,15 @@ If your unable to deploy the generated template with GitHub Copilot, the pre-dep
    - Target entity type: **DimDate (3)**
    - Select **Create (4)**
 
-     ![](../Sandbox-Environment-Guides/Images/a12.png)   
+     ![](../Sandbox-Environment-Guides/Images/a13.png)   
+
+1. Click on **Home** to navigate back to the **RetailSupplyChainOntologyModel** Ontology.
+
+   ![](../Sandbox-Environment-Guides/Images/a14.png)
 
 1. Navigate back to Workspace, open the **data_agent** folder. Open the already created **RetailSC Ontology Agent**
 
-   ![](../Sandbox-Environment-Guides/Images/amp69.png)
+   ![](../Sandbox-Environment-Guides/Images/amp69.png)  
 
 1. Confirm its data source is set to the ontology model **RetailSupplyChainOntologyModel**.
 
