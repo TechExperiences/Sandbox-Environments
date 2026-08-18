@@ -1236,3 +1236,38 @@ If your unable to deploy the generated template with GitHub Copilot, the pre-dep
 1. Click on **Manage (1)** from the top navigation bar. Select **Connected resources (2)** to see the connected resources **(3)**.
 
    ![](../Sandbox-Environment-Guides/Images/amp64.png)
+
+1. Navigate to  **Agents (1)** and select **ChatAgent (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/a27.png)
+
+1. Make sure **gpt-5-mini** model selected.
+
+   ![](../Sandbox-Environment-Guides/Images/a22.png)
+
+1. Verify that Knowledge base is added.
+
+   ![](../Sandbox-Environment-Guides/Images/a23.png)
+
+1. In that **Chat** playground, use the example questions to explore the Azure AI Foundry Agent's capabilities. It will provide the response based on the knowledge base documents along with that citiation will also be added.
+
+   ```
+   Show me the supplier onboarding process.
+   ```   
+
+   ![](../Sandbox-Environment-Guides/Images/a24.png)
+   ![](../Sandbox-Environment-Guides/Images/a25.png)   
+
+1. Try some other prompts:
+
+   ```
+   Find information about evaluation criteria or approval processes.
+   ```   
+
+   ```
+   What are the qualification criteria for new suppliers?
+   ```   
+
+   ```
+   What is the minimum reliability score required?
+   ```    
