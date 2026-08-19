@@ -1,4 +1,4 @@
-# Post deployment Guide
+# Post deployment Guide - Fabric IQ and Microsoft Foundry
 
 ## Navigate to the Fabric workspace
 
