@@ -794,21 +794,5 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 
 
-## 2.2 Microsoft IQ Solution Accelerator
 
-If your unable to deploy the generated template with GitHub Copilot, the pre-deployed Microsoft IQ Solution Accelerator is available in the sandbox environment. 
-
-1. Navigate to the Azure portal. Click on **Resource group**.
-
-   ![](../Sandbox-Environment-Guides/Images/amp52.png)
-
-1. Select the pre deployed **rg-miqsolution** resource group.
-
-   ![](../Sandbox-Environment-Guides/Images/amp53.png)
-
-1. Here you can view the pre-deployed Microsoft IQ Solution Accelerator resources.
-
-   ![](../Sandbox-Environment-Guides/Images/amp54.png)
-
-### Now, click on **`Next >>`** from the lower right corner to move on to **`Post deployment Guide - Fabric IQ and Microsoft Foundry`**.   
 
