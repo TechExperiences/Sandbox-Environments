@@ -235,7 +235,7 @@
    ```
 
    ```
-   Which products are at risk of running out based on current stock levels and recent sales velocity?
+   Show me products with inventory status LowStock and show results in tabular format.
    ```
 
    ```
