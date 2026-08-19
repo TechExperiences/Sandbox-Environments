@@ -792,7 +792,9 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    ![](../Sandbox-Environment-Guides/Images/amp51.png)
 
 
-## 2.2 Microsoft IQ Solution Accelerator Fallback Path
+
+
+## 2.2 Microsoft IQ Solution Accelerator
 
 If your unable to deploy the generated template with GitHub Copilot, the pre-deployed Microsoft IQ Solution Accelerator is available in the sandbox environment. 
 
