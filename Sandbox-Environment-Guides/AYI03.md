@@ -1,6 +1,6 @@
 # Post deployment Guide - Fabric IQ and Microsoft Foundry
 
-## Navigate to the Fabric workspace
+## Fabric IQ
 
 1. Click on the **App launcher (1)** and select **Microsoft fabric** icon.
 
@@ -267,7 +267,7 @@
    ![](../Sandbox-Environment-Guides/Images/a16.png)   
 
 
-## Navigate to the Foundry Project to validate the deployment.
+## Microsoft Foundry
 
 1. Navigate back to the Azure portal.
 
