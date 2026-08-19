@@ -1,6 +1,6 @@
 ## 1. Envisioning Session Using Whiteboarding
 
-### Step 1: Why Zava retail should use Whiteboarding
+### Why Zava retail should use Whiteboarding
 
 Whiteboarding helps Zava retail quickly align on business goals, current challenges, future-state architecture, and solution priorities. It turns abstract ideas into a shared visual plan and helps accelerate decisions for Microsoft IQ Solution Accelerators.
 
@@ -14,7 +14,7 @@ This will demonstrates how a prebuilt intelligent solution can unify data, AI, a
 - Reduce stockouts and protect revenue
 - Accelerate business value with Microsoft Fabric, Foundry, Power BI, and AI working together
 
-### Step 2: How to copy the Whiteboard using an existing template URL
+### How to copy the Whiteboard using an existing template URL
 
 1. Navigate to Edge browser.
 
