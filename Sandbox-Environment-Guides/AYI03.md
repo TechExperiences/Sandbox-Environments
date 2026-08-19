@@ -6,6 +6,10 @@
 
    ![](../Sandbox-Environment-Guides/Images/amp55.png)
 
+1. Close the **Welcome to the Fabric view** pop up.  
+
+   ![](../Sandbox-Environment-Guides/Images/a35.png)
+
 1. In the left navigation, select **Workspaces (1)** and then select the created workspcae **Microsoft IQ - miqsolution{suffix} (2)**
 
    ![](../Sandbox-Environment-Guides/Images/amp56.png)
@@ -73,9 +77,11 @@
 
    ![](../Sandbox-Environment-Guides/Images/a7.png)
 
-1. Click on **Save** and then **Cancel** from boton right.
+1. Click on **Save**.
 
    ![](../Sandbox-Environment-Guides/Images/a8.png)
+
+1. Then **Cancel** from bottom right of the page.   
 
 1. Click on **Manage relationship (1)** drop down and select **+ Add new relationship (2)**.
 
