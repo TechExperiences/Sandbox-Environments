@@ -372,4 +372,6 @@
    Which products are supplied by Fabrikam?
    ```
 
-   ![](../Sandbox-Environment-Guides/Images/a34.png)  
+   ![](../Sandbox-Environment-Guides/Images/a34.png)
+
+   >**Note**: If it asks any follow-up or clarification questions without providing an answer, please respond to the question based on what is required and proceed.
