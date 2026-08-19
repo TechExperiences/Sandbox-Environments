@@ -72,9 +72,9 @@ Web IQ enriches AI experiences with trusted external information, including:
 - Images and multimedia assets
 - Videos and external knowledge sources
 
-## Rapid Solution Prototyping using Pre-built accelerators
+### Rapid Solution Prototyping using Pre-built accelerators
 
-### Workshop Outcome
+## **Workshop Outcome**
 
 By the end of this workshop, you will understand how Microsoft IQ capabilities work together to deliver intelligent, context-aware AI solutions. Through hands-on labs and an envisioning session, you will learn how to identify business opportunities, map customer challenges to Microsoft IQ capabilities, and design outcome-driven AI solutions powered by organizational knowledge, trusted business data, enterprise content, and external information.
 
