@@ -246,10 +246,25 @@
    Can you show me inventory levels for just the sleeping bag products.
    ```   
 
-> **Note:**  
-> - Clear and specific questions provide more accurate results.  
-> - Responses may vary depending on how the question is framed.  
-> - The Data Agent uses the Ontology to translate natural language into meaningful queries.   
+    ![](../Sandbox-Environment-Guides/Images/a37.png)    
+
+   ```
+   Based on current inventory and our reorder policy, when should we place the next order?
+   ```     
+
+    ![](../Sandbox-Environment-Guides/Images/a36.png)    
+
+     > **Note:**  
+     > - Clear and specific questions provide more accurate results.  
+     > - Responses may vary depending on how the question is framed.  
+     > - The Data Agent uses the Ontology to translate natural language into meaningful queries.   
+
+1. Select **Publish**.
+   ![](../Sandbox-Environment-Guides/Images/a38.png)
+
+1. Click on **Publish** again to Publish the data agent.
+
+   ![](../Sandbox-Environment-Guides/Images/a16.png)   
 
 
 ## Navigate to the Foundry Project to validate th deployment.
