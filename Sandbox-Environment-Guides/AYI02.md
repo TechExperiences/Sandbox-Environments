@@ -796,5 +796,5 @@ If your unable to deploy the generated template with GitHub Copilot, the pre-dep
 
    ![](../Sandbox-Environment-Guides/Images/amp54.png)
 
-### Now, click on **`Next >>`** from the lower right corner to move on to **`Post deployment Guide`**.   
+### Now, click on **`Next >>`** from the lower right corner to move on to **`Post deployment Guide - Fabric IQ and Microsoft Foundry`**.   
 
