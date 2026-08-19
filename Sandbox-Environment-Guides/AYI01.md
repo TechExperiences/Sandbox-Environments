@@ -2,7 +2,17 @@
 
 ### Step 1: Why Customers should use Whiteboarding
 
-Whiteboarding helps customers quickly align on business goals, current challenges, future-state architecture, and solution priorities. It turns abstract ideas into a shared visual plan and helps accelerate decisions for Microsoft IQ Solution Accelerators.
+Whiteboarding helps Zava retail quickly align on business goals, current challenges, future-state architecture, and solution priorities. It turns abstract ideas into a shared visual plan and helps accelerate decisions for Microsoft IQ Solution Accelerators.
+
+Zava Retail faces supply chain disruptions that can quickly lead to stockouts, revenue loss, and poor customer experiences. Today, critical data is spread across disconnected systems, making it difficult to identify risks, understand their business impact, and respond in time.
+This will demonstrates how a prebuilt intelligent solution can unify data, AI, analytics, and workflows to help Zava Retail:
+
+- Detect supply chain disruptions early
+- Identify impacted products, stores, and regions
+- Recommend alternative sourcing options
+- Coordinate decisions across teams
+- Reduce stockouts and protect revenue
+- Accelerate business value with Microsoft Fabric, Foundry, Power BI, and AI working together
 
 ### Step 2: How to copy the Whiteboard using an existing template URL
 
