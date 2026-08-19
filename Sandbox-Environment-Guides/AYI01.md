@@ -21,4 +21,4 @@ Whiteboarding helps customers quickly align on business goals, current challenge
    ![](../Sandbox-Environment-Guides/Images/amp72.png)
 
 
-Now, click on **`Next >>`** from the lower right corner to move on to **`Rapid Prototyping`**.
+### Now, click on **`Next >>`** from the lower right corner to move on to **`Rapid Prototyping`**.
