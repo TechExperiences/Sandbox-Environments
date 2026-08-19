@@ -267,7 +267,7 @@
    ![](../Sandbox-Environment-Guides/Images/a16.png)   
 
 
-## Navigate to the Foundry Project to validate th deployment.
+## Navigate to the Foundry Project to validate the deployment.
 
 1. Navigate back to the Azure portal.
 
@@ -318,7 +318,7 @@
    ```   
 
    ![](../Sandbox-Environment-Guides/Images/a24.png)
-   ![](../Sandbox-Environment-Guides/Images/a25.png)   
+   ![](../Sandbox-Environment-Guides/Images/a40.png)   
 
 1. Try some other prompts:
 
@@ -334,7 +334,7 @@
    What is the minimum reliability score required?
    ```    
 
-1. Now lets Connect the Fabric Data Agent as a Tool in ChatAgent. We can add the Fabric Data Agent (**RetailSCOntologyAgent**) as a tool inside **ChatAgent**.
+1. Now lets connect the Fabric Data Agent as a Tool in ChatAgent. We can add the Fabric Data Agent (**RetailSCOntologyAgent**) as a tool inside **ChatAgent**.
 
 1. Scroll down to **Tools**, click on **Add** drop down **(1)** and then **Add tools (2)**. A tool is simply a capability we plug into an agent so it can reach outside its own knowledge and pull in something it couldn't otherwise access — in this case, live data from our Fabric ontology.
 
