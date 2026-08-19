@@ -242,6 +242,10 @@
    Show all products in the category Backpacks.
    ```
 
+   ```
+   Can you show me inventory levels for just the sleeping bag products.
+   ```   
+
 > **Note:**  
 > - Clear and specific questions provide more accurate results.  
 > - Responses may vary depending on how the question is framed.  
