@@ -138,5 +138,6 @@ The following Licenses, Subscriptions, and Software are assigned, installed, or 
 
 1. You will return to this portal in the upcoming steps. Keep the portal open and proceed with the next steps.
 
-### Now, click on **Next >>** from the lower right corner to continue with 
+
+Now, click on **Next >>** from the lower right corner to continue with **Envisioning Session Using Whiteboarding**.
 
