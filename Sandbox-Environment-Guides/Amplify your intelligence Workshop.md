@@ -87,27 +87,6 @@ You will gain the confidence to lead business-focused customer conversations, ar
 
 ![](../Sandbox-Environment-Guides/Images/AmplifyImg.png)
 
-
-### Sandbox Environment – Included Licenses, Capacity, and Azure Resources
-
-### License and Software Requirements
-
-The following Licenses, Subscriptions, and Software are assigned, installed, or enabled in the Sandbox Environment.
-
-| Item | Requirement | Readiness Check |
-|--------|-------------|-----------------|
-| Fabric Capacity | F16 SKU | Capacity is available for workshop use. |
-| Microsoft 365 (M365) | E5 License | Required Microsoft 365 services are available. |
-| Microsoft Foundry | Access Enabled | Foundry opens successfully for assigned users. |
-| Azure Subscription | Active Subscription | Subscription is available and accessible for workshop activities. |
-| Microsoft Copilot Studio | Product Access Enabled | Copilot Studio opens successfully for assigned users. |
-| Microsoft Copilot Studio User License | User License Assigned | Users can author and use Copilot Studio as required. |
-| Microsoft Teams | Enabled | Teams access is available for all participants. |
-| Microsoft 365 Copilot | License Assigned | Copilot is available to Users. |
-| Microsoft Whiteboard | Enabled for All Users | Templates can be opened and copied by customers. |
-| GitHub Copilot Enterprise | License/Access Assigned | GitHub Copilot features work in Visual Studio Code. |
-| Visual Studio Code (VS Code) | Installed in Workshop VM | VS Code launches successfully in the workshop environment. |
-
 ## Accessing your Sandbox Environment
 
 1. Once you're ready to dive in, your Virtual machine and Guide will be right at your fingertips within your web browser.
