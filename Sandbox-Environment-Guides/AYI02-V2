@@ -152,14 +152,19 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![](../Sandbox-Environment-Guides/Images/amp52.png)
 
-1. Selected the newly created **rg-miq-accelerator**.
+1. Selected the newly created RG related to retail. 
 
    ![](../Sandbox-Environment-Guides/Images/amp50.png)
 
-1. You can see the deployed resources.
+   >**Note:** Note the one **rg-miqsolution**.
 
-   ![](../Sandbox-Environment-Guides/Images/amp51.png)
+1. You should see the deployed Fabric capacity.
 
+   ![](../Sandbox-Environment-Guides/Images/b17.png)
+
+1. Click on the **App launcher (1)** and select **Microsoft fabric** icon.
+
+   ![](../Sandbox-Environment-Guides/Images/amp55.png)
 
 
 
