@@ -107,7 +107,7 @@ In this step, you will import the Power Platform zip solution file into your Pow
 
 1. When the import is complete, the solution will be available in the environment.
 
-### Step 3: Configure the Email Trigger
+## Step 2: Configure the Email Trigger
 
 Once connections are set, configure the Power Automate flow to monitor the correct inbox:
 
@@ -147,11 +147,11 @@ Once connections are set, configure the Power Automate flow to monitor the corre
 
    ![](../Sandbox-Environment-Guides/Images/a69.png)
 
-## Step 4: Add the External Agents in Copilot Studio   
+## Step 3: Add the External Agents in Copilot Studio   
 
 After import, add the Fabric and Foundry agents again in Copilot Studio. Use Fabric for data questions and Foundry for document questions. If they do not appear yet, finish deploying Fabric and Foundry first, then return to Copilot Studio and refresh the agent list.
 
-### 4.1 Add the Foundry Chat Agent
+### 3.1 Add the Foundry Chat Agent
  
 1. Right click on [Copilot Studio](https://copilotstudio.microsoft.com), then **Copy link** and then paste it on your VM browser tab to open the Copilot Studio.
 
@@ -237,6 +237,8 @@ After import, add the Fabric and Foundry agents again in Copilot Studio. Use Fab
 
    ![](../Sandbox-Environment-Guides/Images/a85.png)
 
+### 3.2: Add the Fabric Data Agent   
+
 1. Confirm the Foundry agent appears in the connected-agent list **(1)** and then click **+ Add an agent (2)**.
 
    ![](../Sandbox-Environment-Guides/Images/a86.png)
@@ -277,7 +279,7 @@ After import, add the Fabric and Foundry agents again in Copilot Studio. Use Fab
 
    ![](../Sandbox-Environment-Guides/Images/a94.png)
 
-## Step 5: Verify Work IQ connections and MCP tools are connected and enabled
+## Step 4: Verify Work IQ connections and MCP tools are connected and enabled
  
 1. Click on **+6 (1)** and then open the **Tools (2)** tab.
 
@@ -301,7 +303,7 @@ After import, add the Fabric and Foundry agents again in Copilot Studio. Use Fab
      - The **Errors** column is empty.
      - The **Blocked** column is empty.
 
-## Step 6: Publish the Agent
+## Step 5: Publish the Agent
 
 1. Click on the **Overview (1)** tab and then **Publish (2)**.
 
