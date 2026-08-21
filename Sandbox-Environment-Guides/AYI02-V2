@@ -187,3 +187,37 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 1. Now please go back to the Fabric portal, refresh the portal and navigate to the **Workspaces**. Now you should be able to see the Worspace starts with something similar to `Zava Retail`.
 
    ![](../Sandbox-Environment-Guides/Images/b21.png)
+
+1. Open the **Zava Retail** workspace.
+
+1. Make sure what are the workspace items that you have mentioned in the prompt are all created.
+
+   ![](../Sandbox-Environment-Guides/Images/b22.png)
+
+1. Please open each item and verify that it has been created correctly. If anything is missing, go back to the **GitHub Copilot Chat** and provide a follow-up prompt to address the missing item.  
+
+1. In this case, when I opened the workspace. There is no tables created in the Lakehouse.
+
+   ![](../Sandbox-Environment-Guides/Images/b23.png)
+
+1. Navigate back to the **GitHub Copilot Chat** to send the follow up prompt.
+
+   ```
+   Issues identified with the workspace items, please fix this issue.
+
+   No table has been created in the Lakehouse, and no sample data has been loaded.
+   The Ontology was created, but no entities or relationships have been added.
+   The Ontology has not been configured as the Data Source for the Data Agent.
+   ```
+
+    ![](../Sandbox-Environment-Guides/Images/b25.png)
+
+1. Wait for the process to complete and **Keep**
+
+   ![](../Sandbox-Environment-Guides/Images/b24.png)
+
+
+
+
+
+
