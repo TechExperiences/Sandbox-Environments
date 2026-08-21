@@ -222,7 +222,9 @@ Here are the steps you will follow to create a rapid prototype for Caldova.
 1. Click on the **Microsoft Edge** from the Lab VM desktop.
 
    
-    ![Step001](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/amp8.png)
+    ![Step001](/Sandbox-Environment-Guides/Roadshow-Caldova/media/amp8.png)
+
+   
 
 1. Right click on [Cloud & AI Platform Technical Workshops](https://caip-tech-workshops.azurewebsites.net/), then select **Copy link** and then paste the link on the Web browser.
 
