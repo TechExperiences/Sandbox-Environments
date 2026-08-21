@@ -233,11 +233,11 @@ Here are the steps you will follow to create a rapid prototype for Caldova.
 
 1. After the application loads, you will see the workshop site home page as shown below.
 
-   ![Step001](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/amp3.png)
+    ![Step701](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/ampmms.png)
 
 1. Select the **Modernize with confidence** drop-down menu to explore the available outcomes and workshop scenarios.
 
-   ![Step001](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/ampmms.png)
+ 
 
 1.  On the right side of the page, you'll find **Cora**, the AI-Powered Rapid Prototyping Copilot. Use the chat interface to enter prompts and interact with the workshop outcomes and scenarios as follows:
 
@@ -246,7 +246,7 @@ Here are the steps you will follow to create a rapid prototype for Caldova.
    - Under **Scenarios**, select **Agentic App & Databases Modernization**.
    - In the **Technical Workshops** section, expand **Prototype using Cora** and select **Cora (Preview) for Roadshows**.
    
-    ![Step001](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/ampmm1.png)
+![Step001](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/ampmm1.png)
 
 ### 3.2 Multi-Agent Solution to Test
 
