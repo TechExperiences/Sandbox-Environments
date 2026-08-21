@@ -222,7 +222,7 @@ Here are the steps you will follow to create a rapid prototype for Caldova.
 1. Click on the **Microsoft Edge** from the Lab VM desktop.
 
    
-    ![Step001](/Sandbox-Environment-Guides/Roadshow-Caldova/media/amp8.png)
+    ![Step001](https://github.com/TechExperiences/Sandbox-Environments/blob/001c0ce0be339f78e9f096d1aaa1f34da0beb939/Sandbox-Environment-Guides/Roadshow-Caldova/media/amp14.png)
 
    
 
