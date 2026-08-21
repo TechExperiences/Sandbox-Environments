@@ -1,4 +1,4 @@
-# CAIP Technical Workshop-Roadshow: Caldova Production Challenge new
+# CAIP Technical Workshop-Roadshow: Caldova Production Challenge
 
 ## Overview
 
