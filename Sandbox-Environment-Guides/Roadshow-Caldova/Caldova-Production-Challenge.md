@@ -260,59 +260,232 @@ Follow these steps in VS Code:
 9. Ask Copilot to validate dependencies, naming conventions, and resource group assumptions.
 10. Review the generated files before deployment.
 
-### 4.3 Suggested Copilot Prompts
+#### GitHub Copilot Setup
 
-Use these prompts during the exercise:
+You will use GitHub Copilot to generate ARM or Bicep templates from the provided natural language business use case/scenario.
 
-#### Prompt 1: Explain the Architecture
+1. Click on the **Visual Studio Code** from the VM desktop.
 
-```text
-Explain this future-state architecture for Caldova. Identify the Azure services, data flows, security boundaries, identity controls, integration points, and agent orchestration components. Highlight how the design addresses SQL modernization, Fabric IQ, and Foundry-based multi-agent recommendations.
+   ![](../Sandbox-Environment-Guides/Images/amp14.png)
+
+1. Click on **Continue with GitHub** to sign in to GitHub Copilot.
+
+   ![](../Sandbox-Environment-Guides/Images/amp18.png)
+
+1. On the **Sign in to GitHub** tab, enter the provided **GitHub username** **(1)** in the input field, and click on **Sign in with your identity provider** to continue **(2)**.
+
+    - **Username:** <inject key="GitHub User Name" enableCopy="true"/>
+
+     ![](../Sandbox-Environment-Guides/Images/amp19.png)
+
+1. Click on **Continue** on the **Single sign-on to CloudLabs Organizations** page to proceed.
+
+   ![](../Sandbox-Environment-Guides/Images/amp20.png)
+
+1. Click on **Accept**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp21.png)
+
+1. Select **Continue** to **Authorize Visual Studio Code**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp22.png)
+
+1. Select **Authorize Visual Studio Code**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp23.png)
+
+1. Select **Open**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp24.png)
+
+1. Once the Visual Studio code opens, choose the theme of your wish **(1)** and then click **Get Started (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/b1.png)
+
+   ![](../Sandbox-Environment-Guides/Images/amp26.png)
+
+   >**Note:** If you get any error pop up, please **Close.**
+
+    ![](../Sandbox-Environment-Guides/Images/b2.png)   
+
+1. Select **File (1)** and then **Open Folder (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp27.png)
+
+1. Navigate to **C:\ (1)**, then click **New folder (2)** to create a new folder.
+
+   ![](../Sandbox-Environment-Guides/Images/b3.png)
+
+1. Name the folder as **miq-project**.
+
+   ![](../Sandbox-Environment-Guides/Images/b4.png)
+
+1. Click on the folder **(1)** and then click on **Select folder (4)**.
+
+   ![](../Sandbox-Environment-Guides/Images/b5.png)
+
+1. From the **GitHub Copilot** Chat, select **Models (1)** and then select **Trust Workspace to enable models (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/b6.png)
+
+1. Select **Trust Folder and Continue**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp30.png)
+
+1. Click **Auto (1)** and then set the model to **Claude Sonnet 5 (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/b7.png)
+
+1. Click on **Default permission (1)** and then set it to **Allow all (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/b8.png)
+
+1. Select **Enable**.
+
+   ![](../Sandbox-Environment-Guides/Images/amp33.png)
+
+
+### Caldova IQ Deployment Prompts
+
+#### **Prompt 1: SQL Server MI**
+
+**Step 1:** Copy the prompts below into **GitHub Copilot** and attach the **Future State Architecture**.
+
+```
+You are my smart agent. Review the problem statement and planned solution architecture design below to help Caldova overcome its challenges. Then prepare Bicep/ARM templates and deploy the resources in the respective environment.
+
+Problem Statement
+Caldova is accelerating the launch of its next-generation pharma product ahead of a competitor, requiring supply chain, manufacturing, procurement, data, application, and compliance teams to work from a single trusted context.
+
+With a 7% capacity gap across three manufacturing plants, Caldova must determine whether the gap can be closed internally or through pre-qualified contract manufacturers within 3-6 months, while leveraging a multi-agent AI solution powered by Microsoft IQ capabilities to provide the COO with trusted recommendations and enable timely action on critical operational issues.
+
+### Planned Solution Architecture Design
+
+Attached.
+
+### Scope
+
+First, build the **"1-Modernize with Confidence"** section from the planned solution architecture design using **Azure SQL Server Managed Instance**.
+
+### Instructions
+
+1. Create a new Resource Group in Azure and proceed further.
+2. Create Azure SQL Managed Instance with one database.
+3. Generate sample data files based on the problem statement: a 7% capacity gap across three manufacturing plants.
+4. Create tables for the sample data in the Azure SQL MI database.
+
+> **Note:** Ensure the data is properly relational so it can support Fabric Ontology and Data Agent creation in the future.
+```
+---
+
+#### **Prompt 2: Fabric IQ**
+
+**Step 2:** Copy the prompts below into **GitHub Copilot**.
+
+```
+Great, you have created Azure SQL MI. Now follow the instructions below to build **Fabric IQ**.
+
+### Instructions
+
+1. List all Azure resources from the architecture diagram.
+2. Create a new Fabric Workspace using **SKU F16** in the **West US 3** region.
+3. Create a Lakehouse and load tables from the Azure SQL MI using Fabric mirroring.
+4. Create a Fabric Ontology using the Lakehouse tables with proper relationships and generate the Ontology Graph view.
+5. Create a Data Agent using the Ontology as a data source,and prepare proper Agent Instructions based on the Ontology entities to support the business problem.
+
+### Completion Requirement
+
+After completing the steps successfully, create a Markdown file with:
+
+- Deployment instructions
+- Post-deployment configurations
+- Deployment startup steps for:
+  - Creating the workspace
+  - Creating the Lakehouse
+  - Loading data from SQL MI into Lakehouse using mirroring
+  - Creating the Ontology
+  - Creating the Data Agent
+
+Then start deployment.
+
+### Supporting Prompts
+
+#### Mirroring Issue
+
+If mirroring is not loading data into the Lakehouse, use this prompt:
+
+> Please load data from SQL MI to Lakehouse using Mirroring.
+
+#### Data Agent Data Source Issue
+
+If the Lakehouse is attached to the Data Agent instead of the Ontology, remove it manually and attach the Ontology manually.
+
+> **Note:** Copilot may not perform this step automatically.
+
 ```
 
-#### Prompt 2: Generate Bicep Deployment Assets
+If all components are created successfully, proceed to Prompt 3.
 
-```text
-Using the uploaded future-state architecture image, generate a modular Bicep template for the Caldova rapid prototype. Include resources for networking, Azure SQL Managed Instance, Microsoft Fabric integration placeholders, Azure AI Foundry or agent service components, monitoring, managed identities, Key Vault, and required role assignments. Create separate modules where appropriate and include a main.bicep and parameters file.
+---
+
+#### **Prompt 3: Foundry IQ**
+
+**Step 3:** Copy the prompts below into **GitHub Copilot**.
+```
+Great, you have created both Azure SQL MI and Fabric IQ. Now follow the instructions below to build **Foundry IQ**.
+
+### Instructions
+
+1. List all Azure Foundry-related resources from the architecture diagram.
+2. Create Foundry resources in Azure.
+3. In the Foundry Project, create one standard model: **gpt-5-mini**.
+4. In the Foundry Project, create an agent named **Capacity-Planning-Agent** and attach the Fabric Data Agent, **<<your Data Agent Name>>**, by tool calling.
+5. Create proper instructions for the agent so it provides useful responses.
+6. Once **Capacity-Planning-Agent** is created, validate that the prompt works and returns valid results, then provide confirmation.
+7. Ensure the agent instruction, prompt, and response fulfill the problem statement.
+
+### Additional Requirements
+
+In the Foundry Project, create relevant knowledge bases using Azure AI Search so responses can be retrieved from the Fabric Data Agent when sending prompts in the Foundry Agent.
+
+Also provide relevant Foundry access to the Fabric Workspace.
+
+### Completion Requirement
+
+After completing all steps successfully, create a Markdown file with:
+
+- Deployment instructions
+- Post-deployment configurations
+
+Then start deployment.
+
 ```
 
-#### Prompt 3: Generate ARM Template Alternative
+### Supporting Prompt
 
-```text
-Generate an ARM template equivalent for the Caldova future-state architecture. Include parameters, variables, resources, outputs, and comments explaining each major section. Ensure the template is suitable for review in a sandbox environment before deployment.
+If the agent is not visible, use this prompt:
+
+> Not able to see agent, please refresh and load it.
+
+---
+
+### Validation Prompts
+
+Once all resources are deployed and the agent is ready, use the prompts below in both the Fabric Data Agent and Microsoft Foundry to validate the Caldova production issue.
+
+#### Validation Prompt 1
+
+```
+List down products per plan wise.
 ```
 
-#### Prompt 4: Validate Deployment Assets
+#### Validation Prompt 2
 
-```text
-Review the generated Bicep and ARM deployment assets. Identify missing dependencies, incorrect resource scopes, naming issues, security gaps, and any assumptions that must be confirmed before deployment.
+```
+Assess the real-time line, shift, and batch-schedule data from all three plants to recommend 7% capacity gap closure. If the entire gap cannot be closed internally, assess all 11 contract manufacturers and weigh their qualification status, GMP compliance history, available capacity, tech-transfer time, and cost to fully close the 7% capacity gap.
 ```
 
-#### Prompt 5: Generate Execution Guide
 
-```text
-Create a step-by-step execution guide to deploy the Caldova rapid prototype in a sandbox environment. Include prerequisites, deployment order, validation checks, rollback considerations, and post-deployment testing steps for the multi-agent solution.
-```
-
-### 4.4 Suggested Deployment Asset Structure
-
-```text
-deployment-assets/
-  main.bicep
-  main.parameters.json
-  modules/
-    networking.bicep
-    sql-managed-instance.bicep
-    data-platform.bicep
-    foundry-agents.bicep
-    monitoring.bicep
-    security.bicep
-  docs/
-    deployment-guide.md
-    validation-checklist.md
-  images/
-    future-state-architecture.png
-```
 
 >**Note:** Treat generated templates as a rapid prototype starting point. Teams must validate resource availability, region support, security settings, and workshop sandbox constraints before deployment.
 
