@@ -212,9 +212,43 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
     ![](../Sandbox-Environment-Guides/Images/b25.png)
 
-1. Wait for the process to complete and **Keep**
+1. Wait for the process to complete and click **Keep** to keep the file.
 
    ![](../Sandbox-Environment-Guides/Images/b24.png)
+
+1. Navigate back to the Fabric workspace, refresh the Lakehouse, and verify that the tables have been created and the sample data has been loaded successfully.
+
+   ![](../Sandbox-Environment-Guides/Images/b26.png)
+
+1. Open the **Ontology** item and verify that the entities and relationships have been created successfully.
+
+   ![](../Sandbox-Environment-Guides/Images/b27.png)
+
+1. Open the **Data Agen**t from the workspace and verify that the **Ontology** is configured as the Data Source. If not please go back to **GitHub Copilot Chat** and explain the issue and ask to fix.
+
+1. Navigate back to the **Fabric workspace** and open the **Data Agent**. If the error persists, remove the existing Data Source and manually add the **Ontology** as the Data Source.
+
+   - Click on the **elipses (1)** and then **Remove (2)**
+
+     ![](../Sandbox-Environment-Guides/Images/b28.png)
+
+   - Select **Add data (1)** drop down and then **Data source (2)**.
+
+     ![](../Sandbox-Environment-Guides/Images/b30.png)   
+
+   - Select the **Ontology (1)** and then **Add (2)**.
+
+     ![](../Sandbox-Environment-Guides/Images/b31.png)        
+
+1. Make sure Ontology is added.
+
+   ![](../Sandbox-Environment-Guides/Images/b32.png)   
+
+   
+
+
+
+
 
 
 
