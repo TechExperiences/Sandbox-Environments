@@ -171,6 +171,10 @@ After import, add the Fabric and Foundry agents again in Copilot Studio. Use Fab
 
    ![](../Sandbox-Environment-Guides/Images/a73.png)
 
+    >**Note:** If you get any error like the below **(1)**, go back the previous tab **(2)**. Refresh the browser and then open the agent again.
+
+     ![](../Sandbox-Environment-Guides/Images/a103.png)    
+
 1. Click **Skip** to skip the **Welcome to Copilot Studio** pop up.
 
    ![](../Sandbox-Environment-Guides/Images/a74.png)
@@ -273,6 +277,74 @@ After import, add the Fabric and Foundry agents again in Copilot Studio. Use Fab
 
    ![](../Sandbox-Environment-Guides/Images/a94.png)
 
-1. D
+## Step 5: Verify Work IQ connections and MCP tools are connected and enabled
+ 
+1. Click on **+6 (1)** and then open the **Tools (2)** tab.
 
    ![](../Sandbox-Environment-Guides/Images/a95.png)
+
+1. Click the **Model Context Protocol (1)** filter chip.
+
+1. Confirm that you can see these three tools **(2)**:
+ 
+   | Tool name | Type | Available to | Trigger |
+   |---|---|---|---|
+   | Work IQ Copilot (Preview) | Model Context Protocol | Microsoft IQ Agent | By agent |
+   | Work IQ Mail (Preview) | Model Context Protocol | Microsoft IQ Agent | By agent |
+   | Work IQ User (Preview) | Model Context Protocol | Microsoft IQ Agent | By agent |
+
+   ![](../Sandbox-Environment-Guides/Images/a96.png)    
+ 
+   - For each tool, confirm that:
+
+     - The **Enabled** toggle is set to **On**.
+     - The **Errors** column is empty.
+     - The **Blocked** column is empty.
+
+## Step 6: Publish the Agent
+
+1. Click on the **Overview (1)** tab and then **Publish (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/a97.png)
+
+1. Click on **Publish** to **Publish the agent.**
+
+   ![](../Sandbox-Environment-Guides/Images/a98.png)
+ 
+1. Wait for publishing to complete (1-2 minutes).
+
+   ![](../Sandbox-Environment-Guides/Images/a99.png)
+
+1. Once the Agent is published, click on **+6 (1)** and then select **Channels (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/a100.png)
+
+1. Select **Microsoft 365 and Microsoft Teams** to configure Teams as a channel.
+
+   ![](../Sandbox-Environment-Guides/Images/a101.png)
+
+1. On the **Microsoft 365 and Microsoft Teams** page, select **See agent in Teams**.
+
+   ![](../Sandbox-Environment-Guides/Images/a102.png)  
+
+1. Select **Use the web app instead**.
+
+   ![](../Sandbox-Environment-Guides/Images/a104.png)
+
+1. Click on **Add** to add the agent.
+
+   ![](../Sandbox-Environment-Guides/Images/a105.png)
+
+1. Once the Agent added, click **Open** to open the agent in Teams.
+
+   ![](../Sandbox-Environment-Guides/Images/a106.png)
+
+1. Make sure you can see the agent.
+
+   ![](../Sandbox-Environment-Guides/Images/a107.png)
+
+## Golden Path Testing Flow   
+
+1. dd
+
+   ![](../Sandbox-Environment-Guides/Images/a108.png)
