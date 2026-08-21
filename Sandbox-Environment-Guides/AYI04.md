@@ -345,6 +345,102 @@ After import, add the Fabric and Foundry agents again in Copilot Studio. Use Fab
 
 ## Golden Path Testing Flow   
 
-1. dd
+
+### Step 1: Prepare Your Environment
+
+1. **Open Microsoft Teams** with the agent chat visible.
+
+   ![](../Sandbox-Environment-Guides/Images/a107.png)
+
+1. **Open your email client** (Outlook/Office 365) that's monitored by the flow 
+
+1. Right click on [make.powerautomate.com](https://make.powerautomate.com), then **Copy link** and then paste it on your VM browser tab to open **Power Automate**  to monitor the flow run history.
+
+### Step 2: Send a Test Email
+
+Send an email to trigger the agent. Use the below example scenarios that test both data retrieval (Fabric) and knowledge base search (Foundry):
+
+#### Example: Supply Chain Disruption
+
+1. Right click on [Outlook](https://outlook.com/) then **Copy link** and and then paste it on your VM browser tab to open **Outlook**.
+
+1. Click on **Continue**.
 
    ![](../Sandbox-Environment-Guides/Images/a108.png)
+
+1. Click on **New mail (1)** drop down and then **Mail (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/a109.png)
+
+1. Draft the below mail:
+
+   - **TO:** Provide the email address as **<inject key="AzureAdUserEmail"></inject> (1)**
+
+   - **Subject**: `Urgent: Supplier Delivery Delay Concern` **(2)**
+
+   - **Body (3)**:
+      ```
+      Hi Team,
+
+      I just received notification that our primary camping tent supplier, 
+      Mountain Peak Manufacturing, is experiencing production delays due to 
+      material shortages. This could impact our inventory levels significantly.
+
+      Can you provide:
+      1. Current inventory levels for all tent products from this supplier
+      2. Our alternative supplier options based on our supplier qualification policy
+      3. Recommended actions to mitigate supply chain risk
+
+      This is urgent as we're heading into peak season.
+
+      Thanks,
+      [Your Name]
+      ```
+
+      - Click **Send (4)**
+
+      ![](../Sandbox-Environment-Guides/Images/a110.png)
+
+### Step 3: Monitor the Flow
+
+After sending the email:
+
+1. Navigate to **Power Automate**.
+
+1. Click on the **default Environment (1)** and then select **Amplify Environment<inject key="DeploymentID" enableCopy="false"/> (2)** to switch the environment.
+
+   ![](../Sandbox-Environment-Guides/Images/a111.png)
+
+1. Navigate to **My flows (1)** and then click on **When a new email arrives (v3) (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/a112.png)
+
+1. Within 1-2 minutes, a new flow run should appear in Power Automate's run history (if monitoring). Click on it.
+
+   ![](../Sandbox-Environment-Guides/Images/a113.png)
+
+1. Typical execution time: 30 seconds to 2 minutes. Status should progress from **Running** to **Succeeded**
+
+   ![](../Sandbox-Environment-Guides/Images/a114.png)
+
+### Step 4: Review Response in Teams
+
+1. Within 1-3 minutes of sending the email, you should receive a message from the agent in Teams. Navigate back to **Teams**.
+
+   ![](../Sandbox-Environment-Guides/Images/a115.png)
+
+1. The response should look similar to this. Including detials regarding the triggered mail.
+
+   ![](../Sandbox-Environment-Guides/Images/a116.png)
+
+  
+
+1. **Acknowledgment** of your specific concern
+2. **Data from Fabric** - inventory levels, sales data, product information
+3. **Knowledge from Foundry** - policy excerpts with document citations
+4. **Synthesized recommendations** - actionable next steps combining data and policy
+
+
+   
+
+
