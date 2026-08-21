@@ -78,7 +78,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. From the **GitHub Copilt** Chat, select **Models (1)** and then select **Trust Workspace to enable models (2)**.
 
-   ![](../Sandbox-Environment-Guides/Images/amp29.png)
+   ![](../Sandbox-Environment-Guides/Images/b6.png)
 
 1. Select **Trust Folder and Continue**.
 
@@ -86,11 +86,11 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. Click **Auto (1)** and then set the model to **Claude Sonnet 5 (2)**.
 
-   ![](../Sandbox-Environment-Guides/Images/amp31.png)
+   ![](../Sandbox-Environment-Guides/Images/b7.png)
 
 1. Click on **Default permission (1)** and then set it to **Allow all (2)**.
 
-   ![](../Sandbox-Environment-Guides/Images/amp32.png)
+   ![](../Sandbox-Environment-Guides/Images/b8.png)
 
 1. Select **Enable**.
 
