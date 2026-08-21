@@ -433,12 +433,6 @@ After sending the email:
 
    ![](../Sandbox-Environment-Guides/Images/a116.png)
 
-  
-
-1. **Acknowledgment** of your specific concern
-2. **Data from Fabric** - inventory levels, sales data, product information
-3. **Knowledge from Foundry** - policy excerpts with document citations
-4. **Synthesized recommendations** - actionable next steps combining data and policy
 
 
    
