@@ -166,7 +166,24 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![](../Sandbox-Environment-Guides/Images/amp55.png)
 
+1. Navigate to **Workspaces**, there should be workspace created with the name similar to **Zava retail**. If your unable to see. Please go back to the **GitHub Copilit Chat**.
 
+   ![](../Sandbox-Environment-Guides/Images/b18.png)
 
+   >**Note:** Not the one which starts with **Microsoft IQ**.
 
+1. Send the the below prompt to make the UPN **<inject key="AzureAdUserEmail"></inject>** as Fabric admin **(1)** and then **Send (2)**.
 
+   ```
+   Please provide Fabric admin access to the UPN <inject key="AzureAdUserEmail"></inject> to see the fabric workspace
+   ```
+
+    ![](../Sandbox-Environment-Guides/Images/b19.png)   
+
+1. Wait for the process to complete and then **Keep** the file.
+
+   ![](../Sandbox-Environment-Guides/Images/b20.png)
+
+1. Now please go back to the Fabric portal, refresh the portal and navigate to the **Workspaces**. Now you should be able to see the Worspace starts with something similar to `Zava Retail`.
+
+   ![](../Sandbox-Environment-Guides/Images/b21.png)
