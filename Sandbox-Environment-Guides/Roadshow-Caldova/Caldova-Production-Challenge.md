@@ -266,7 +266,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. Click on the **Visual Studio Code** from the VM desktop.
 
-   ![](../Sandbox-Environment-Guides/Images/amp14.png)
+   ![](../main/Sandbox-Environment-Guides/Images/amp14.png)
 
 1. Click on **Continue with GitHub** to sign in to GitHub Copilot.
 
@@ -306,7 +306,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    >**Note:** If you get any error pop up, please **Close.**
 
-    ![](../Sandbox-Environment-Guides/Images/b2.png)   
+   ![](../Sandbox-Environment-Guides/Images/b2.png)   
 
 1. Select **File (1)** and then **Open Folder (2)**.
 
