@@ -147,6 +147,42 @@ Once connections are set, configure the Power Automate flow to monitor the corre
 
    ![](../Sandbox-Environment-Guides/Images/a69.png)
 
-1. dd
+## Step 4: Add the External Agents in Copilot Studio   
+
+After import, add the Fabric and Foundry agents again in Copilot Studio. Use Fabric for data questions and Foundry for document questions. If they do not appear yet, finish deploying Fabric and Foundry first, then return to Copilot Studio and refresh the agent list.
+
+### 4.1 Add the Foundry Chat Agent
+ 
+1. Right click on [Copilot Studio](https://copilotstudio.microsoft.com), then **Copy link** and then paste it on your VM browser tab to open the Copilot Studio.
+
+1. Click on the default environment **(1)** and then select your **Amplify Environment<inject key="DeploymentID" enableCopy="false"/> (2)**.
 
    ![](../Sandbox-Environment-Guides/Images/a70.png)
+
+1. Make sure your in **Amplify Environment<inject key="DeploymentID" enableCopy="false"/>** Environment.
+
+   ![](../Sandbox-Environment-Guides/Images/a71.png)
+
+1. Click on **Agents (1)** and then select the **Microsoft IQ Agent (2)**. It's a pre-configured component that came bundled inside the solution package we imported in the Power apps.
+
+   ![](../Sandbox-Environment-Guides/Images/a72.png)
+
+1. On the **Welocome to Microsoft Copilot Studio** page, click on **Get Started**.
+
+   ![](../Sandbox-Environment-Guides/Images/a73.png)
+
+1. Click **Skip** to skip the **Welcome to Copilot Studio** pop up.
+
+   ![](../Sandbox-Environment-Guides/Images/a74.png)
+
+1. Make sure your in **Amplify Environment<inject key="DeploymentID" enableCopy="false"/>** Environment.
+
+   ![](../Sandbox-Environment-Guides/Images/a75.png)
+
+1. Click on **+6 (1)** and then select **Agents (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/a76.png)
+
+1. dd
+
+   ![](../Sandbox-Environment-Guides/Images/a77.png)
