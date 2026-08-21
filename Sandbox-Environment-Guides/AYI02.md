@@ -64,9 +64,17 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![](../Sandbox-Environment-Guides/Images/amp27.png)
 
-1. Navigate to **Downloads (1)**, click on **New folder (2)** to create a new folder. Name the folder as **miq (3)** and then **Select folder (4)**.
+1. Navigate to **C:\ (1)**, then click **New folder (2)** to create a new folder.
 
-   ![](../Sandbox-Environment-Guides/Images/amp28.png)
+   ![](../Sandbox-Environment-Guides/Images/b3.png)
+
+1. Name the folder as **miq-project**.
+
+   ![](../Sandbox-Environment-Guides/Images/b4.png)
+
+1. Click on the folder **(1)** and then click on **Select folder (4)**.
+
+   ![](../Sandbox-Environment-Guides/Images/b5.png)
 
 1. From the **GitHub Copilt** Chat, select **Models (1)** and then select **Trust Workspace to enable models (2)**.
 
