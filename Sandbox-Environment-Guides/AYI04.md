@@ -55,7 +55,7 @@ The third component of the accelerator — Work IQ (the Copilot Studio email-tri
    ![](../Sandbox-Environment-Guides/Images/a49.png)
 
 
-## Step 1: Import the Solution
+## Step 1: Import the Solution and configure the connections.
 
 In this step, you will import the Power Platform zip solution file into your Power Platform environment.
 
