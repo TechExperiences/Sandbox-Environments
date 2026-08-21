@@ -183,6 +183,96 @@ After import, add the Fabric and Foundry agents again in Copilot Studio. Use Fab
 
    ![](../Sandbox-Environment-Guides/Images/a76.png)
 
-1. dd
+1. Click on **+Add** to add Agent.
 
    ![](../Sandbox-Environment-Guides/Images/a77.png)
+
+1. Click on **Connect to an External agent (1)** drop down and select **Microsoft Foundry (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/a78.png)
+
+1. Click on **Not connected (1)** drop down and then click **Create new connections (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/a79.png)
+
+1. Before proceeding to the next step, navigate back to the **Microsoft Foundry Portal.** Click on the Project name, if prompted **Save** the Agent.
+
+1. Copy and paste the **Project endpoint** in a notepad.
+
+   ![](../Sandbox-Environment-Guides/Images/a80.png)
+
+1. Navigate back to the **Copilot Studio**.   
+
+1. On the **Azure AI Foundry Agent Service**,
+
+   - **Authentication Type:** Select **Microsoft Entra ID User Login (1)**
+   - **Azure AI Project Endpoint:** Paste the Project endpoint you copied in the previous step **(2)** 
+   - Then click **Create (3)**
+
+     ![](../Sandbox-Environment-Guides/Images/a81.png)
+
+1. If prompted, select the user account **<inject key="AzureAdUserEmail"></inject>**.
+
+   ![](../Sandbox-Environment-Guides/Images/a82.png)
+
+1. Make sure the connection is established **(1)** and then click **Next (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/a83.png)
+
+1. On the **Connect Microsft Foundry agent** page, provide the following details:
+
+   - **Name**: Enter **ChatAgent (1)**
+   - **Description**: `You are a data analyst assistant for Microsoft IQ with access to documents and reference materials.` **(2)**
+   - **Agent Id**: Enter **ChatAgent (3)**
+     - This is the same name as the agent in Foundry.
+   - Then select **Add and configure (4)**  
+
+     ![](../Sandbox-Environment-Guides/Images/a84.png)
+
+1. Click **Back**.
+
+   ![](../Sandbox-Environment-Guides/Images/a85.png)
+
+1. Confirm the Foundry agent appears in the connected-agent list **(1)** and then click **+ Add an agent (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/a86.png)
+
+1. Click on **Connect to an External agent (1)** drop down and select **Microsoft Fabric (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/a87.png)
+
+1. Click on **Not connected (1)** drop down and then click **Create new connections (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/a88.png)
+
+1. Click on **Create**.
+
+   ![](../Sandbox-Environment-Guides/Images/a89.png)
+
+1. If prompted, select the user account **<inject key="AzureAdUserEmail"></inject>**.
+
+   ![](../Sandbox-Environment-Guides/Images/a82.png)
+
+1. Make sure the connection is established **(1)** and then click **Next (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/a90.png)
+
+1. On the **Select agent to connect** page, select the Ontology model **(1)** and then **Next (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/a91.png)
+
+1. On the Ontology Agent page, provide the name as **RetailSC Ontology Agent (1)** and then **Add and Configure (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/a92.png)
+
+1. Click **Back**.
+
+   ![](../Sandbox-Environment-Guides/Images/a93.png)
+
+1. Make sure the Fabric agent now shows up in the list of connected agents.
+
+   ![](../Sandbox-Environment-Guides/Images/a94.png)
+
+1. D
+
+   ![](../Sandbox-Environment-Guides/Images/a95.png)
