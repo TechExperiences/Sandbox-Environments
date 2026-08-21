@@ -50,11 +50,15 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![](../Sandbox-Environment-Guides/Images/amp24.png)
 
-1. Visual Studio code opens, **Close** the suggestion.
+1. Once the Visual Studio code opens, choose the theme of your wish **(1)** and then click **Get Started (2)**.
 
-   ![](../Sandbox-Environment-Guides/Images/amp25.png)
+   ![](../Sandbox-Environment-Guides/Images/b1.png)
 
    ![](../Sandbox-Environment-Guides/Images/amp26.png)
+
+   >**Note:** If you get any error pop up, please **Close.**
+
+    ![](../Sandbox-Environment-Guides/Images/b2.png)   
 
 1. Select **File (1)** and then **Open Folder (2)**.
 
