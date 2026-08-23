@@ -244,9 +244,11 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. Navigate back to the **Fabric workspace** and open the **Data Agent**. If the error persists, remove the existing Data Source and manually add the **Ontology** as the Data Source.
 
-   - Click on the **elipses (1)** and then **Remove (2)**
+   - Click on the **elipses (1)** and then **Remove (2)**.
 
      ![](../Sandbox-Environment-Guides/Images/b28.png)
+
+   - Click **Yes, remove**. 
 
    - Select **Add data (1)** drop down and then **Data source (2)**.
 
