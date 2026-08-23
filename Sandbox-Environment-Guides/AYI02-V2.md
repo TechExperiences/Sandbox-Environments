@@ -160,17 +160,19 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![](../Sandbox-Environment-Guides/Images/b15.png)
 
+    >**Note:** The **Summary/Conclusion** may look different for you. Once the deployment is completed, you will be able to view the results in the chat.
+
 1. Once the deployment is complete, you can verify the deployed resources by navigating to the newly created resource group.
 
 1. Navigate to the Azure portal. Click on **Resource group**.
 
-   ![](../Sandbox-Environment-Guides/Images/amp52.png)
+   ![](../Sandbox-Environment-Guides/Images/b16.png)
 
 1. Selected the newly created RG related to retail. 
 
    ![](../Sandbox-Environment-Guides/Images/amp50.png)
 
-   >**Note:** Note the one **rg-miqsolution**.
+   >**Note:** Not the one **rg-miqsolution**.
 
 1. You should see the deployed Fabric capacity.
 
@@ -180,7 +182,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![](../Sandbox-Environment-Guides/Images/amp55.png)
 
-1. Navigate to **Workspaces**, there should be workspace created with the name similar to **Zava retail**. If your unable to see. Please go back to the **GitHub Copilit Chat**.
+1. Navigate to **Workspaces**, there should be workspace created with the name similar to **Zava Retail**. If your unable to see. Please go back to the **GitHub Copilit Chat**.
 
    ![](../Sandbox-Environment-Guides/Images/b18.png)
 
