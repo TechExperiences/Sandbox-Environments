@@ -88,6 +88,8 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![](../Sandbox-Environment-Guides/Images/b7.png)
 
+    >**Note:** If you're unable to select the **Models**, please wait for a few moments and make sure you're signed in properly.
+
 1. Click on **Default permission (1)** and then set it to **Allow all (2)**.
 
    ![](../Sandbox-Environment-Guides/Images/b8.png)
