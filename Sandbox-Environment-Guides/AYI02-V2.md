@@ -106,13 +106,25 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![](../Sandbox-Environment-Guides/Images/b10.png)
 
-1. Take the screenshot of the Whiteboard image. Then right click on the screeshot and then select **Copy**.
+1. Take the screenshot of the Whiteboard image. Click on **File (1)** and then **Save As (2)**.
 
-   ![](../Sandbox-Environment-Guides/Images/b11.png)
+   ![](../Sandbox-Environment-Guides/Images/b37.png)
 
-1. Navigate back to **GitHub Copilot Chat**.   
+1. Navigate to **C:\miq-project (1)** and then **Save (2)**.
 
-1. Paste the image **(1)**, then paste the below prompt along with the image **(2)** and then **Send (3)**.
+   ![](../Sandbox-Environment-Guides/Images/b34.png)
+
+1. Navigate back to **Visual Studio Code**.   
+
+1. Select the image.
+
+   ![](../Sandbox-Environment-Guides/Images/b35.png)
+
+1. From the **GitHub Copilot Chat**, click on **+ (1)** and then select the image.
+
+   ![](../Sandbox-Environment-Guides/Images/b36.png)
+
+1. Along with the Pasted image **(1)**, then paste the below prompt along with the image **(2)** and then **Send (3)**.
 
    ```
    You are my smart agent to read my attached architecture design for Zava Retail and create bicep/ARM template based on the identified resources.
