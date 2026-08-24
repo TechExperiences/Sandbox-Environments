@@ -76,7 +76,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![](../Sandbox-Environment-Guides/Images/b5.png)
 
-1. From the **GitHub Copilt** Chat, select **Models (1)** and then select **Trust Workspace to enable models (2)**.
+1. From the **GitHub Copilt Chat**, select **Models (1)** and then select **Trust Workspace to enable models (2)**.
 
    ![](../Sandbox-Environment-Guides/Images/b6.png)
 
