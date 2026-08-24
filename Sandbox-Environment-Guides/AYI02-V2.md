@@ -10,7 +10,7 @@ This will demonstrates how a prebuilt intelligent solution can unify data, AI, a
 - Reduce stockouts and protect revenue
 - Accelerate business value with Microsoft Fabric, Foundry, Power BI, and AI working together
 
-As you have completed the envisioning **whiteboard session** and identified key business opportunities, let's now explore how Zava Retail can address its supply chain challenges by transforming disruptions into proactive, data-driven business decisions. Using a unified intelligence platform that brings together enterprise data, AI-powered insights, and business workflows, you can anticipate risks, optimize operations, and respond faster to changing supply chain conditions.
+As you have completed the envisioning **Whiteboard session** and identified key business opportunities, let's now explore how Zava Retail can address its supply chain challenges by transforming disruptions into proactive, data-driven business decisions. Using a unified intelligence platform that brings together enterprise data, AI-powered insights, and business workflows, you can anticipate risks, optimize operations, and respond faster to changing supply chain conditions.
 
 ## 2.1 Rapid Prototyping using GitHub Copilot
 
