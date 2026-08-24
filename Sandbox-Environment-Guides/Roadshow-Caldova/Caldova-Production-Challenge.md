@@ -393,7 +393,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 ### Caldova IQ Deployment Prompts
 
-#### **Prompt 1: SQL Server MI**
+#### **Prompt 1: Azure SQL Database**
 
 **Step 1:** Copy the prompts below into **GitHub Copilot** and attach the **Future State Architecture**.
 
