@@ -262,14 +262,73 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![](../Sandbox-Environment-Guides/Images/b32.png)   
 
-   
+1. Navigate back to the **GitHub Copilot Chat** to deploy the **Foundry resources**.
+
+1. Paste the following prompt in the chat and send the prompt.
+
+1. Navigate back to the **GitHub Copilot Chat** to send the follow up prompt.
+
+   ```
+   You are my smart agent to read my attached architecture design for Zava Retail and create bicep/ARM template based on the identified resources.
+
+   Please follow these below instructions for Foundry IQ section in the same Resource group.
+   1. List down all the Azure Foundry related resources from the architecture diagram.
+   2. Create Foundry resources in Azure and use Sweden Central region. 
+   3. In Foundry Project, create two models(1. gpt-5-mini, 2. text-embedding-3-small)
+   4. In Foundry Project, create knowledge base and having one knowledge source which should point to the Azure resource > Resource group (rg-miqsolution)-> Container -> All files(PDFs) using Azure AI Search Service.
+   5. Create Foundry Agent("Retail-Agent") and use "Fabric Data Agent" using tool calling and use above knowledge base as attaching knowledge.
+   6. Once "Retail-Agent" get created, please validate(prompt should work and return valid results) and provide confirmation.
+
+   Note: After complete all above steps successfully, create MD(mark down) file with deployment instructions and post deployment configurations, and start deployment.
+   ```
+
+1. Wait for the deployement to complete and the **Keep** the file.
+
+   ![](../Sandbox-Environment-Guides/Images/b38.png)  
+
+1. Navigate back to the Resource group. Select the **Foundry Project**.
+
+   ![](../Sandbox-Environment-Guides/Images/b39.png)  
+
+1. Click On **Go to Foundry portal**.
+
+   ![](../Sandbox-Environment-Guides/Images/b40.png)  
+
+1. Click on **Build**.
+
+   ![](../Sandbox-Environment-Guides/Images/b41.png)  
+
+1. Navigate to **Models (1)** and make sure 2  models are deployed **(2)**,
+
+   ![](../Sandbox-Environment-Guides/Images/b42.png)  
+
+1. Navigate to **Agents (1)** and click on the **Retail-Agent (2)**.
+
+   ![](../Sandbox-Environment-Guides/Images/b43.png)  
+
+1. Make sure the model is set to **gpt-5-mini (1)**. If you get any error in the **Tools (2)** section as below:
+
+   ![](../Sandbox-Environment-Guides/Images/b44.png)  
+
+   - From the **Model** drop down, switch to **gpt-5** model.
+
+     ![](../Sandbox-Environment-Guides/Images/b45.png)  
+
+   - Then again select the **gpt-5-mini** model.
+
+   - Scroll down to **Tools**. Click on **Add (1)** drop down and then select **Add tools (2)**.
+
+     ![](../Sandbox-Environment-Guides/Images/b46.png)  
+
+   - Select **Fabric IQ(OneLake Catalog) (1)** and then **Add tool (2)**.
+
+     ![](../Sandbox-Environment-Guides/Images/a32.png)      
+
+   - Select the **Zava Retail** Ontology **(1)** and then **Add (2)**. 
+
+     ![](../Sandbox-Environment-Guides/Images/b47.png)          
 
 
+1. Scroll down to **Knowledge**, verify that the Knowledge source has been added.
 
-
-
-
-
-
-
-
+   ![](../Sandbox-Environment-Guides/Images/b48.png)  
