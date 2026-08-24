@@ -28,7 +28,7 @@ This will demonstrates how a prebuilt intelligent solution can unify data, AI, a
 
 1. Use the **Zoom out** option to view the template clearly.
 
-   ![](../Sandbox-Environment-Guides/Images/image.png)
+   ![](../Sandbox-Environment-Guides/Images/b54.png)
 
 
 ### Now, click on **`Next >>`** from the lower right corner to move on to **`Rapid Prototyping`**.

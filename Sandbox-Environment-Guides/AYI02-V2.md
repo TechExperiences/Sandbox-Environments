@@ -126,7 +126,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![](../Sandbox-Environment-Guides/Images/b36.png)
 
-1. Along with the Pasted image **(1)**, then paste the below prompt along with the image **(2)** and then **Send (3)**.
+1. Along with the **Future State Architecture** image **(1)**, then paste the below prompt along with the image **(2)** and then **Send (3)**.
 
    ```
    You are my smart agent to read my attached architecture design for Zava Retail and create bicep/ARM template based on the identified resources.
