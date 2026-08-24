@@ -332,3 +332,21 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 1. Scroll down to **Knowledge**, verify that the Knowledge source has been added.
 
    ![](../Sandbox-Environment-Guides/Images/b48.png)  
+
+1. Lets test the Agent by providing some prompts related to documents and agent.
+
+1. For getting the prompts, you can go back to **GitHub Copilot Chat**, and send the below query:
+
+   ```
+   Can you please provide some of the prompts to test the foundry agent.
+   ```
+
+   ![](../Sandbox-Environment-Guides/Images/b49.png) 
+
+1. Once the prompts are generated, you can go back to the Foundry Agent **Chat** section and paste the prompts to see the results.
+
+   ![](../Sandbox-Environment-Guides/Images/b51.png)  
+
+   ![](../Sandbox-Environment-Guides/Images/b52.png)  
+
+   ![](../Sandbox-Environment-Guides/Images/b53.png)     
