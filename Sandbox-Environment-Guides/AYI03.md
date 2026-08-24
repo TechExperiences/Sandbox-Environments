@@ -306,7 +306,7 @@ If your unable to deploy the generated template with GitHub Copilot, the pre-dep
    ```
    You have two knowledge sources:
    1. A document knowledge base — for policies, contracts, supplier terms, and procedures.
-   2. A Fabric IQ data agent (RetailSCOntologyAgent2) — for structured, live data questions about products, inventory, suppliers, purchase orders, and demand forecasts.
+   2. A Fabric IQ data agent (RetailSCOntologyAgent) — for structured, live data questions about products, inventory, suppliers, purchase orders, and demand forecasts.
 
    Route each question to the appropriate source. If a question needs both (e.g. "which supplier had disruptions, and what does our risk policy say about that"), use both tools and synthesize the answer, citing each source clearly.
    ```   
