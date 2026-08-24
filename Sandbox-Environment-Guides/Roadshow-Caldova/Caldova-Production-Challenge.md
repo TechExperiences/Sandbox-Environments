@@ -255,6 +255,78 @@ The rapid prototype should include the following agents:
 - COO recommender agent
 - Compliance guardrail agent
 
+### Deployment Prompt
+
+```
+You are an Azure Cloud Architect and DevOps Engineer.
+
+I have all solution artifacts in this repository. Analyze the repository and deploy the complete solution into my Azure tenant.
+
+Tasks:
+
+1. Review all artifacts and identify:
+   - Infrastructure as Code (Bicep, ARM, Terraform)
+   - Application code
+   - Azure resources required
+   - Configuration files
+   - Deployment dependencies
+
+2. Create a deployment plan before executing:
+   - Resource Groups
+   - Networking
+   - Storage Accounts
+   - Key Vaults
+   - Microsoft Fabric integrations
+   - Microsoft Foundry
+   - Azure OpenAI
+   - Azure Functions
+   - App Services
+   - SQL Databases
+   - Any other required resources
+
+3. Validate:
+   - Resource naming conventions
+   - RBAC permissions
+   - Managed identities
+   - Environment variables
+   - Secrets and Key Vault references
+   - Cost estimates
+   - Azure Policy compliance
+
+4. Generate:
+   - deployment.md
+   - architecture.md
+   - deploy.sh
+   - deploy.ps1
+   - GitHub Actions workflow
+
+5. Deploy the solution to Azure using best practices:
+   - Create resource group if it does not exist
+   - Provision infrastructure
+   - Configure networking and security
+   - Deploy applications
+   - Configure monitoring and logging
+   - Validate deployment health
+
+6. After deployment provide:
+   - Deployed resource inventory
+   - Resource IDs
+   - URLs and endpoints
+   - Validation results
+   - Any deployment issues and resolutions
+
+Azure Details:
+- Tenant ID: <TENANT_ID>
+- Subscription ID: <SUBSCRIPTION_ID>
+- Resource Group: <RESOURCE_GROUP>
+- Region: <REGION>
+
+Do not make assumptions.
+Ask for missing information.
+Use Azure CLI and Bicep wherever possible.
+Follow Microsoft Well-Architected Framework and security best practices.
+```
+
 ### 3.3 Sample Test Prompt
 
 Use a prompt similar to the following:
