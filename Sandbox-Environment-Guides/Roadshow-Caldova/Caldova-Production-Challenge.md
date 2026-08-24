@@ -220,12 +220,9 @@ Here are the steps you will follow to create a rapid prototype for Caldova.
 ##### Steps to navigate to CAIP Tech Workshop Web app.
 
 1. Click on the **Microsoft Edge** from the Lab VM desktop.
-
    
-    ![Step001](https://github.com/TechExperiences/Sandbox-Environments/blob/001c0ce0be339f78e9f096d1aaa1f34da0beb939/Sandbox-Environment-Guides/Roadshow-Caldova/media/amp14.png)
-
+   ![](../Roadshow-Caldova/media/amp8.png)
    
-
 1. Right click on [Cloud & AI Platform Technical Workshops](https://caip-tech-workshops.azurewebsites.net/), then select **Copy link** and then paste the link on the Web browser.
 
 1. Login with the following credentials:
@@ -235,11 +232,9 @@ Here are the steps you will follow to create a rapid prototype for Caldova.
 
 1. After the application loads, you will see the workshop site home page as shown below.
 
-    ![Step701](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/ampmms.png)
+   ![Step701](../Roadshow-Caldova/media/ampmms.png)
 
 1. Select the **Modernize with confidence** drop-down menu to explore the available outcomes and workshop scenarios.
-
- 
 
 1.  On the right side of the page, you'll find **Cora**, the AI-Powered Rapid Prototyping Copilot. Use the chat interface to enter prompts and interact with the workshop outcomes and scenarios as follows:
 
@@ -248,7 +243,7 @@ Here are the steps you will follow to create a rapid prototype for Caldova.
    - Under **Scenarios**, select **Agentic App & Databases Modernization**.
    - In the **Technical Workshops** section, expand **Prototype using Cora** and select **Cora (Preview) for Roadshows**.
    
-![Step001](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/ampmm1.png)
+     ![Step001](../Roadshow-Caldova/media/ampmm1.png)
 
 ### 3.2 Multi-Agent Solution to Test
 
@@ -301,94 +296,90 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. Click on the **Visual Studio Code** from the VM desktop.
 
-   ![Step1](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/amp14.png)
-
+   ![Step1](../Roadshow-Caldova/media/amp14.png)
 
 1. Click on **Continue with GitHub** to sign in to GitHub Copilot.
 
-      ![Step2](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/amp18.png)
+   ![Step2](../Roadshow-Caldova/media/amp18.png)
 
 1. On the **Sign in to GitHub** tab, enter the provided **GitHub username** **(1)** in the input field, and click on **Sign in with your identity provider** to continue **(2)**.
 
-    - **Username:** <inject key="GitHub User Name" enableCopy="true"/>
+   - **Username:** <inject key="GitHub User Name" enableCopy="true"/>
 
-   ![Step3](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/amp19.png)
+     ![Step3](../Roadshow-Caldova/media/amp19.png)
 
 1. Click on **Continue** on the **Single sign-on to CloudLabs Organizations** page to proceed.
 
-   ![Step4](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/amp20.png)
+   ![Step4](../Roadshow-Caldova/media/amp20.png)
 
 1. Click on **Accept**.
 
-   ![Step5](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/amp21.png)
+   ![Step5](../Roadshow-Caldova/media/amp21.png)
 
 1. Select **Continue** to **Authorize Visual Studio Code**.
 
-   ![Step6](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/amp22.png)
+   ![Step6](../Roadshow-Caldova/media/amp22.png)
 
 1. Select **Authorize Visual Studio Code**.
 
-   ![Step7](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/amp23.png)
+   ![Step7](../Roadshow-Caldova/media/amp23.png)
 
 1. Select **Open**.
 
-   ![Step8](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/amp24.png)
+   ![Step8](../Roadshow-Caldova/media/amp24.png)
 
 1. Once the Visual Studio code opens, choose the theme of your wish **(1)** and then click **Get Started (2)**.
 
+   ![Step9](../Roadshow-Caldova/media/amp25.png)
 
-   ![Step9](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/amp25.png)
-
-
-   ![Step10](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/amp26.png)
+   ![Step10](../Roadshow-Caldova/media/amp26.png)
 
    >**Note:** If you get any error pop up, please **Close.**
 
-   ![Step11](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/b2.png)
+   ![Step11](../Roadshow-Caldova/media/b2.png)
 
 1. Select **File (1)** and then **Open Folder (2)**.
 
-   
-   ![Step12](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/amp27.png)
+   ![Step12](../Roadshow-Caldova/media/amp27.png)
 
 1. Navigate to **C:\ (1)**, then click **New folder (2)** to create a new folder.
 
 
 
-   ![Step13](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/b3.png)
+   ![Step13](../Roadshow-Caldova/media/b3.png)
 
 1. Name the folder as **miq-project**.
 
 
-   ![Step14](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/b4.png)
+   ![Step14](../Roadshow-Caldova/media/b4.png)
 
 1. Click on the folder **(1)** and then click on **Select folder (4)**.
 
 
-   ![Step15](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/b5.png)
+   ![Step15](../Roadshow-Caldova/media/b5.png)
 
 1. From the **GitHub Copilot** Chat, select **Models (1)** and then select **Trust Workspace to enable models (2)**.
 
 
-   ![Step16](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/b6.png)
+   ![Step16](../Roadshow-Caldova/media/b6.png)
 
 1. Select **Trust Folder and Continue**.
 
-   ![Step17](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/amp30.png)
+   ![Step17](../Roadshow-Caldova/media/amp30.png)
 
 1. Click **Auto (1)** and then set the model to **Claude Sonnet 5 (2)**.
 
  
-   ![Step18](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/b7.png)
+   ![Step18](../Roadshow-Caldova/media/b7.png)
 
 1. Click on **Default permission (1)** and then set it to **Allow all (2)**.
 
-   ![Step19](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/b8.png)
+   ![Step19](../Roadshow-Caldova/media/b8.png)
 
 1. Select **Enable**.
 
 
-   ![Step20](https://github.com/TechExperiences/Sandbox-Environments/blob/main/Sandbox-Environment-Guides/Images/amp33.png)
+   ![Step20](../Roadshow-Caldova/media/amp33.png)
 
 
 ### Caldova IQ Deployment Prompts
