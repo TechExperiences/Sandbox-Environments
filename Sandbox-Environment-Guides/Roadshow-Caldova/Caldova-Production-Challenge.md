@@ -336,7 +336,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    >**Note:** If you get any error pop up, please **Close.**
 
-   ![Step11](../Roadshow-Caldova/media/b2.png)
+    ![Step11](../Roadshow-Caldova/media/b2.png)
 
 1. Select **File (1)** and then **Open Folder (2)**.
 
@@ -344,22 +344,17 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. Navigate to **C:\ (1)**, then click **New folder (2)** to create a new folder.
 
-
-
    ![Step13](../Roadshow-Caldova/media/b3.png)
 
 1. Name the folder as **miq-project**.
-
 
    ![Step14](../Roadshow-Caldova/media/b4.png)
 
 1. Click on the folder **(1)** and then click on **Select folder (4)**.
 
-
    ![Step15](../Roadshow-Caldova/media/b5.png)
 
 1. From the **GitHub Copilot** Chat, select **Models (1)** and then select **Trust Workspace to enable models (2)**.
-
 
    ![Step16](../Roadshow-Caldova/media/b6.png)
 
@@ -369,7 +364,6 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. Click **Auto (1)** and then set the model to **Claude Sonnet 5 (2)**.
 
- 
    ![Step18](../Roadshow-Caldova/media/b7.png)
 
 1. Click on **Default permission (1)** and then set it to **Allow all (2)**.
@@ -377,7 +371,6 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    ![Step19](../Roadshow-Caldova/media/b8.png)
 
 1. Select **Enable**.
-
 
    ![Step20](../Roadshow-Caldova/media/amp33.png)
 
@@ -388,14 +381,15 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 **Step 1:** Copy the prompts below into **GitHub Copilot** and attach the **Future State Architecture**.
 
-```
-You are my smart agent. Review the problem statement and planned solution architecture design below to help Caldova overcome its challenges. Then prepare Bicep/ARM templates and deploy the resources in the respective environment.
+   ```
+   You are my smart agent. Review the problem statement and planned solution architecture design below to help Caldova overcome its challenges. Then prepare Bicep/ARM templates and deploy the resources in the respective environment.
 
-Problem Statement
-Caldova is accelerating the launch of its next-generation pharma product ahead of a competitor, requiring supply chain, manufacturing, procurement, data, application, and compliance teams to work from a single trusted context.
+   Problem Statement
+   Caldova is accelerating the launch of its next-generation pharma product ahead of a competitor, requiring supply chain, manufacturing, procurement, data, application, and compliance teams to work from a single trusted context.
 
-With a 7% capacity gap across three manufacturing plants, Caldova must determine whether the gap can be closed internally or through pre-qualified contract manufacturers within 3-6 months, while leveraging a multi-agent AI solution powered by Microsoft IQ capabilities to provide the COO with trusted recommendations and enable timely action on critical operational issues.
-
+   With a 7% capacity gap across three manufacturing plants, Caldova must determine whether the gap can be closed internally or through pre-qualified contract manufacturers within 3-6 months, while leveraging a multi-agent AI solution powered by Microsoft IQ capabilities to provide the COO with trusted recommendations and enable timely action on critical operational issues.
+   ```
+   
 ### Planned Solution Architecture Design
 
 Attached.
