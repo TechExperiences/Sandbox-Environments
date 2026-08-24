@@ -455,122 +455,85 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ```
    You are my smart agent. Review the problem statement and planned solution architecture design below to help Caldova overcome its challenges. Then prepare Bicep/ARM templates and deploy the resources in the respective environment.
-
    Problem Statement
    Caldova is accelerating the launch of its next-generation pharma product ahead of a competitor, requiring supply chain, manufacturing, procurement, data, application, and compliance teams to work from a single trusted context.
-
    With a 7% capacity gap across three manufacturing plants, Caldova must determine whether the gap can be closed internally or through pre-qualified contract manufacturers within 3-6 months, while leveraging a multi-agent AI solution powered by Microsoft IQ capabilities to provide the COO with trusted recommendations and enable timely action on critical operational issues.
+   Planned Solution Architecture Design:Attached Caldova-architecture.png.
+   Scope:
+   First, build the **"1-Modernize with Confidence"** section from the planned solution architecture design using **Azure SQL Database**.
+   Instructions:
+   1. Create a new Resource Group naming as "RG_Caldova_Pharma" in Azure in the region of "West US3" and proceed further.
+   2. Create an Azure SQL server and one Azure SQL Database on that server, as shown in the architecture diagram (Business Critical tier, TDE enabled).
+   3. Enable the system-assigned managed identity on the logical server and allow Azure services and resources to access the server. This is required for Fabric mirroring in the next phase.
+   4. Generate sample data files based on the problem statement: a 7% capacity gap across three manufacturing plants.
+   5. Create tables for the sample data in the Azure SQL Database.
+   Note: Ensure the data is properly relational, with a primary key on every table and explicit foreign key relationship, so it can support Fabric mirroring, Fabric Ontology, and Data Agent creation in the future. Also create markdown(.md) files with deployment instructions and post deployment configurations and start deployment.
    ```
-   
-### Planned Solution Architecture Design
 
-Attached.
-
-### Scope
-
-First, build the **"1-Modernize with Confidence"** section from the planned solution architecture design using **Azure SQL Server Managed Instance**.
-
-### Instructions
-
-1. Create a new Resource Group in Azure and proceed further.
-2. Create Azure SQL Managed Instance with one database.
-3. Generate sample data files based on the problem statement: a 7% capacity gap across three manufacturing plants.
-4. Create tables for the sample data in the Azure SQL MI database.
-
-> **Note:** Ensure the data is properly relational so it can support Fabric Ontology and Data Agent creation in the future.
-```
----
 
 #### **Prompt 2: Fabric IQ**
 
 **Step 2:** Copy the prompts below into **GitHub Copilot**.
 
-```
-Great, you have created Azure SQL MI. Now follow the instructions below to build **Fabric IQ**.
+   ```
+   Great, you have created Azure SQL Server and Database. Now follow the instructions below to build **Fabric IQ**.
+   Note: Please use same Resource Group as "RG_Caldova_Pharma" for all the below resources.
+   
+   Instructions:
+   1. List all Azure resources from the architecture diagram.
+   2. Create a new Fabric Capacity using **SKU F16** for the **West US 3** region.
+   3. Create a new Fabric Workspace attaching with above newly created capacity.
+   4. Please grant admin access to the UPN: odl_user_2359067@sandboxailabs1002.onmicrosoft.com in the Fabric Workspace 
+   5. Create a Lakehouse and load tables from the Azure SQL Database using Fabric mirroring (Mirrored Azure SQL Database).
+   6. Create a Fabric Ontology using the Lakehouse tables with proper relationships and generate the Ontology Graph view.
+   7. Create a Data Agent using the Ontology as a data source, and prepare proper Agent Instructions based on the Ontology entities to support the business problem.
+   Completion Requirement:
+   
+   After completing the steps successfully, create a Markdown file with:
+   - Deployment instructions
+   - Deployment startup steps for:
+   - Creating the workspace
+   - Creating the Lakehouse
+   - Loading data from Azure SQL Database into Lakehouse using mirroring
+   - Creating the Ontology
+   - Creating the Data Agent
+   - Post-deployment configurations
+   Then start deploying.
+   ```
 
-### Instructions
-
-1. List all Azure resources from the architecture diagram.
-2. Create a new Fabric Workspace using **SKU F16** in the **West US 3** region.
-3. Create a Lakehouse and load tables from the Azure SQL MI using Fabric mirroring.
-4. Create a Fabric Ontology using the Lakehouse tables with proper relationships and generate the Ontology Graph view.
-5. Create a Data Agent using the Ontology as a data source,and prepare proper Agent Instructions based on the Ontology entities to support the business problem.
-
-### Completion Requirement
-
-After completing the steps successfully, create a Markdown file with:
-
-- Deployment instructions
-- Post-deployment configurations
-- Deployment startup steps for:
-  - Creating the workspace
-  - Creating the Lakehouse
-  - Loading data from SQL MI into Lakehouse using mirroring
-  - Creating the Ontology
-  - Creating the Data Agent
-
-Then start deployment.
-
-### Supporting Prompts
-
-#### Mirroring Issue
-
-If mirroring is not loading data into the Lakehouse, use this prompt:
-
-> Please load data from SQL MI to Lakehouse using Mirroring.
-
-#### Data Agent Data Source Issue
-
-If the Lakehouse is attached to the Data Agent instead of the Ontology, remove it manually and attach the Ontology manually.
-
-> **Note:** Copilot may not perform this step automatically.
-
-```
-
-If all components are created successfully, proceed to Prompt 3.
-
----
 
 #### **Prompt 3: Foundry IQ**
 
 **Step 3:** Copy the prompts below into **GitHub Copilot**.
-```
-Great, you have created both Azure SQL MI and Fabric IQ. Now follow the instructions below to build **Foundry IQ**.
 
-### Instructions
+   ```
+   Great, you have created both Azure SQL Database and Fabric IQ. Now follow the instructions below to build **Foundry IQ**.
+   
+   Note: Please use same Resource Group as "RG_Caldova_Pharma" for all the below resources.
+   
+   Instructions
+   1. List all Azure Foundry-related resources from the architecture diagram.
+   2. Create Foundry resources in Azure.
+   3. In the Foundry Project, create one standard model: **gpt-5-mini**.
+   4. In the Foundry Project, create an agent named **Capacity-Planning-Foundry-Agent** and attach the Fabric Data Agent, **Capacity-Planning-Agent**, by tool calling.
+   5. Create proper instructions for the agent so it provides useful responses.
+   6. Once **Capacity-Planning-Foundry-Agent** is created, validate that the prompt works and returns valid results, then provide confirmation.
+   7. Ensure the agent instruction, prompt, and response fulfill the problem statement.
+   Completion Requirement: 
+   After completing all steps successfully, create a Markdown file with:
+   - Deployment instructions
+   - Post-deployment configurations
+   Then start deployment.
+   ```
 
-1. List all Azure Foundry-related resources from the architecture diagram.
-2. Create Foundry resources in Azure.
-3. In the Foundry Project, create one standard model: **gpt-5-mini**.
-4. In the Foundry Project, create an agent named **Capacity-Planning-Agent** and attach the Fabric Data Agent, **<<your Data Agent Name>>**, by tool calling.
-5. Create proper instructions for the agent so it provides useful responses.
-6. Once **Capacity-Planning-Agent** is created, validate that the prompt works and returns valid results, then provide confirmation.
-7. Ensure the agent instruction, prompt, and response fulfill the problem statement.
-
-### Additional Requirements
-
-In the Foundry Project, create relevant knowledge bases using Azure AI Search so responses can be retrieved from the Fabric Data Agent when sending prompts in the Foundry Agent.
-
-Also provide relevant Foundry access to the Fabric Workspace.
-
-### Completion Requirement
-
-After completing all steps successfully, create a Markdown file with:
-
-- Deployment instructions
-- Post-deployment configurations
-
-Then start deployment.
-
-```
 
 ### Supporting Prompt
 
 If the agent is not visible, use this prompt:
 
-> Not able to see agent, please refresh and load it.
+>Not able to see agent, please refresh and load it.
 
----
+
 
 ### Validation Prompts
 
@@ -587,7 +550,6 @@ List down products per plan wise.
 ```
 Assess the real-time line, shift, and batch-schedule data from all three plants to recommend 7% capacity gap closure. If the entire gap cannot be closed internally, assess all 11 contract manufacturers and weigh their qualification status, GMP compliance history, available capacity, tech-transfer time, and cost to fully close the 7% capacity gap.
 ```
-
 
 
 >**Note:** Treat generated templates as a rapid prototype starting point. Teams must validate resource availability, region support, security settings, and workshop sandbox constraints before deployment.
