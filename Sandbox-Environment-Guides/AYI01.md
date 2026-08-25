@@ -18,7 +18,7 @@ This will demonstrates how a prebuilt intelligent solution can unify data, AI, a
 
 1. Open a new browser tab in the Edge browser.
 
-1. Right click on the following Whiteboard template link -  ["Whiteboard Template"](https://sandboxailabs1002-my.sharepoint.com/:wb:/g/personal/amplify_user_sandboxailabs1002_onmicrosoft_com/IQBETd07lrISRKag5iCPOrI7AShmtmhDE5bxvXCSyABrKl4?e=FS47Df&xsdata=MDV8MDJ8fGRkYTc2M2Y0YTRkODRlMzhhYjI1MDhkZWZlMWQyZTY5fDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDB8MHw2MzkyMjc1OTg0MTkzNzc5MjF8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKRFFTSTZJbFJsWVcxelgwRlVVRk5sY25acFkyVmZVMUJQVEU5R0lpd2lWaUk2SWpBdU1DNHdNREF3SWl3aVVDSTZJbGRwYmpNeUlpd2lRVTRpT2lKUGRHaGxjaUlzSWxkVUlqb3hNWDA9fDF8TDJOb1lYUnpMekU1T2poak16YzROemxrTFRGaU9ETXRORGd5WWkxaE5qZ3lMV1UwT1RKbE5qazNaRFkxTWw5a05XSXdNamszWWkxbE5XWTNMVFJrTnpNdFlUQmpOaTFoTVdVMk9UVmxPV00yTkRGQWRXNXhMbWRpYkM1emNHRmpaWE12YldWemMyRm5aWE12TVRjNE56RTJNekEwTURVeU1BPT18YzVlMDVmM2FlNTU4NDM0NjMxZjcwOGRlZmUxZDJlNjl8NjA0YzNjMmJjZjA3NGEyZGI1YWJiMjRlM2VkYWU4YmY%3D&sdata=YXFtazJoanUzYk9JckwrTW5lR1FqNzJkS2xXcjdwOSthWlU1bWZSU1E5Zz0%3D&ovuser=6d7e0652-b03d-4ed2-bf86-f1999cecde17%2CPrapthi.S%40spektrasystems.com), select then **Copy link** and then paste it on the browser tab.
+1. Right click on the following Whiteboard template link -  ["Whiteboard Template"](https://sandboxailabs1002-my.sharepoint.com/:wb:/g/personal/amplify_user_sandboxailabs1002_onmicrosoft_com/IQDBepT1Rv2iQoOyduKuV4xvARZS9r5GPsFdW1Wy3Wr6qNM?e=t4IGX0&xsdata=MDV8MDJ8fDZkNDYxMjdjYzBjNzRkNGRkM2RjMDhkZjAyOWU3ZjIwfDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDB8MHw2MzkyMzI1NTE4NzA4NDU5MTZ8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKRFFTSTZJbFJsWVcxelgwRlVVRk5sY25acFkyVmZVMUJQVEU5R0lpd2lWaUk2SWpBdU1DNHdNREF3SWl3aVVDSTZJbGRwYmpNeUlpd2lRVTRpT2lKUGRHaGxjaUlzSWxkVUlqb3hNWDA9fDF8TDJOb1lYUnpMekU1T2pkbE9UY3hZelZqTFdFMU5qVXROR1kyT0MwNE9ESTNMVGRoTUdZeVpqaGpOR0ppT1Y4NE5URTNObVJrWWkwMU1EUmxMVFJsTlRZdE9XVXdPUzB6Tm1JMU9EazFNV0V4WWpkQWRXNXhMbWRpYkM1emNHRmpaWE12YldWemMyRm5aWE12TVRjNE56WTFPRE00TmpFMk13PT18ZGE1MTc1ZmNjMjdiNDJlYzZkZWMwOGRmMDI5ZTdmMjB8YTk3NzQxNjA2YzBlNDhlNGFhNmRiNDcwNmQxM2VjNjY%3D&sdata=Z0hZY0J5bERXaHpHZGxrS0FhWHdWS0hscmEyUi9hWnQyVzdYVXV6aTVVND0%3D&ovuser=72f988bf-86f1-41af-91ab-2d7cd011db47%2CPrapthi.S%40spektrasystems.com), select then **Copy link** and then paste it on the browser tab.
 
 1. If promoted, sign in with your ODL user credentials.
 
@@ -28,7 +28,7 @@ This will demonstrates how a prebuilt intelligent solution can unify data, AI, a
 
 1. Use the **Zoom out** option to view the Whiteboard template clearly.
 
-   ![](../Sandbox-Environment-Guides/Images/b54.png)
+   ![](../Sandbox-Environment-Guides/Images/imagew1.png)
 
 
 ### Now, click on **`Next >>`** from the lower right corner to move on to **`Rapid Prototyping`**.
