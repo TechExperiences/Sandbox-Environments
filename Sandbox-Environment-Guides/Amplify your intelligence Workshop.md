@@ -1,4 +1,4 @@
-# Amplify Your Intelligence Technical Workshop Sandbox Environment
+# 	Microsoft Technical Workshop: Build AI Context Across People, Business & Knowledge with Microsoft IQ
 
 ## Overview
 
