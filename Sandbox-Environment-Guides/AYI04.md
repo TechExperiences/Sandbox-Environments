@@ -431,7 +431,7 @@ After sending the email:
 
 1. Within 1-3 minutes of sending the email, you should receive a message from the agent in Teams. Navigate back to **Teams**.
 
-   ![](../Sandbox-Environment-Guides/Images/a115.png)
+   ![](../Sandbox-Environment-Guides/Images/b57.png)
 
 1. The response should look similar to this. Including detials regarding the triggered mail.
 
