@@ -366,6 +366,8 @@ Send an email to trigger the agent. Use the below example scenarios that test bo
 
 1. Right click on [Outlook](https://outlook.com/) then **Copy link** and and then paste it on your VM browser tab to open **Outlook**.
 
+1. If prompted, select **Sign in**.
+
 1. Click on **Continue**.
 
    ![](../Sandbox-Environment-Guides/Images/a108.png)
@@ -441,7 +443,7 @@ After sending the email:
 
    ![](../Sandbox-Environment-Guides/Images/agentprompt.png)
 
-    >Note: click on Allow for everytime
+    >Note: click on **Allow** for every Connect pop up.
 
 1. Then Type **Allow** in chat window, then you will get response from agent
 
