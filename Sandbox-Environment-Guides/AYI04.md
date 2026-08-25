@@ -435,6 +435,20 @@ After sending the email:
 
    ![](../Sandbox-Environment-Guides/Images/a116.png)
 
+1. Copy any follow-up Question and paste it in chat window
+
+1. It will ask for **Allow**, Please click on **Allow**
+
+   ![](../Sandbox-Environment-Guides/Images/agentprompt.png)
+
+    >Note: click on Allow for everytime
+
+1. Then Type **Allow** in chat window, then you will get response from agent
+
+    ![](../Sandbox-Environment-Guides/Images/Agentresponse.png)
+
+
+
 
 
    
