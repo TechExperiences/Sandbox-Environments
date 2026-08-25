@@ -30,5 +30,4 @@ This will demonstrates how a prebuilt intelligent solution can unify data, AI, a
 
    ![](../Sandbox-Environment-Guides/Images/img1.png)
 
-
 ### Now, click on **`Next >>`** from the lower right corner to move on to **`Rapid Prototyping`**.
