@@ -26,7 +26,7 @@ This will demonstrates how a prebuilt intelligent solution can unify data, AI, a
 
    ![](../Sandbox-Environment-Guides/Images/amp71.png)
 
-1. Use the **Zoom out** option to view the template clearly.
+1. Use the **Zoom out** option to view the Whiteboard template clearly.
 
    ![](../Sandbox-Environment-Guides/Images/b54.png)
 

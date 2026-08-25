@@ -14,7 +14,11 @@ As you have completed the envisioning **Whiteboard session** and identified key 
 
 ## 2.1 Rapid Prototyping using GitHub Copilot
 
-You will use GitHub Copilot to generate ARM or Bicep templates from the provided natural language business use case/scenario.
+You will use GitHub Copilot to generate ARM or Bicep templates from the created Future State Architecture of Whiteboard.
+
+- **ARM templates:** JSON-based Infrastructure-as-Code files used to define and deploy Azure resources.
+- **Bicep templates:** Simplified, declarative Infrastructure-as-Code files used to define and deploy Azure resources with cleaner syntax.
+
 
 1. Click on the **Visual Studio Code** from the VM desktop.
 
@@ -58,13 +62,15 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    >**Note:** If you get any error pop up, please **Close.**
 
-    ![](../Sandbox-Environment-Guides/Images/b2.png)   
+    ![](../Sandbox-Environment-Guides/Images/b2.png)  
+
+    - **Close** the pop up.  
 
 1. Select **File (1)** and then **Open Folder (2)**.
 
    ![](../Sandbox-Environment-Guides/Images/amp27.png)
 
-1. Navigate to **C:\ (1)**, then click **New folder (2)** to create a new folder.
+1. Navigate to **`C:\`** path **(1)**, then click **New folder (2)** to create a new folder.
 
    ![](../Sandbox-Environment-Guides/Images/b3.png)
 
@@ -72,7 +78,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![](../Sandbox-Environment-Guides/Images/b4.png)
 
-1. Click on the folder **(1)** and then click on **Select folder (4)**.
+1. Click on the **miq-project** folder **(1)** and then click on **Select folder (2)**.
 
    ![](../Sandbox-Environment-Guides/Images/b5.png)
 
@@ -98,7 +104,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![](../Sandbox-Environment-Guides/Images/amp33.png)
 
-1. Please navigate to your created **Whiteboard template**.   
+1. Please navigate to your created **Future State Architecture** of Whiteboard template.   
 
 1. Search for **Snipping tool (1)** from your VM's Windows search bar and then select **Snipping tool (2)**.
 
@@ -108,7 +114,9 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![](../Sandbox-Environment-Guides/Images/b10.png)
 
-1. Take the screenshot of the Whiteboard image. Click on **File (1)** and then **Save As (2)**.
+1. Take the screenshot of the **Future State Architecture**.
+
+1. Click on **File (1)** and then **Save As (2)**.
 
    ![](../Sandbox-Environment-Guides/Images/b37.png)
 
@@ -118,15 +126,15 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. Navigate back to **Visual Studio Code**.   
 
-1. Select the image.
+1. Select the **Future State Architecture**.
 
    ![](../Sandbox-Environment-Guides/Images/b35.png)
 
-1. From the **GitHub Copilot Chat**, click on **+ (1)** and then select the image.
+1. From the **GitHub Copilot Chat**, click on **+ (1)** and then select the **Future State Architecture**.
 
    ![](../Sandbox-Environment-Guides/Images/b36.png)
 
-1. Along with the **Future State Architecture** image **(1)**, then paste the below prompt along with the image **(2)** and then **Send (3)**.
+1. Along with the attached **Future State Architecture** **(1)**, then paste the below prompt along **(2)**,
 
    ```
    You are my smart agent to read my attached architecture design for Zava Retail and create bicep/ARM template based on the identified resources.
@@ -139,6 +147,8 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    5. Create Data Agent using above Ontology as a data source and prepare proper Agent Instruction based on these Ontology Entities.
    Note: After complete all above steps successfully, create MD(mark down) file with deployment instructions and post deployment configurations, and start deployment(create workspace, create lakehouse, table creation, sample data insertion, ontology creation, data agent creation)
    ```
+
+   - Then **Send (3)**.
 
     ![](../Sandbox-Environment-Guides/Images/b12.png)
    
