@@ -276,11 +276,11 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 
    ```
    "Which products are below their reorder level?"
-   "What is the current stock quantity for product P1001?"
+   ```
+
+   ```
    "List all suppliers and their lead times."
-   "What is the predicted demand for product P1007 next quarter?"
-   "Which supplier supplies the Wireless Mouse (P1001)?"
-   ```   
+   ```
 
 1. Navigate back to the **GitHub Copilot Chat** to deploy the **Foundry resources**.
 
