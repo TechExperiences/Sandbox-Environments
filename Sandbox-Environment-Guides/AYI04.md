@@ -378,7 +378,7 @@ Send an email to trigger the agent. Use the below example scenarios that test bo
 
    - **TO:** Provide the email address as **<inject key="AzureAdUserEmail"></inject> (1)**
 
-   - **Subject**: `Urgent: Supplier Delivery Delay Concern` **(2)**
+   - **Subject**: `IQ Request - Urgent: Supplier Delivery Delay Concern` **(2)**
 
    - **Body (3)**:
       ```
