@@ -66,6 +66,8 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 
     - **Close** the pop up.  
 
+>**Note**: Please follow the steps sequentially as indicated by the numbered brackets (e.g., (1), (2), …) and execute them in the specified order.
+
 1. Select **File (1)** and then **Open Folder (2)**.
 
    ![](../Sandbox-Environment-Guides/Images/amp27.png)
@@ -153,6 +155,10 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
     ![](../Sandbox-Environment-Guides/Images/b12.png)
    
 1. Once Copilot starts generating the response, monitor the process closely. Do not take any action; simply watch the progress.
+
+1. If Copilot Asks below question to create new Resource Group, please select similar kind of marked one.
+
+   ![](../Sandbox-Environment-Guides/Images/Prompt-followup.png)
 
 1. After some time, Copilot may ask you a few questions. Review each question carefully and select the appropriate response. 
 
@@ -283,7 +289,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 
    Please follow these below instructions for Foundry IQ section in the same Resource group.
    1. List down all the Azure Foundry related resources from the architecture diagram.
-   2. Create Foundry resources in Azure and use Sweden Central region. 
+   2. Create Foundry resources in Azure(Please use same Resource Group created for the above Fabric Resources) and use Sweden Central region. 
    3. In Foundry Project, create two models(1. gpt-5-mini, 2. text-embedding-3-small)
    4. In Foundry Project, create knowledge base and having one knowledge source which should point to the Azure resource > Resource group (rg-miqsolution)-> Container -> All files(PDFs) using Azure AI Search Service.
    5. Create Foundry Agent("Retail-Agent") and use "Fabric Data Agent" using tool calling and use above knowledge base as attaching knowledge.
