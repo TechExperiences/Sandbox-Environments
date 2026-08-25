@@ -66,7 +66,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 
     - **Close** the pop up.  
 
->**Note**: Please follow the steps sequentially as indicated by the numbered brackets (e.g., (1), (2), …) and execute them in the specified order.
+     >**Note**: Please follow the steps sequentially as indicated by the numbered brackets (e.g., (1), (2), …) and execute them in the specified order.
 
 1. Select **File (1)** and then **Open Folder (2)**.
 
