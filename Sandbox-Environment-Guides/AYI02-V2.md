@@ -186,8 +186,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 
 1. Select the newly created Resource Group except below marked ones.
 
-   ![](../Sandbox-Environment-Guides/Images/amp50.png)
-
+   ![](../Sandbox-Environment-Guides/Images/b55.png)
 
 1. You should see the deployed Fabric capacity.
 
