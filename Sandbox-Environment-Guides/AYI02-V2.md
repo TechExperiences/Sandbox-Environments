@@ -5,7 +5,7 @@ Now that you have completed the envisioning **Whiteboard session** and identifie
 
 ### Estimated time:
 
-## 2.1 Rapid Prototyping using GitHub Copilot
+## Rapid Prototyping using GitHub Copilot
 
 You will use GitHub Copilot to generate ARM or Bicep templates from the created Future State Architecture of Whiteboard.
 
