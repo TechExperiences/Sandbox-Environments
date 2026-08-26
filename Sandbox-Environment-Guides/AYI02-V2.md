@@ -10,6 +10,8 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 - **ARM templates:** JSON-based Infrastructure-as-Code files used to define and deploy Azure resources.
 - **Bicep templates:** Simplified, declarative Infrastructure-as-Code files used to define and deploy Azure resources with cleaner syntax.
 
+### Sign in to GitHub Copilot Chat
+
 
 1. Click on the **Visual Studio Code** from the VM desktop.
 
@@ -119,7 +121,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 
    ![](../Sandbox-Environment-Guides/Images/b36.png)
 
-### Fabric IQ     
+### Fabric IQ
 
 1. Along with the attached **Future State Architecture** **(1)**, then paste the below prompt along **(2)**,
 
