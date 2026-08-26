@@ -253,11 +253,19 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 
    ![](../Sandbox-Environment-Guides/Images/b61.png)
 
-1. Set the `Time range` to **Last 30 minutes**, then **Apply**.
+1. Set the `Time range` to **Last 30 minutes (1)**,
+
+   - `Time granularity`: **1 hr (2)**
+   - `Aggregation`: **Sum (3)**
+   - Then **Apply (4)**
+
+     ![](../Sandbox-Environment-Guides/Images/b76.png) 
 
 1. Wait until you see the **Relationship graph**.
 
-1.Close the **Ontology** page.
+   ![](../Sandbox-Environment-Guides/Images/graph.png)
+
+1. Close the **Ontology** page.
 
 1. Open the **Data Agent** from the workspace and verify that the **Ontology** is configured as the Data Source.
 
@@ -372,7 +380,6 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
    - Select the **Zava Retail** Ontology **(1)** and then **Add (2)**. 
 
      ![](../Sandbox-Environment-Guides/Images/b47.png)          
-
 
 1. Scroll down to **Knowledge**, verify that the Knowledge source has been added.
 
