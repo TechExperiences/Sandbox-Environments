@@ -403,7 +403,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 
    ![](../Sandbox-Environment-Guides/Images/b53.png)     
 
-### Work IQ
+## Work IQ
 
 The third component of the accelerator — Work IQ (the Copilot Studio email-triggered agent that orchestrates Fabric IQ and Foundry IQ from a single conversational ingress)
 
@@ -414,7 +414,7 @@ The third component of the accelerator — Work IQ (the Copilot Studio email-tri
 - **Configure the email trigger** in the Power Automate flow — select the target inbox/folder to monitor and (optionally) add a subject filter such as IQ Request.
 - **Publish the agent** in Copilot Studio and enable the Microsoft Teams channel.
 
-#### Step 0: Create a Power Platoform Environment with Dataverse enabled
+### Step 0: Create a Power Platoform Environment with Dataverse enabled
 
 1. Right click on the [make.powerapps.com](https://make.powerapps.com) link then **Copy link** and then paste it on your VM browser tab.
 
@@ -452,7 +452,7 @@ The third component of the accelerator — Work IQ (the Copilot Studio email-tri
    ![](../Sandbox-Environment-Guides/Images/b80.png)
 
 
-#### Step 1: Import the Solution and configure the connections.
+### Step 1: Import the Solution and configure the connections.
 
 In this step, you will import the Power Platform zip solution file into your Power Platform environment.
 
@@ -504,7 +504,7 @@ In this step, you will import the Power Platform zip solution file into your Pow
 
 1. When the import is complete, the solution will be available in the environment.
 
-#### Step 2: Configure the Email Trigger
+### Step 2: Configure the Email Trigger
 
 Once connections are set, configure the Power Automate flow to monitor the correct inbox:
 
@@ -544,11 +544,11 @@ Once connections are set, configure the Power Automate flow to monitor the corre
 
    ![](../Sandbox-Environment-Guides/Images/a69.png)
 
-#### Step 3: Add the External Agents in Copilot Studio   
+### Step 3: Add the External Agents in Copilot Studio   
 
 After import, add the Fabric and Foundry agents again in Copilot Studio. Use Fabric for data questions and Foundry for document questions. If they do not appear yet, finish deploying Fabric and Foundry first, then return to Copilot Studio and refresh the agent list.
 
-#### 3.1 Add the Foundry Agent
+### 3.1 Add the Foundry Agent
  
 1. Right click on [Copilot Studio](https://copilotstudio.microsoft.com), then **Copy link** and then paste it on your VM browser tab to open the Copilot Studio.
 
@@ -684,7 +684,7 @@ After import, add the Fabric and Foundry agents again in Copilot Studio. Use Fab
 
    ![](../Sandbox-Environment-Guides/Images/b75.png)
 
-## Step 4: Verify Work IQ connections and MCP tools are connected and enabled
+### Step 4: Verify Work IQ connections and MCP tools are connected and enabled
  
 1. Click on **+6 (1)** and then open the **Tools (2)** tab.
 
