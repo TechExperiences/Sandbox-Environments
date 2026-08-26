@@ -1,6 +1,5 @@
 ## 1. Envisioning Session Using Whiteboarding
 
-### Estimated time:
 
 ### Whiteboarding
 
