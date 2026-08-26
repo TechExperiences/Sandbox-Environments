@@ -631,23 +631,23 @@ After import, add the Fabric and Foundry agents again in Copilot Studio. Use Fab
 
 1. On the **Connect Microsft Foundry agent** page, provide the following details:
 
-   - **Name**: Enter **ChatAgent (1)**
+   - **Name**: Enter **Retail Agent (1)**
    - **Description**: `You are a data analyst assistant for Microsoft IQ with access to documents and reference materials.` **(2)**
-   - **Agent Id**: Enter **ChatAgent (3)**
+   - **Agent Id**: Enter **Retail Agent (3)**
      - This is the same name as the agent in Foundry.
    - Then select **Add and configure (4)**  
 
-     ![](../Sandbox-Environment-Guides/Images/a84.png)
+     ![](../Sandbox-Environment-Guides/Images/b69.png)
 
 1. Click **Back**.
 
-   ![](../Sandbox-Environment-Guides/Images/a85.png)
+   ![](../Sandbox-Environment-Guides/Images/b70.png)
 
 ### 3.2: Add the Fabric Data Agent   
 
 1. Confirm the Foundry agent appears in the connected-agent list **(1)** and then click **+ Add an agent (2)**.
 
-   ![](../Sandbox-Environment-Guides/Images/a86.png)
+   ![](../Sandbox-Environment-Guides/Images/b71.png)
 
 1. Click on **Connect to an External agent (1)** drop down and select **Microsoft Fabric (2)**.
 
@@ -671,19 +671,19 @@ After import, add the Fabric and Foundry agents again in Copilot Studio. Use Fab
 
 1. On the **Select agent to connect** page, select the Ontology model **(1)** and then **Next (2)**.
 
-   ![](../Sandbox-Environment-Guides/Images/a91.png)
+   ![](../Sandbox-Environment-Guides/Images/b72.png)
 
-1. On the Ontology Agent page, provide the name as **RetailSC Ontology Agent (1)** and then **Add and Configure (2)**.
+1. On the Ontology Agent page, provide the name as **SupplyChainDataAgent (1)** and then **Add and Configure (2)**.
 
-   ![](../Sandbox-Environment-Guides/Images/a92.png)
+   ![](../Sandbox-Environment-Guides/Images/b73.png)
 
 1. Click **Back**.
 
-   ![](../Sandbox-Environment-Guides/Images/a93.png)
+   ![](../Sandbox-Environment-Guides/Images/b74.png)
 
 1. Make sure the Fabric agent now shows up in the list of connected agents.
 
-   ![](../Sandbox-Environment-Guides/Images/a94.png)
+   ![](../Sandbox-Environment-Guides/Images/b75.png)
 
 ## Step 4: Verify Work IQ connections and MCP tools are connected and enabled
  
