@@ -491,7 +491,7 @@ In this step, you will import the Power Platform zip solution file into your Pow
 
    ![](../Sandbox-Environment-Guides/Images/a57.png)
 
-1. Wait for the Solution to import successfully.
+1. Wait for the Solution to import successfully, it may take `2-3 minutes`.
 
    ![](../Sandbox-Environment-Guides/Images/a58.png)
 
@@ -525,7 +525,7 @@ Once connections are set, configure the Power Automate flow to monitor the corre
 
    ![](../Sandbox-Environment-Guides/Images/a64.png)
 
-1. Delete the **Inbox** folder.
+1. Remove the **Inbox** folder by clicking on the backspace.
 
    ![](../Sandbox-Environment-Guides/Images/a65.png)
 
@@ -537,11 +537,11 @@ Once connections are set, configure the Power Automate flow to monitor the corre
 
    ![](../Sandbox-Environment-Guides/Images/a67.png)
 
-1. Click the **X **next to that email address to remove it entirely, it is a stale leftover from wherever this solution was originally built/tested. 
+1. Click the **X** next to that email address to remove it entirely, it is a stale leftover from wherever this solution was originally built/tested. 
 
    ![](../Sandbox-Environment-Guides/Images/a68.png)
 
-1. Optionally add a `Subject Filter` to limit which emails trigger the flow (e.g., **IQ Request (1)**) and then **Save (2)** the flow.   
+1. Optionally add a `Subject Filter` to limit which emails trigger the flow. You can provide **IQ Request** **(1)** and then **Save (2)** the flow.   
 
    ![](../Sandbox-Environment-Guides/Images/a69.png)
 
