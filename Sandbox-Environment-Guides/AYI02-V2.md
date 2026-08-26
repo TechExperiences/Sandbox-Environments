@@ -263,15 +263,19 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 
    ![](../Sandbox-Environment-Guides/Images/b32.png)
 
-1. Send the following prompts in Data agent input box:
+1. Navigate to **Test data agent (1)**, send the following prompts in Data agent input box **(2)**:
 
    ```
    "Which products are below their reorder level?"
    ```
 
+   ![](../Sandbox-Environment-Guides/Images/b58.png)   
+
    ```
    "List all suppliers and their lead times."
    ```
+
+   ![](../Sandbox-Environment-Guides/Images/b59.png)    
 
 1. Navigate back to the **GitHub Copilot Chat** to deploy the **Foundry resources**.
 
