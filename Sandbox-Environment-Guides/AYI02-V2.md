@@ -286,13 +286,13 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 1. Navigate to **Test data agent (1)**, send the following prompts in Data agent input box **(2)**:
 
    ```
-   "Which products are below their reorder level?"
+   Which products are below their reorder level?
    ```
 
    ![](../Sandbox-Environment-Guides/Images/b58.png)   
 
    ```
-   "List all suppliers and their lead times."
+   List all suppliers and their lead times.
    ```
 
    ![](../Sandbox-Environment-Guides/Images/b59.png)    
