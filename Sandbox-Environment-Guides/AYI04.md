@@ -413,7 +413,7 @@ Send an email to trigger the agent. Use the below example scenarios that test bo
 
 After sending the email:
 
-1. Navigate to **Power Automate**.
+1. Navigate back to **Power Automate** [make.powerautomate.com](https://make.powerautomate.com). 
 
 1. Click on the **default Environment (1)** and then select **Amplify Environment<inject key="Deployment-ID" enableCopy="false"/> (2)** to switch the environment.
 
