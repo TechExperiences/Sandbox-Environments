@@ -601,7 +601,11 @@ After import, add the Fabric and Foundry agents again in Copilot Studio. Use Fab
 
    ![](../Sandbox-Environment-Guides/Images/a79.png)
 
-1. Before proceeding to the next step, navigate back to the **Microsoft Foundry Portal.** Click on the Project name, if prompted **Save** the Agent.
+1. Before proceeding to the next step, navigate back to the **Microsoft Foundry Portal.** Click on **Home**.
+
+   -  If prompted **Save** the Agent.
+
+      ![](../Sandbox-Environment-Guides/Images/b68.png)   
 
 1. Copy and paste the **Project endpoint** in a notepad.
 
