@@ -243,9 +243,25 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 
    ![](../Sandbox-Environment-Guides/Images/b27.png)
 
-1. Open the **Data Agen**t from the workspace and verify that the **Ontology** is configured as the Data Source. If not please go back to **GitHub Copilot Chat** and explain the issue and ask to fix.
+1. Select **Product** Entity **(1)** and then click on **View Entity Type details (2)**.   
 
-1. Navigate back to the **Fabric workspace** and open the **Data Agent**. If the error persists, remove the existing Data Source and manually add the **Ontology** as the Data Source.
+   ![](../Sandbox-Environment-Guides/Images/b60.png)
+
+1. Click on **Overview**.
+
+   ![](../Sandbox-Environment-Guides/Images/b61.png)
+
+1. Set the `Time range` to **Last 30 minutes**, then **Apply**.
+
+1. Wait until you see the **Relationship graph**.
+
+1.Close the **Ontology** page.
+
+1. Open the **Data Agent** from the workspace and verify that the **Ontology** is configured as the Data Source.
+
+1. If not please go back to **GitHub Copilot Chat** and explain the issue and ask to fix.
+
+   - Navigate back to the **Fabric workspace** and open the **Data Agent**. If the error persists, remove the existing Data Source and manually add the **Ontology** as the Data Source.
 
    - Click on the **elipses (1)** and then **Remove (2)**.
 
