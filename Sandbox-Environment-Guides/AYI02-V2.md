@@ -449,7 +449,7 @@ The third component of the accelerator — Work IQ (the Copilot Studio email-tri
 
 1. Please wait until your **Amplify Environment<inject key="Deployment-ID" enableCopy="false"/>** environment is **Ready** before proceeding.
 
-   ![](../Sandbox-Environment-Guides/Images/a49.png)
+   ![](../Sandbox-Environment-Guides/Images/b80.png)
 
 
 #### Step 1: Import the Solution and configure the connections.
