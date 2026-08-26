@@ -29,7 +29,7 @@ The third component of the accelerator — Work IQ (the Copilot Studio email-tri
 
     - **Type:** Choose **Production (1)**
     - **Region:** Leave default
-    - **Name:** Enter **Amplify Environment<inject key="DeploymentID" enableCopy="false"/>** **(3)**
+    - **Name:** Enter **Amplify Environment<inject key="Deployment-ID" enableCopy="false"/>** **(3)**
     - Then Scroll down to **Change default settings**
 
       ![](../Sandbox-Environment-Guides/Images/a44.png)
@@ -50,7 +50,7 @@ The third component of the accelerator — Work IQ (the Copilot Studio email-tri
 
    ![](../Sandbox-Environment-Guides/Images/a48.png)
 
-1. Please wait until your **Amplify Environment<inject key="DeploymentID" enableCopy="false"/>** environment is **Ready** before proceeding.
+1. Please wait until your **Amplify Environment<inject key="Deployment-ID" enableCopy="false"/>** environment is **Ready** before proceeding.
 
    ![](../Sandbox-Environment-Guides/Images/a49.png)
 
@@ -61,11 +61,11 @@ In this step, you will import the Power Platform zip solution file into your Pow
 
 1. Navigate back to **Power Apps** portal.
 
-1. Click on the **default Environment (1)** and then select your **Amplify Environment<inject key="DeploymentID" enableCopy="false"/> (2)** Environment.
+1. Click on the **default Environment (1)** and then select your **Amplify Environment<inject key="Deployment-ID" enableCopy="false"/> (2)** Environment.
 
    ![](../Sandbox-Environment-Guides/Images/a50.png)
 
-1. Make sure your in your **Amplify Environment<inject key="DeploymentID" enableCopy="false"/>** Environment.
+1. Make sure your in your **Amplify Environment<inject key="Deployment-ID" enableCopy="false"/>** Environment.
 
    ![](../Sandbox-Environment-Guides/Images/a51.png)
 
@@ -155,11 +155,11 @@ After import, add the Fabric and Foundry agents again in Copilot Studio. Use Fab
  
 1. Right click on [Copilot Studio](https://copilotstudio.microsoft.com), then **Copy link** and then paste it on your VM browser tab to open the Copilot Studio.
 
-1. Click on the default environment **(1)** and then select your **Amplify Environment<inject key="DeploymentID" enableCopy="false"/> (2)**.
+1. Click on the default environment **(1)** and then select your **Amplify Environment<inject key="Deployment-ID" enableCopy="false"/> (2)**.
 
    ![](../Sandbox-Environment-Guides/Images/a70.png)
 
-1. Make sure your in **Amplify Environment<inject key="DeploymentID" enableCopy="false"/>** Environment.
+1. Make sure your in **Amplify Environment<inject key="Deployment-ID" enableCopy="false"/>** Environment.
 
    ![](../Sandbox-Environment-Guides/Images/a71.png)
 
@@ -179,7 +179,7 @@ After import, add the Fabric and Foundry agents again in Copilot Studio. Use Fab
 
    ![](../Sandbox-Environment-Guides/Images/a74.png)
 
-1. Make sure your in **Amplify Environment<inject key="DeploymentID" enableCopy="false"/>** Environment.
+1. Make sure your in **Amplify Environment<inject key="Deployment-ID" enableCopy="false"/>** Environment.
 
    ![](../Sandbox-Environment-Guides/Images/a75.png)
 
@@ -411,7 +411,7 @@ After sending the email:
 
 1. Navigate to **Power Automate**.
 
-1. Click on the **default Environment (1)** and then select **Amplify Environment<inject key="DeploymentID" enableCopy="false"/> (2)** to switch the environment.
+1. Click on the **default Environment (1)** and then select **Amplify Environment<inject key="Deployment-ID" enableCopy="false"/> (2)** to switch the environment.
 
    ![](../Sandbox-Environment-Guides/Images/a111.png)
 
