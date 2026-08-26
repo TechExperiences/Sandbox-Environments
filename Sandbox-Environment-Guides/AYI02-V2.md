@@ -107,7 +107,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 
    ![](../Sandbox-Environment-Guides/Images/b37.png)
 
-1. Navigate to **C:\miq-project (1)**n provide the name as `arc` **(2)** and then **Save (3)**.
+1. Navigate to **C:\miq-project (1)** then provide the name as `arc` **(2)** and then **Save (3)**.
 
    ![](../Sandbox-Environment-Guides/Images/b62.png)
 
