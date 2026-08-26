@@ -345,7 +345,7 @@ After import, add the Fabric and Foundry agents again in Copilot Studio. Use Fab
 
    ![](../Sandbox-Environment-Guides/Images/a107.png)
 
-## Golden Path Testing Flow   
+## Testing Flow   
 
 
 ### Step 1: Prepare Your Environment
