@@ -432,28 +432,20 @@ The third component of the accelerator — Work IQ (the Copilot Studio email-tri
 
 1. On the **New environment** page, provide the following details to create a new environment.
 
-    - **Type:** Choose **Production (1)**
+    - **Type:** Choose **Developer (1)**
     - **Region:** Leave default
-    - **Name:** Enter **Amplify Environment<inject key="Deployment-ID" enableCopy="false"/>** **(3)**
+    - **Name:** Enter **Amplify Environment<inject key="Deployment-ID" enableCopy="false"/>** **(2)**
     - Then Scroll down to **Change default settings**
 
-      ![](../Sandbox-Environment-Guides/Images/a44.png)
+      ![](../Sandbox-Environment-Guides/Images/b77.png)
 
-1. Expand **Change default settings (1)** and then **Turn On (2)** setting **Add a Dataverse data  store?** and then click on **Save (3)**.
+1. Expand **Change default settings (1)** and then **Turn On (2)** setting **Add a Dataverse data  store?** and then click on **Next (3)**.
 
    ![](../Sandbox-Environment-Guides/Images/a45.png)
 
-1. Under **Security group**, click **+ Select**.
-
-   ![](../Sandbox-Environment-Guides/Images/a46.png)
-
-1. Select **None (1)** and then **Done (2)**.
-
-   ![](../Sandbox-Environment-Guides/Images/a47.png)
-
 1. Then select **Save**.
 
-   ![](../Sandbox-Environment-Guides/Images/a48.png)
+   ![](../Sandbox-Environment-Guides/Images/b78.png)
 
 1. Please wait until your **Amplify Environment<inject key="Deployment-ID" enableCopy="false"/>** environment is **Ready** before proceeding.
 
