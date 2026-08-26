@@ -1,7 +1,7 @@
 
 # Microsoft IQ Solution Accelerator
 
-If your unable to deploy the generated template with GitHub Copilot, the pre-deployed Microsoft IQ Solution Accelerator is available in the sandbox environment. 
+Now that you have deployed the generated template with GitHub Copilot, let’s explore a similar, pre\-deployed solution built using a **Microsoft Solution Accelerator**. Solution Accelerators provide a ready\-to\-use foundation that can help you rapidly prototype, customize, and validate intelligent solutions for your business scenarios.
 
 1. Navigate to the Azure portal. Click on **Resource group**.
 
