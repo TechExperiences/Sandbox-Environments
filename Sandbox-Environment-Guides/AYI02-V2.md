@@ -145,7 +145,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 
 1. After some time, Copilot may ask you a few questions. Review each question carefully and select the appropriate response. 
 
-1. Select **Yes**, if any question prompts related to `F16` deployement.
+1. Select **Yes**, if any question prompts related to `F16` deployment.
 
    ![](../Sandbox-Environment-Guides/Images/b13.png)
 
@@ -293,7 +293,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
    Note: After complete all above steps successfully, create MD(mark down) file with deployment instructions and post deployment configurations, and start deployment.
    ```
 
-1. Wait for the deployement to complete and the **Keep** the file.
+1. Wait for the deployment to complete and the **Keep** the file.
 
    ![](../Sandbox-Environment-Guides/Images/b38.png)  
 
