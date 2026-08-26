@@ -1,16 +1,7 @@
 # 2. Rapid Prototyping
 
-Zava Retail faces supply chain disruptions that can quickly lead to stockouts, revenue loss, and poor customer experiences. Today, critical data is spread across disconnected systems, making it difficult to identify risks, understand their business impact, and respond in time.
-This will demonstrates how a prebuilt intelligent solution can unify data, AI, analytics, and workflows to help Zava Retail:
 
-- Detect supply chain disruptions early
-- Identify impacted products, stores, and regions
-- Recommend alternative sourcing options
-- Coordinate decisions across teams
-- Reduce stockouts and protect revenue
-- Accelerate business value with Microsoft Fabric, Foundry, Power BI, and AI working together
-
-As you have completed the envisioning **Whiteboard session** and identified key business opportunities, let's now explore how Zava Retail can address its supply chain challenges by transforming disruptions into proactive, data-driven business decisions. Using a unified intelligence platform that brings together enterprise data, AI-powered insights, and business workflows, you can anticipate risks, optimize operations, and respond faster to changing supply chain conditions.
+Now that you have completed the envisioning **Whiteboard session** and identified key business opportunities, it is time to move from ideas to a working prototype. Explore how a prebuilt intelligent solution can bring the envisioned scenario to life, validate its potential, and demonstrate how it could work in practice.
 
 ## 2.1 Rapid Prototyping using GitHub Copilot
 
