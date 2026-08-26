@@ -841,7 +841,7 @@ After sending the email:
 
 1. The response should look similar to this. Including detials regarding the triggered mail.
 
-   ![](../Sandbox-Environment-Guides/Images/a116.png)
+   ![](../Sandbox-Environment-Guides/Images/Agent2.png)
 
 1. Copy any follow-up Question and paste it in chat window
 
@@ -853,7 +853,7 @@ After sending the email:
 
 1. Then Type **Allow** in chat window, then you will get response from agent
 
-    ![](../Sandbox-Environment-Guides/Images/Agentresponse.png)
+    ![](../Sandbox-Environment-Guides/Images/agent1.png)
 
 
 
