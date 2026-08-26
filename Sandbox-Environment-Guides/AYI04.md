@@ -179,6 +179,10 @@ After import, add the Fabric and Foundry agents again in Copilot Studio. Use Fab
 
    ![](../Sandbox-Environment-Guides/Images/a74.png)
 
+1. Navigate to **Agents (1)** and the sleect **Microsoft IQ Agent (2)**.   
+
+   ![](../Sandbox-Environment-Guides/Images/b67.png)   
+
 1. Make sure your in **Amplify Environment<inject key="Deployment-ID" enableCopy="false"/>** Environment.
 
    ![](../Sandbox-Environment-Guides/Images/a75.png)
