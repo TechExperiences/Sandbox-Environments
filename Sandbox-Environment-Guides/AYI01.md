@@ -32,4 +32,6 @@ This demonstrates how a prebuilt intelligent solution can unify data, AI, analyt
 
    ![](../Sandbox-Environment-Guides/Images/img1.png)
 
+## Congratulations! You have completed the Envisioning Session using Whiteboarding.    
+
 ### Now, click on **`Next >>`** from the lower right corner to move on to **`Rapid Prototyping`**.

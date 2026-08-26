@@ -863,7 +863,7 @@ After sending the email:
     ![](../Sandbox-Environment-Guides/Images/agent1.png)
 
 
-
+### Congratulations! You have successfully completed the `Rapid Prototyping using GitHub Copilot` session and validated the Microsoft IQ solution across` Fabric IQ, Foundry IQ`, and `Work IQ`.
 
 
    
