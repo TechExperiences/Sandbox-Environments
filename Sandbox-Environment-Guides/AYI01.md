@@ -1,5 +1,7 @@
 ## 1. Envisioning Session Using Whiteboarding
 
+### Estimated time:
+
 ### Whiteboarding
 
 Whiteboarding helps technical teams to quickly align on business goals, current challenges, future-state architecture, and solution priorities. It turns abstract ideas into a shared visual plan and helps accelerate decisions for Microsoft IQ Solution Accelerators.
