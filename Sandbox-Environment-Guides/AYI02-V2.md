@@ -121,6 +121,8 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 
    ![](../Sandbox-Environment-Guides/Images/b36.png)
 
+### Fabric IQ     
+
 1. Along with the attached **Future State Architecture** **(1)**, then paste the below prompt along **(2)**,
 
    ```
@@ -278,6 +280,8 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
    ```
 
    ![](../Sandbox-Environment-Guides/Images/b59.png)    
+
+### Foundry IQ    
 
 1. Navigate back to the **GitHub Copilot Chat** to deploy the **Foundry resources**.
 
