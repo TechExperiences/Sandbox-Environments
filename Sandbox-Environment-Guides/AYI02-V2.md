@@ -161,7 +161,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 
    >**Note:** In between, if it asks you to **Continue to iterate**, please click **Continue**.
 
-1. Wait for the deployment to complete. This may take approximately `10–20` minutes. Once completed, you will see a Summary/Conclusion similar to the example below, although the details may vary **(1)** and select **Keep (2)** to keep the created files.
+1. Wait for the deployment to complete. This may take approximately `20–30` minutes. Once completed, you will see a Summary/Conclusion similar to the example below, although the details may vary **(1)** and select **Keep (2)** to keep the created files.
 
    ![](../Sandbox-Environment-Guides/Images/b15.png)
 
