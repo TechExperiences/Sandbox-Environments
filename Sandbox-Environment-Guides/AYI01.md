@@ -2,10 +2,11 @@
 
 ### Why Zava retail should use Whiteboarding
 
-Whiteboarding helps Zava retail quickly align on business goals, current challenges, future-state architecture, and solution priorities. It turns abstract ideas into a shared visual plan and helps accelerate decisions for Microsoft IQ Solution Accelerators.
+Whiteboarding helps technical teams to quickly align on business goals, current challenges, future-state architecture, and solution priorities. It turns abstract ideas into a shared visual plan and helps accelerate decisions for Microsoft IQ Solution Accelerators.
 
-Zava Retail faces supply chain disruptions that can quickly lead to stockouts, revenue loss, and poor customer experiences. Today, critical data is spread across disconnected systems, making it difficult to identify risks, understand their business impact, and respond in time.
-This will demonstrates how a prebuilt intelligent solution can unify data, AI, analytics, and workflows to help Zava Retail:
+Let’s consider a common retail use case. Supply chain disruptions can quickly lead to stockouts, revenue loss, and poor customer experiences. Critical data is often spread across disconnected systems, making it difficult to identify risks, understand their business impact, and respond in time.
+
+This demonstrates how a prebuilt intelligent solution can unify data, AI, analytics, and workflows to help retailers:
 
 - Detect supply chain disruptions early
 - Identify impacted products, stores, and regions
