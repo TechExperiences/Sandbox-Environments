@@ -297,6 +297,14 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 
    ![](../Sandbox-Environment-Guides/Images/b59.png)    
 
+1. Click on **Publish**.
+
+   ![](../Sandbox-Environment-Guides/Images/b65.png)  
+
+1. Click on **Publish** again to publish the data agent.
+
+   ![](../Sandbox-Environment-Guides/Images/b66.png)  
+
 ### Foundry IQ    
 
 1. Navigate back to the **GitHub Copilot Chat** to deploy the **Foundry resources**.
