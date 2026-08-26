@@ -9,7 +9,9 @@ The third component of the accelerator — Work IQ (the Copilot Studio email-tri
 - **Configure the email trigger** in the Power Automate flow — select the target inbox/folder to monitor and (optionally) add a subject filter such as IQ Request.
 - **Publish the agent** in Copilot Studio and enable the Microsoft Teams channel.
 
-## Step 0: Create a Power Platoform Environment with Dataverse enabled
+## Step 0: Create a Power Platform Environment with Dataverse enabled
+
+>**Note:** If you have already completed this step during the **Rapid Prototyping – Work IQ** section, skip to **Step 3**. Otherwise, proceed with the steps below to create the Power Platform environment.
 
 1. Right click on the [make.powerapps.com](https://make.powerapps.com) link then **Copy link** and then paste it on your VM browser tab.
 
