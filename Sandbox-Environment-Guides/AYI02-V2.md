@@ -129,7 +129,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
    You are my smart agent to read my attached architecture design for Zava Retail and create bicep/ARM template based on the identified resources.
    Please follow these below instructions for Fabric IQ section:
    1. List down all the Azure resources from the architecture diagram.
-   2. Crate a new resource group and new Fabric Workspace(SKU F16) for WestUS3 region 
+   2. Create a new resource group and new Fabric Workspace(SKU F16) for WestUS3 region 
    3. Create Dashboards
    3. Create Lakehouse and store sample data into tables(Tables should be as per architecture design)
    4. Create Fabric Ontology using above Lakehouse tables with proper relationship and generate Ontology Graph View
