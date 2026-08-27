@@ -95,7 +95,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates using the Future 
 
    ![](../Sandbox-Environment-Guides/Images/b88.png)
 
-1. From the **GitHub Copilot Chat**, click on **+ (1)** and then select the **Future-State-Architecture.png**.
+1. From the **GitHub Copilot Chat**, click on **+ (1)** and then select the **Future-State-Architecture.png (2)**.
 
    ![](../Sandbox-Environment-Guides/Images/b89.png)
 
