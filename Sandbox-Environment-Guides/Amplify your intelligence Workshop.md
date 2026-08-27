@@ -30,7 +30,7 @@
 
      ![](../Sandbox-Environment-Guides/Images/amp16.png)
 
-1. If a pop-up appears **Stay signed in**, then select **No**.
+1. If a pop-up appears **Stay signed in**, then select **Yes**.
 
    ![](../Sandbox-Environment-Guides/Images/amp17.png)
 

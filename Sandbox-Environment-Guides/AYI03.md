@@ -240,7 +240,7 @@ Now that you have deployed the generated template with GitHub Copilot, let’s e
 
    ![](../Sandbox-Environment-Guides/Images/amp61.png)
 
-1. Navigate to **Models (1)**, you can see **gpt-5-mini** (chat) and **text-embedding-3-small** (embeddings) **(2)**.
+1. Navigate to **Models / Deployments (1)**, you can see **gpt-5-mini** (chat) and **text-embedding-3-small** (embeddings) **(2)**.
 
    ![](../Sandbox-Environment-Guides/Images/amp62.png)
 
