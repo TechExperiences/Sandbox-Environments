@@ -19,7 +19,7 @@ You will start with whiteboarding to architect a future state of an intelligent 
 
 1. Open a new browser tab in the Edge browser.
 
-1. Right click on the following Whiteboard template link -  ["Whiteboard Template"](https://sandboxailabs1002-my.sharepoint.com/:wb:/g/personal/amplify_user_sandboxailabs1002_onmicrosoft_com/IQBI5vdQvAjLQJJNzWbq7g-EAVTYXp4buMaomLQnHL-uz70?e=yrJqYF), then select **Copy link** and then paste it on the browser tab.
+1. Right click on the following Whiteboard template link -  ["Whiteboard Template"](https://sandboxailabs1002-my.sharepoint.com/:wb:/g/personal/amplify_user_sandboxailabs1002_onmicrosoft_com/IQCgG6cKI3xwSon2DSEbtOmxAUc7nM9jphqv7ozbt4RC8aU?e=5Vyzra), then select **Copy link** and then paste it on the browser tab.
 
 1. If prompted, sign in with your ODL user credentials.
 
@@ -29,7 +29,7 @@ You will start with whiteboarding to architect a future state of an intelligent 
 
 1. Use the **Zoom out** option to view the Whiteboard template clearly.
 
-   ![](../Sandbox-Environment-Guides/Images/b81.png)
+   ![](../Sandbox-Environment-Guides/Images/ZAVARetailMicrosoftIQrgs.png)
 
 1. Please follow along as the **Facilitator** guides you through the **Business** and **Technical** Envisioning session. During the session, you will identify key business challenges, define priorities, assess the current environment, and design a Future-state solution architecture.
 
