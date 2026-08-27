@@ -65,79 +65,6 @@ Now that you have deployed the generated template with GitHub Copilot, let’s e
 
    - Confirm the entities and relationships are populated (e.g. products, suppliers, inventory, sales, tied together via keys) — this is the semantic layer that lets the agent translate natural language into meaningful queries rather than raw SQL guessing.
 
-1. Lets add one more Entity and add the relationship.
-
-1. Click on **+ Add entity type**. 
-
-   ![](../Sandbox-Environment-Guides/Images/a1.png)
-
-1. Provide the name as **DimDate (1)** and click **Add Entity Type**.
-
-   ![](../Sandbox-Environment-Guides/Images/a2.png)
-
-1. Click on thr **Elipses (1)** and then select **Bind data (2)** to add the data source.
-
-   ![](../Sandbox-Environment-Guides/Images/a3.png)
-
-1. Click on the **Add data binding** drop down **(1)** and then select **Lakehouse table (2)**.
-
-   ![](../Sandbox-Environment-Guides/Images/a4.png)
-
-1. Select **miqsadata (1)**, then **Next (2)**.
-
-   ![](../Sandbox-Environment-Guides/Images/a5.png)
-
-1. Expand **Tables (1) > Shared (2)** and then select **dimdate (3)** table. 
-
-   ![](../Sandbox-Environment-Guides/Images/a6.png)
-
-1. Click on **Define entity type key (1)**, select **Datekey (2)** and then **Save (3)**.
-
-   ![](../Sandbox-Environment-Guides/Images/a7.png)
-
-1. Click on **Save**.
-
-   ![](../Sandbox-Environment-Guides/Images/a8.png)
-
-1. Then **Cancel** from bottom right of the page.   
-
-1. Click on **Manage relationship (1)** drop down and select **+ Add new relationship (2)**.
-
-   ![](../Sandbox-Environment-Guides/Images/a9.png)
-
-1. Add new relationship with the following details:
-
-   - Relationship type name: **inventorytransactions_dates_dimdate (1)**
-   - Origin entity type: **inventory_inventorytransactions (2)**
-   - Target entity type: **DimDate (3)**
-   - Select **Create (4)**
-
-     ![](../Sandbox-Environment-Guides/Images/a10.png)
-
-1. Add one more relation by clicking on **Manage relationship (1)** drop down and select **+ Add new relationship (2)**.
-
-   ![](../Sandbox-Environment-Guides/Images/a11.png)   
-
-   - Relationship type name: **purchaseorders_dates_dimdate (1)**
-   - Origin entity type: **inventory_purchaseorders (2)**
-   - Target entity type: **DimDate (3)**
-   - Select **Create (4)**
-
-     ![](../Sandbox-Environment-Guides/Images/a12.png)   
-
-1. Add one more relation by clicking on **Manage relationship** drop down and select **+ Add new relationship**.
-
-   - Relationship type name: **demandforecast_dates_dimdate (1)**
-   - Origin entity type: **inventory_demandforecast (2)**
-   - Target entity type: **DimDate (3)**
-   - Select **Create (4)**
-
-     ![](../Sandbox-Environment-Guides/Images/a13.png)   
-
-1. Click on **Home** to navigate back to the **RetailSupplyChainOntologyModel** Ontology.
-
-   ![](../Sandbox-Environment-Guides/Images/a14.png)
-
 1. Navigate back to Workspace, open the **data_agent** folder. Open the already created **RetailSC Ontology Agent**
 
    ![](../Sandbox-Environment-Guides/Images/amp69.png)  
@@ -170,12 +97,6 @@ Now that you have deployed the generated template with GitHub Copilot, let’s e
    - Provides insights in a readable format  
 
 1. Try multiple queries and refine your questions to explore additional insights.
-
-   ```
-   List all suppliers.
-   ```
-
-    ![](../Sandbox-Environment-Guides/Images/a18.png)
 
    ```
    What is the current stock of Alpine Explorer Tent?
@@ -322,19 +243,18 @@ Now that you have deployed the generated template with GitHub Copilot, let’s e
 
    ![](../Sandbox-Environment-Guides/Images/a31.png)  
 
-1. Try sending a atleast one of the below prompt to test the Fabric IQ Data agent.
-
-   ```
-   List all suppliers.
-   ```
-
-   ![](../Sandbox-Environment-Guides/Images/a33.png)  
+1. Try sending a atleast one of the below prompt to test the Fabric IQ Data agent.  
 
    ```
    Which products are supplied by Fabrikam?
    ```
 
    ![](../Sandbox-Environment-Guides/Images/a34.png)
+
+   ```
+   Given that shortfall, what do our supplier terms say about delayed-delivery penalties or remediation, and what's Tailwind Textiles' typical lead time is expediting realistic before the stockout hits?
+
+   ```
   
 
    >**Note**: If it asks any follow-up or clarification questions without providing an answer, please respond to the question based on what is required and proceed.
