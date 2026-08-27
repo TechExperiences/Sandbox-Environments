@@ -47,7 +47,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates using the Future 
 
    ![](../Sandbox-Environment-Guides/Images/amp24.png)
 
-1. Once the Visual Studio code opens, choose the theme of your wish **(1)** and then click **Get Started (2)**.
+1. Once the Visual Studio code opens, choose any desired theme **(1)** and then click **Get Started (2)**.
 
    ![](../Sandbox-Environment-Guides/Images/b1.png)
 
@@ -209,7 +209,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates using the Future 
 
    ![](../Sandbox-Environment-Guides/Images/b20.png)
 
-1. Now please go back to the Fabric portal, refresh the portal and navigate to the **Workspaces**. Now you should be able to see the Workspace starts with something similar to `Zava Retail`.
+1. Now please go back to the Fabric portal, refresh the portal and navigate to the **Workspaces**. Now you should be able to see a Workspace which starts with something similar to `Zava Retail`.
 
    ![](../Sandbox-Environment-Guides/Images/b21.png)
 
@@ -321,9 +321,9 @@ You will use GitHub Copilot to generate ARM or Bicep templates using the Future 
 
 1. Navigate back to the **GitHub Copilot Chat** to deploy the **Foundry resources**.
 
-1. Paste the prompt below into the chat and press Enter.
+1. Navigate back to the **GitHub Copilot Chat** 
 
-1. Navigate back to the **GitHub Copilot Chat** to send the follow up prompt.
+1. Copy the prompt below into the chat and send.
 
    ```
    You are my smart agent to read my attached architecture design for Zava Retail and create bicep/ARM template based on the identified resources.
@@ -409,7 +409,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates using the Future 
 
 ## Work IQ
 
-The third component of the accelerator — Work IQ (the Copilot Studio email-triggered agent that orchestrates Fabric IQ and Foundry IQ from a single conversational ingress)
+The third component of the accelerator is Work IQ (the Copilot Studio email-triggered agent that orchestrates Fabric IQ and Foundry IQ from a single conversational ingress)
 
 ### Steps that need to be performed:
 
