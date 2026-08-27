@@ -264,6 +264,8 @@ Now that you have deployed the generated template with GitHub Copilot, let’s e
 
    ![](../Sandbox-Environment-Guides/Images/a23.png)
 
+    >**Note:** In case we are updating anything in the Agent, we need to click **Save**.
+
 1. In that **Chat** playground, use the example questions to explore the Azure AI Foundry Agent's capabilities. It will provide the response based on the knowledge base documents along with that citiation will also be added.
 
    ```
@@ -276,16 +278,23 @@ Now that you have deployed the generated template with GitHub Copilot, let’s e
 1. Try some other prompts:
 
    ```
-   Find information about evaluation criteria or approval processes.
+   What training is provided to suppliers?
    ```   
 
-   ```
-   What are the qualification criteria for new suppliers?
-   ```   
+   ![](../Sandbox-Environment-Guides/Images/b83.png)  
 
    ```
-   What is the minimum reliability score required?
-   ```    
+   What performance metrics are used for supplier monitoring?
+   ```     
+
+   ![](../Sandbox-Environment-Guides/Images/b84.png) 
+
+   ```
+   Visualize the approval workflow steps.
+   ```   
+
+   ![](../Sandbox-Environment-Guides/Images/b85.png)   
+
 
 1. Now lets connect the Fabric Data Agent as a Tool in ChatAgent. We can add the Fabric Data Agent (**RetailSCOntologyAgent**) as a tool inside **ChatAgent**.
 
@@ -313,7 +322,7 @@ Now that you have deployed the generated template with GitHub Copilot, let’s e
 
    ![](../Sandbox-Environment-Guides/Images/a31.png)  
 
-1. Try sending a prompt provided below tocheck the agent's response and tool-call details to see how it invokes the Fabric Data Agent to query the ontology behind the scenes.
+1. Try sending a atleast one of the below prompt to test the Fabric IQ Data agent.
 
    ```
    List all suppliers.
@@ -326,6 +335,7 @@ Now that you have deployed the generated template with GitHub Copilot, let’s e
    ```
 
    ![](../Sandbox-Environment-Guides/Images/a34.png)
+  
 
    >**Note**: If it asks any follow-up or clarification questions without providing an answer, please respond to the question based on what is required and proceed.
 
