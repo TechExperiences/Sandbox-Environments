@@ -116,11 +116,11 @@ You will use GitHub Copilot to generate ARM or Bicep templates using the Future 
 
 1. Select the **Solution Architecture.png**.
 
-   ![](../Sandbox-Environment-Guides/Images/b63.png)
+   ![](../Sandbox-Environment-Guides/Images/b86.png)
 
 1. From the **GitHub Copilot Chat**, click on **+ (1)** and then select the Future State Architecture named **Solution Architecture**.
 
-   ![](../Sandbox-Environment-Guides/Images/b64.png)
+   ![](../Sandbox-Environment-Guides/Images/b87.png)
 
 ### Fabric IQ
 
