@@ -7,8 +7,7 @@ Whiteboarding helps technical teams to quickly align on business goals, current 
 
 Let’s consider a common retail use case. Supply chain disruptions can quickly lead to stockouts, revenue loss, and poor customer experiences. Critical data is often spread across disconnected systems, making it difficult to identify risks, understand their business impact, and respond in time.
 
-This demonstrates the power of Microsoft IQ in connecting data, AI, analytics, and workflows to help retailers improve agility, increase revenue, and create more personalized customer experiences.
-
+You will start with whiteboarding to architect a future state of an intelligent solution which can:
 - Detect supply chain disruptions early
 - Identify impacted products, stores, and regions
 - Recommend alternative sourcing options
@@ -22,9 +21,9 @@ This demonstrates the power of Microsoft IQ in connecting data, AI, analytics, a
 
 1. Right click on the following Whiteboard template link -  ["Whiteboard Template"](https://sandboxailabs1002-my.sharepoint.com/:wb:/g/personal/amplify_user_sandboxailabs1002_onmicrosoft_com/IQBI5vdQvAjLQJJNzWbq7g-EAVTYXp4buMaomLQnHL-uz70?e=yrJqYF), then select **Copy link** and then paste it on the browser tab.
 
-1. If promoted, sign in with your ODL user credentials.
+1. If prompted, sign in with your ODL user credentials.
 
-1. Once you login, you will get the pop message to create the new Whiteboard. Read the message and click **Got it**.
+1. Once you login, you will get a pop-up message to create the new Whiteboard. Read the message and click **Got it**.
 
    ![](../Sandbox-Environment-Guides/Images/amp71.png)
 
