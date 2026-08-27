@@ -1,11 +1,11 @@
 # 2. Rapid Prototyping
 
 
-Now that you have completed the envisioning **Whiteboard session** and identified key business opportunities, it is time to move from ideas to a working prototype. Explore how a prebuilt intelligent solution can bring the envisioned scenario to life, validate its potential, and demonstrate how it could work in practice.
+Now that you have completed the envisioning **Whiteboard session** and identified key business opportunities, it is time to move from ideas to a working prototype. Explore how a intelligent solution can bring the envisioned scenario to life, validate its potential, and demonstrate how it could work in practice.
 
 ## Rapid Prototyping using GitHub Copilot
 
-You will use GitHub Copilot to generate ARM or Bicep templates from the created Future State Architecture of Whiteboard.
+You will use GitHub Copilot to generate ARM or Bicep templates using the Future State Architecture arrived at from the previous Whiteboarding exercise.
 
 - **ARM templates:** JSON-based Infrastructure-as-Code files used to define and deploy Azure resources.
 - **Bicep templates:** Simplified, declarative Infrastructure-as-Code files used to define and deploy Azure resources with cleaner syntax.
@@ -69,7 +69,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 
    ![](../Sandbox-Environment-Guides/Images/b56.png)
 
-1. From the **GitHub Copilt Chat**, select **Models (1)** and then select **Trust Workspace to enable models (2)**.
+1. From the **GitHub Copilot Chat**, select **Models (1)** and then select **Trust Workspace to enable models (2)**.
 
    ![](../Sandbox-Environment-Guides/Images/b6.png)
 
@@ -123,14 +123,13 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 
 ### Fabric IQ
 
-1. Along with the attached **Future State Architecture** **(1)**, then paste the below prompt along **(2)**,
+1. Along with the attached **Future State Architecture** (1), please paste the below prompt (2).
 
    ```
    You are my smart agent to read my attached architecture design for Zava Retail and create bicep/ARM template based on the identified resources.
    Please follow these below instructions for Fabric IQ section:
    1. List down all the Azure resources from the architecture diagram.
    2. Create a new resource group and new Fabric Workspace(SKU F16) for WestUS3 region 
-   3. Create Dashboards
    3. Create Lakehouse and store sample data into tables(Tables should be as per architecture design)
    4. Create Fabric Ontology using above Lakehouse tables with proper relationship and generate Ontology Graph View
    5. Create Data Agent using above Ontology as a data source and prepare proper Agent Instruction based on these Ontology Entities.
@@ -143,13 +142,13 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
    
 1. Once Copilot starts generating the response, monitor the process closely. Do not take any action; simply watch the progress.
 
-1. If Copilot Asks below question to create new Resource Group, please select similar kind of marked one.
+1. If Copilot Asks below question to create new Resource Group, please select the option similar to the one marked below.
 
    ![](../Sandbox-Environment-Guides/Images/Prompt-followup.png)
 
 1. After some time, Copilot may ask you a few questions. Review each question carefully and select the appropriate response. 
 
-1. Select **Yes**, if any question prompts related to `F16` deployment.
+1. Select **Yes**, if any question prompts you to respond related to `F16` deployment.
 
    ![](../Sandbox-Environment-Guides/Images/b13.png)
 
@@ -173,7 +172,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 
    ![](../Sandbox-Environment-Guides/Images/b16.png)
 
-1. Select the newly created Resource Group except below marked ones.
+1. Select the newly created Resource Group, excluding the **resource groups** highlighted below.
 
    ![](../Sandbox-Environment-Guides/Images/b55.png)
 
@@ -187,7 +186,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 
 1. Navigate to **Workspaces**, there should be workspace created with the name similar to **Zava Retail**. 
 
-   - If your unable to see. Please go back to the **GitHub Copilit Chat**.
+   - If your unable to see. Please go back to the **GitHub Copilot Chat**.
 
      ![](../Sandbox-Environment-Guides/Images/b18.png)
 
@@ -205,19 +204,19 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 
    ![](../Sandbox-Environment-Guides/Images/b20.png)
 
-1. Now please go back to the Fabric portal, refresh the portal and navigate to the **Workspaces**. Now you should be able to see the Worspace starts with something similar to `Zava Retail`.
+1. Now please go back to the Fabric portal, refresh the portal and navigate to the **Workspaces**. Now you should be able to see the Workspace starts with something similar to `Zava Retail`.
 
    ![](../Sandbox-Environment-Guides/Images/b21.png)
 
 1. Open the **Zava Retail** workspace.
 
-1. Make sure what are the workspace items that you have mentioned in the prompt are all created.
+1. Make sure that all the workspace items mentioned in the prompt are created. 
 
    ![](../Sandbox-Environment-Guides/Images/b22.png)
 
 1. Please open each item and verify that it has been created correctly. If anything is missing, go back to the **GitHub Copilot Chat** and provide a follow-up prompt to address the missing item.  
 
-1. In this case, when I opened the workspace. There is no tables created in the Lakehouse.
+1. In this case, when I opened the workspace. There are no tables created in the Lakehouse.
 
    ![](../Sandbox-Environment-Guides/Images/b23.png)
 
@@ -317,7 +316,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 
 1. Navigate back to the **GitHub Copilot Chat** to deploy the **Foundry resources**.
 
-1. Paste the following prompt in the chat and send the prompt.
+1. Paste the prompt below into the chat and press Enter.
 
 1. Navigate back to the **GitHub Copilot Chat** to send the follow up prompt.
 
@@ -407,11 +406,11 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the created 
 
 The third component of the accelerator — Work IQ (the Copilot Studio email-triggered agent that orchestrates Fabric IQ and Foundry IQ from a single conversational ingress)
 
-### Steps need to be performed:
+### Steps that need to be performed:
 
 - **Import the solution:** Import the Power Platform zip solution file inside the solution file folder into your Power Platform environment
 - **Configure connections:** Sign in to and authorize the Work IQ, Microsoft Teams, Copilot Studio, Office 365 Outlook, Fabric Data Agent, and Foundry Agent connections. 
-- **Configure the email trigger** in the Power Automate flow — select the target inbox/folder to monitor and (optionally) add a subject filter such as IQ Request.
+- **Configure the email trigger** in the Power Automate flow — select the target inbox/folder to monitor and (optionally) add a subject filter such an IQ Request.
 - **Publish the agent** in Copilot Studio and enable the Microsoft Teams channel.
 
 ### Step 0: Create a Power Platoform Environment with Dataverse enabled
@@ -462,7 +461,7 @@ In this step, you will import the Power Platform zip solution file into your Pow
 
    ![](../Sandbox-Environment-Guides/Images/a50.png)
 
-1. Make sure your in your **Amplify Environment<inject key="Deployment-ID" enableCopy="false"/>** Environment.
+1. Make sure you are in your **Amplify Environment<inject key="Deployment-ID" enableCopy="false"/>** Environment.
 
    ![](../Sandbox-Environment-Guides/Images/a51.png)
 
@@ -486,7 +485,7 @@ In this step, you will import the Power Platform zip solution file into your Pow
 
    ![](../Sandbox-Environment-Guides/Images/a56.png)
 
-1. Make sure you signed in / green check mark is showing up for all the services **(1)** and then **Import (2)**.
+1. Make sure you are signed in and a green check mark is showing up for all the services **(1)** and then click on **Import (2)**.
 
    ![](../Sandbox-Environment-Guides/Images/a57.png)
 
@@ -556,7 +555,7 @@ After import, add the Fabric and Foundry agents again in Copilot Studio. Use Fab
 
    ![](../Sandbox-Environment-Guides/Images/a70.png)
 
-1. Make sure your in **Amplify Environment<inject key="Deployment-ID" enableCopy="false"/>** Environment.
+1. Make sure you are in **Amplify Environment<inject key="Deployment-ID" enableCopy="false"/>** Environment.
 
    ![](../Sandbox-Environment-Guides/Images/a71.png)
 
@@ -576,11 +575,11 @@ After import, add the Fabric and Foundry agents again in Copilot Studio. Use Fab
 
    ![](../Sandbox-Environment-Guides/Images/a74.png)
 
-1. Navigate to **Agents (1)** and the sleect **Microsoft IQ Agent (2)**.   
+1. Navigate to **Agents (1)** and the select **Microsoft IQ Agent (2)**.   
 
    ![](../Sandbox-Environment-Guides/Images/b67.png)
 
-1. Make sure your in **Amplify Environment<inject key="Deployment-ID" enableCopy="false"/>** Environment.
+1. Make sure you are in **Amplify Environment<inject key="Deployment-ID" enableCopy="false"/>** Environment.
 
    ![](../Sandbox-Environment-Guides/Images/a75.png)
 
@@ -628,7 +627,7 @@ After import, add the Fabric and Foundry agents again in Copilot Studio. Use Fab
 
    ![](../Sandbox-Environment-Guides/Images/a83.png)
 
-1. On the **Connect Microsft Foundry agent** page, provide the following details:
+1. On the **Connect Microsoft Foundry agent** page, provide the following details:
 
    - **Name**: Enter **Retail Agent (1)**
    - **Description**: `You are a data analyst assistant for Microsoft IQ with access to documents and reference materials.` **(2)**
@@ -769,7 +768,7 @@ Send an email to trigger the agent. Use the below example scenarios that test bo
 
 #### Example: Supply Chain Disruption
 
-1. Right click on [Outlook](https://outlook.com/) then **Copy link** and and then paste it on your VM browser tab to open **Outlook**.
+1. Right click on [Outlook](https://outlook.com/) then **Copy link** and then paste it on your VM browser tab to open **Outlook**.
 
 1. If prompted, select **Sign in**.
 
@@ -838,7 +837,7 @@ After sending the email:
 
    ![](../Sandbox-Environment-Guides/Images/b57.png)
 
-1. The response should look similar to this. Including detials regarding the triggered mail.
+1. The response should look similar to this. Including details regarding the triggered mail.
 
    ![](../Sandbox-Environment-Guides/Images/Agent2.png)
 
@@ -850,7 +849,7 @@ After sending the email:
 
     >Note: click on **Allow** for every Connect pop up.
 
-1. Then Type **Allow** in chat window, then you will get response from agent
+1. Type **Allow** in chat window, then you will get response from agent
 
     ![](../Sandbox-Environment-Guides/Images/agent1.png)
 
