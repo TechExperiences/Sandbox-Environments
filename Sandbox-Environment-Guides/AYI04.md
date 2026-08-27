@@ -448,7 +448,7 @@ After sending the email:
     ![](../Sandbox-Environment-Guides/Images/Agentresponse.png)
 
 
-### Congratulations, You have successfully completed the Workshop.
+### Congratulations, You have successfully completed the Workshop!
 
 
    
