@@ -49,6 +49,6 @@ You will start with whiteboarding to architect a future state of an intelligent 
 
 1. Review the completed envisioning outputs and validate their alignment with the desired business outcomes.
 
-## Congratulations! You have completed the Envisioning Session using Whiteboarding.    
+## This completes the Envisioning Session using Microsoft Whiteboarding.
 
 ### Now, click on **`Next >>`** from the lower right corner to move on to **`Rapid Prototyping`**.
