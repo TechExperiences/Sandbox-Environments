@@ -90,7 +90,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates using the Future 
 1. Select **Enable**.
 
    ![](../Sandbox-Environment-Guides/Images/amp33.png)
-
+<!--
 1. Please navigate to your created **Future State Architecture** of Whiteboard template.   
 
 1. Search for **Snipping tool (1)** from your VM's Windows search bar and then select **Snipping tool (2)**.
@@ -110,8 +110,9 @@ You will use GitHub Copilot to generate ARM or Bicep templates using the Future 
 1. Navigate to **C:\miq-project (1)** then provide the name as `arc` **(2)** and then **Save (3)**.
 
    ![](../Sandbox-Environment-Guides/Images/b62.png)
-
+   
 1. Navigate back to **Visual Studio Code**.   
+-->
 
 1. Select the Future State Architecture named named **arc**.
 
@@ -123,7 +124,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates using the Future 
 
 ### Fabric IQ
 
-1. Along with the attached **Future State Architecture** (1), please paste the below prompt (2).
+1. Along with the attached **Solution Architecture** (1), please paste the below prompt (2).
 
    ```
    You are my smart agent to read my attached architecture design for Zava Retail and create bicep/ARM template based on the identified resources.
