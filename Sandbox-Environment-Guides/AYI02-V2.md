@@ -114,11 +114,11 @@ You will use GitHub Copilot to generate ARM or Bicep templates using the Future 
 1. Navigate back to **Visual Studio Code**.   
 -->
 
-1. Select the Future State Architecture named named **arc**.
+1. Select the **Solution Architecture.png**.
 
    ![](../Sandbox-Environment-Guides/Images/b63.png)
 
-1. From the **GitHub Copilot Chat**, click on **+ (1)** and then select the Future State Architecture named **arc**.
+1. From the **GitHub Copilot Chat**, click on **+ (1)** and then select the Future State Architecture named **Solution Architecture**.
 
    ![](../Sandbox-Environment-Guides/Images/b64.png)
 
