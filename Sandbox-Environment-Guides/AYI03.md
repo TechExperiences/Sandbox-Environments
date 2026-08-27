@@ -44,7 +44,7 @@ Now that you have deployed the generated template with GitHub Copilot, let’s e
 
      ![](../Sandbox-Environment-Guides/Images/amp57.png)
 
-1. Click on the **Dashboards**. This folder documents Power BI reports shipped with the Microsoft IQ Solution Accelerator. Click on the **Report** to view thr Summary.
+1. Click on the **Dashboards**. This folder documents Power BI reports shipped with the Microsoft IQ Solution Accelerator. Click on the **Report** to view the Summary.
 
    ![](../Sandbox-Environment-Guides/Images/amp65.png)
 
