@@ -603,7 +603,6 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![Step12](../Roadshow-Caldova/media/cd20.png)
 
-
 1. Navigate back to **VS Code.**
 
 1. Select **File (1)** and then **Open Folder (2)**.
@@ -636,7 +635,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. Select the **Future-State-Architecture.png**.
 
-   ![](../Images/b88.png)
+   ![Step20](../Roadshow-Caldova/media/cd21.png)
 
 1. From the **GitHub Copilot Chat**, click on **+ (1)** and then select the **Future-State-Architecture.png (2)**.
 
