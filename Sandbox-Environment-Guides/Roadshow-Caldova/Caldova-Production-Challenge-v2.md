@@ -588,6 +588,21 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
     ![Step11](../Roadshow-Caldova/media/b2.png)
 
+
+### Caldova Deployment Prompts
+
+#### **Prompt 1: Azure SQL Database**
+
+1. Right click on the [Future-State-Architecture](https://stcalodva.blob.core.windows.net/future-state-architecture/Future-State-Architecture), then select **Copy link** and then paste it on the new browser tab inside the VM.
+
+   ![Step20](../Roadshow-Caldova/media/cd19.png)
+
+1. Once the **Future State Architecture** is shown up, click on **Ctrl+S** to save the Architecture.
+
+1. Navigate to `C:\miq-project` and then **Save**.
+
+1. Navigate back to **VS Code.**
+
 1. Select **File (1)** and then **Open Folder (2)**.
 
    ![Step12](../Roadshow-Caldova/media/amp27.png)
@@ -616,12 +631,15 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![Step20](../Roadshow-Caldova/media/amp33.png)
 
+1. Select the **Future-State-Architecture.png**.
 
-### Caldova Deployment Prompts
+   ![](../Images/b88.png)
 
-#### **Prompt 1: Azure SQL Database**
+1. From the **GitHub Copilot Chat**, click on **+ (1)** and then select the **Future-State-Architecture.png (2)**.
 
-**Step 1:** Copy the prompts below into **GitHub Copilot** and attach the **Future State Architecture**.
+   ![](../Images/b89.png)   
+
+1. Send the prompts below into **GitHub Copilot Chat** along with the attached **Future State Architecture**.
 
    ```
    You are my smart agent. Review the problem statement and planned solution architecture design below to help Caldova overcome its challenges. Then prepare Bicep/ARM templates and deploy the resources in the respective environment.
