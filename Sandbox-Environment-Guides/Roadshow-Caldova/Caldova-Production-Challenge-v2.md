@@ -599,7 +599,10 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. Once the **Future State Architecture** is shown up, click on **Ctrl+S** to save the Architecture.
 
-1. Navigate to `C:\miq-project` and then **Save**.
+1. Navigate to `C:\miq-project` folder **(1)**, enter the name as **Future State Architecture (2)** and then **Save (3)**.
+
+   ![Step12](../Roadshow-Caldova/media/cd20.png)
+
 
 1. Navigate back to **VS Code.**
 
