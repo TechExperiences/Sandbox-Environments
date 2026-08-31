@@ -364,7 +364,7 @@ Here are the steps you will follow to create a rapid prototype for Caldova.
 
 1. Select the **Modernize with confidence** drop-down menu to explore the available outcomes and workshop scenarios.
 
-1.  On the right side of the page, you'll find **Cora**, the AI-Powered Rapid Prototyping Copilot. Use the chat interface to enter prompts and interact with the workshop outcomes and scenarios as follows:
+1. On the right side of the page, you'll find **Cora**, the AI-Powered Rapid Prototyping Copilot. Use the chat interface to enter prompts and interact with the workshop outcomes and scenarios as follows:
 
    - From the left navigation pane, expand **Modernize with Confidence (1)**.
    - Under **Outcomes**, select **Modernize Faster with Agentic AI (2)**.
@@ -617,7 +617,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    ![Step20](../Roadshow-Caldova/media/amp33.png)
 
 
-### Caldova IQ Deployment Prompts
+### Caldova Deployment Prompts
 
 #### **Prompt 1: Azure SQL Database**
 
