@@ -176,7 +176,7 @@ During business and technical envisioning, sellers collaborate with customers an
    - Once complete, take a screenshot of **Future State Architecture** for next section of the workshop. 
 
 
-     ![Step701](../Roadshow-Caldova/media/cd8.png) 
+   ![Step701](../Roadshow-Caldova/media/cd8.png) 
 
 
 ### 2.4 The Three Challenges
