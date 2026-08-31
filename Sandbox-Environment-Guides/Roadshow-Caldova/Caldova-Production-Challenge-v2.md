@@ -12,6 +12,16 @@ The workshop is modular and connected. Each stage stands on its own and can be d
 
    ![Step701](../Roadshow-Caldova/media/cd1.png)
 
+Rapid prototyping is offered in three options. Tech sellers and partners should lead with Option A; Options B and C are used as needed. 
+
+- **Option A** uses Cora, the AI Copilot for rapid prototyping, working from prompts to generate tables, data ontologies and deployable code, alongside GitHub Copilot. 
+
+- **Option B** uses GitHub Copilot. 
+
+- **Option C** uses the agentic loop. 
+
+The roadshow default is Option A; Option B and C are available to attendees.    
+
 ## Learning Objectives
 
 After completing this workshop, you will be able to:
@@ -40,7 +50,21 @@ The immediate business pressure is a **7% capacity gap across three manufacturin
 
 Caldova also needs a multi-agent AI solution leveraging Microsoft IQ capabilities to recommend and take action on critical operational issues for the COO.
 
-### 1.2 Technical Backdrop
+### 1.2 The business problem
+
+The immediate business pressure is a 7 percent capacity gap across three manufacturing plants. Caldova needs to know whether it can close that gap internally, and if it cannot, which pre-qualified contract manufacturing organizations can fast-track support within a three to six month window. Leadership wants a multi-agent AI solution, built on Microsoft IQ, that can recommend and act on operational issues of this kind for the COO. 
+
+The deck states the same problem in the language you will show on screen: Caldova is preparing for a critical product launch while its manufacturing environment is fragmented across legacy SQL systems, disconnected data domains and specialist processes, and the team must make a defensible recommendation despite a 7 percent production gap, a 30-minute downtime ceiling, undocumented dependencies and a fixed launch window. 
+
+Caldova's leadership has recognised that the core challenge is not the technology infrastructure itself, but the organization's ability to turn data into actionable intelligence. 
+
+Early AI experiments across functions showed promise, but scaling them against a fragmented estate introduced agent drift, duplicated builds, disconnected tools and governance gaps that are unacceptable in a regulated industry. The company wants AI to become a durable operating capability rather than a set of isolated experiments, and the desired end state is one governed, context-rich intelligence layer that every agent can trust, connecting real-time and historical operational data, manufacturing knowledge, supplier intelligence, internal SOPs, escalation paths and web context while honouring identity, permissions, sensitivity and compliance controls. 
+
+The CTO's mandate, Cloud and AI-First Caldova Manufacturing Ops 2027, connects three motions into one transformation. Modernize with Confidence migrates the legacy SQL Server estate to Azure SQL Managed Instance, retiring technical debt while retaining full compatibility, built-in high availability and compliance controls. Amplify Your Intelligence builds a semantic, context-rich intelligence layer with Fabric IQ so manufacturing data speaks the language of the business, plants, lines, batches, suppliers and capacity, and can assess millions of data points to recommend how the gap is closed. Ubiquitous Innovation follows once every agent reasons from the same trusted ontology, letting teams across Caldova rapidly build and deploy governed multi-agent solutions in Microsoft Foundry that turn shared context into decisions. 
+
+This mandate provides a direct link between the case study and the 3 Core Conversations introduced earlier in the day. Make this connection explicit for participants, as it marks the transition from conceptual discussion to practical application within a customer context.
+
+### 1.3 Technical Backdrop
 
 Caldova's existing estate was not originally built for AI workloads:
 
@@ -52,7 +76,7 @@ Caldova's existing estate was not originally built for AI workloads:
 
 Because no single team can see the full picture, no AI agent can be trusted to act without a shared, governed intelligence layer.
 
-### 1.3 Customer Overview
+### 1.4 Customer Overview
 
 Caldova wants to turn AI from isolated experiments into a durable operating capability for regulated pharmaceutical manufacturing. The desired end state is one governed, context-rich intelligence layer that every agent can trust.
 
@@ -68,11 +92,80 @@ That layer should connect:
 
 ## 2. Envisioning Session Using Whiteboarding to Solve Caldova Business Problem
 
+## What the Whiteboarding experience is?
+
+The CAIP DREAM whiteboard experience is a single site for Solution Engineers, GBBs and Specialists, carrying Microsoft Whiteboard templates for the top CAIP reference architectures across three solution plays. The templates are customer-facing and curated from GBBs, Engineering, the Gold Standard accelerators team, the Azure Architecture site, SEs and partners. 
+
+During business and technical envisioning, sellers collaborate with customers and partners to design tailored architectures for a specific scenario, then export those architectures and use Whiteboard Copilot or VS Code to create deployable ARM and Bicep templates for rapid pilots and proofs of concept. The templates live at aka.ms/CAIPWhiteboards, the DREAM templates experience at aka.ms/dreamwhiteboards, and the Seismic business and technical envisioning page carries the reference guide. 
+
 ### 2.1 Workshop Exercise
 
 - **Exercise:** Envisioning Session Using Whiteboarding
 - **Estimated Time:** 150 minutes team exercise + 15 minutes reporting
 - **Team Size:** TBD
+
+#### The steps attendees follow:
+
+1. Go to the Tech Workshop site at https://aka.ms/CAIPTechWorkshops.
+
+1. Navigate to **Modernize with Confidence** section on the left navigation pane.
+
+   ![Step701](../Roadshow-Caldova/media/cd2.png)
+
+1. Select **Modernize faster with Agentic AI (1)**,  
+
+   - Then select **Agentic App and Databases Modernization (2)**  
+
+   - Select the **Rapid Prototyping Assets (3)** 
+
+   - Select **Prototype using Cora (4)**  
+
+   - Select **Cora (Preview) for Roadshows (5)**
+
+     ![Step701](../Roadshow-Caldova/media/cd3.png)   
+
+1. In Cora chat pane, copy paste the following business problem statement to Cora. 
+
+   ```
+   My customer Caldova is a pharmaceutical manufacturer who plans to launch their new V2 product. I have three comments 
+
+   1) Caldova’s supply chain planning application runs on legacy .NET, the manufacturing database sits on an on-premises SQL Server. It’s Data remains siloed across IoT, supply chain, customer, production, supplier, and manufacturing systems. Recommend a solution to migrate the on-premises SQL Server to Azure SQL DB. 
+
+   2) Also, Caldova currently can manufacture 100 million units in 6 months. It needs to ensure the ability to manufacture 107 million units in 6 months, a gap of 7% manufacturing capacity. The closure of the 7% capacity gap across three manufacturing plants is needed to support the upcoming V2 product across multiple plants. Caldova needs to understand whether it can close the gap internally, and if not, which pre-qualified contract manufacturing organizations can fast-track support in a 3–6-month window. 
+
+   3) They want an AI-powered multi-agent solution using Microsoft Fabric and Microsoft Foundry to identify internal improvements to their manufacturing plants as well as recommend contract manufacturing orgs to achieve the desired production capacity.
+   ```
+
+   - **Click** to proceed. 
+
+     ![Step701](../Roadshow-Caldova/media/cd4.png)   
+
+1. Review the recommended architecture and open the linked Whiteboard.
+
+   ![Step701](../Roadshow-Caldova/media/cd5.png)   
+
+1. Once *“Cloud & AI Platform Whiteboard Experience”* site opens, Click **Copy Whiteboard Template**. 
+
+   ![Step701](../Roadshow-Caldova/media/cd6.png) 
+
+1. This opens https://whiteboard.cloud.microsoft/ login with your @microsoft.com account. Copy Whiteboard Template action copies and creates new whiteboard in your account. Give it a minute to load, then zoom out to 1% zoom level. 
+
+1. Now you’re ready to do whiteboarding session with attendees.  
+
+1. Start with Run the icebreaker session with an introduction to whiteboarding. 
+
+1. Discuss Notes from Business Envisioning session then current state architecture. 
+
+   ![Step701](../Roadshow-Caldova/media/cd7.png) 
+
+1. Modify selected parts of the architecture to create the `Future State Architecture`. 
+
+   - Drag and drop icons from the Icon Palette to create **Future State Architecture**. 
+
+   - Once complete, take a screenshot of **Future State Architecture** for next section of the workshop. 
+
+
+     ![Step701](../Roadshow-Caldova/media/cd8.png) 
 
 ### 2.2 Strategic Mandate
 
