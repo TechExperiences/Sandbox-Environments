@@ -104,7 +104,18 @@ During business and technical envisioning, sellers collaborate with customers an
 - **Estimated Time:** 150 minutes team exercise + 15 minutes reporting
 - **Team Size:** TBD
 
-#### The steps attendees follow:
+### 2.2 Strategic Mandate
+
+**Cloud & AI-First Caldova Manufacturing Ops 2027** connects three transformation motions:
+
+| Pillar | Objective |
+|---|---|
+| Modernize with Confidence | Migrate the legacy SQL Server estate to Azure SQL Managed Instance while retaining compatibility, availability, and compliance controls. |
+| Amplify Your Intelligence | Build a semantic, context-rich intelligence layer with Fabric IQ so manufacturing data speaks the language of the business. |
+| Ubiquitous Innovation | Enable teams to rapidly build and deploy governed multi-agent solutions in Microsoft Foundry. |
+
+
+### 2.3 The steps attendees follow:
 
 1. Go to the Tech Workshop site at https://aka.ms/CAIPTechWorkshops.
 
@@ -167,21 +178,16 @@ During business and technical envisioning, sellers collaborate with customers an
 
      ![Step701](../Roadshow-Caldova/media/cd8.png) 
 
-### 2.2 Strategic Mandate
 
-**Cloud & AI-First Caldova Manufacturing Ops 2027** connects three transformation motions:
-
-| Pillar | Objective |
-|---|---|
-| Modernize with Confidence | Migrate the legacy SQL Server estate to Azure SQL Managed Instance while retaining compatibility, availability, and compliance controls. |
-| Amplify Your Intelligence | Build a semantic, context-rich intelligence layer with Fabric IQ so manufacturing data speaks the language of the business. |
-| Ubiquitous Innovation | Enable teams to rapidly build and deploy governed multi-agent solutions in Microsoft Foundry. |
-
-### 2.3 The Three Challenges
+### 2.4 The Three Challenges
 
 Your team must address the following three challenges. Document your approach, sequencing, risks, and mitigation plan.
 
 #### Challenge 1: SQL Estate Migration to Azure SQL Managed Instance
+
+The group acts as Caldova's migration architect team. The CTO has tasked them with moving the SQL Server estate, BatchManufacturingCore, QualityLIMS, SupplierPayments and the supporting operational databases, out of the London and Miami datacenters ahead of the VMware exit and within a 16-week window. Assessment comes first: the estate must be fully inventoried and assessed before anything moves, which is the practical meaning of modernizing with confidence. 
+
+The questions are how the team will inventory the full estate and assess migration readiness including database, instance-level and cross-database dependencies; what the remediation plan is for deprecated syntax, unsupported SQL Server features, cross-database references and CLR assemblies; and what the migration and cutover sequence looks like, how the availability-group HADR model is replaced, and what the rollback plan is if cutover fails. 
 
 You are the migration architect team for Caldova. The CTO has tasked you with designing a migration strategy to move the SQL Server estate from the London and Miami datacenters to Azure SQL Managed Instance ahead of the VMware exit and within the 16-week window.
 
@@ -206,6 +212,10 @@ You are the migration architect team for Caldova. The CTO has tasked you with de
 
 #### Challenge 2: Unified Data Intelligence Layer with Fabric IQ
 
+The group acts as the Caldova data engineering team. With the estate modernizing, the CDO wants one governed, context-rich intelligence layer that every future AI agent can trust, built on Microsoft Fabric with Fabric IQ in readiness for the agent fleet. Operational data is siloed across six systems, each with its own definition of plant, batch and capacity. Agents built directly against raw tables drift, duplicate logic and cannot be audited, which is unacceptable for GxP manufacturing, and identity, permissions and sensitivity labels must be honoured end to end from source system to agent answer. 
+
+The questions are how to land the six sources into OneLake through mirroring, shortcuts or pipelines without creating another copy-and-drift problem, and how to model the manufacturing ontology in Fabric IQ, covering plants, lines, batches, suppliers, contract manufacturers, SOPs and capacity, so that agents reason over shared business concepts rather than raw tables. 
+
 You are part of the Caldova data engineering team. The CDO wants one governed, context-rich intelligence layer that every future AI agent can trust, built on Microsoft Fabric with Fabric IQ.
 
 **Unification Problem:**
@@ -224,6 +234,10 @@ You are part of the Caldova data engineering team. The CDO wants one governed, c
 
 #### Challenge 3: Multi-Agent Solution for CMO Recommendation
 
+The group acts as the Caldova data science team. Leadership needs a defensible answer in days, not weeks. Internal headroom analysis requires real-time line, shift and batch-schedule data from all three plants and is currently a multi-week manual exercise. Contract manufacturer selection must weigh qualification status, GMP compliance history, available capacity, tech-transfer time and cost, with the data spread across supplier and ERP systems, quality systems and external sources. Every recommendation must carry a GxP-compliant audit trail recording which data, which agent and which reasoning. 
+
+The questions are how to decompose the problem into agents, for example an orchestrator, current capacity analysis, contract manufacturer analysis, a COO recommender and a compliance guardrail, and how those agents collaborate in Foundry; and how each agent grounds its reasoning in the Fabric IQ ontology rather than in direct database access, and why that matters for trust and reuse. 
+
 You are the Caldova data science team. Leadership needs a defensible answer in days, not weeks: can the 7% capacity gap across the three plants be closed internally, and if not, which pre-qualified contract manufacturing organizations can fast-track support within the 3-6 month window?
 
 **Recommendation Problem:**
@@ -240,18 +254,18 @@ You are the Caldova data science team. Leadership needs a defensible answer in d
 - How does each agent ground reasoning in the Fabric IQ ontology?
 - Why does grounding in shared business concepts matter for trust and reuse?
 
-### 2.4 Current and Reference Architecture Activity
+### 2.5 Current and Reference Architecture Activity
 
-1. Open the current and reference architecture in your whiteboard.
-2. Fill out the business envisioning sections based on the Caldova case study.
-3. Identify business goals, technical constraints, and measurable success criteria.
-4. Drag and drop the relevant components from the reference architecture.
-5. Build a future-state architecture that addresses all three challenges.
-6. Export the future-state architecture as an image.
+1. Open the current and reference architecture in your Whiteboard.
+1. Fill out the business envisioning sections based on the Caldova case study.
+1. Identify business goals, technical constraints, and measurable success criteria.
+1. Drag and drop the relevant components from the reference architecture.
+1. Build a future-state architecture that addresses all three challenges.
+1. Export the future-state architecture as an image.
 
 >**Note:** Save the exported future-state architecture image. You will upload it during the rapid prototyping exercise and use it with GitHub Copilot in VS Code.
 
-### 2.5 Database Inventory
+### 2.6 Database Inventory
 
 | Database | Size | Purpose | Special Features |
 |---|---:|---|---|
@@ -261,7 +275,7 @@ You are the Caldova data science team. Leadership needs a defensible answer in d
 | 7 smaller databases | ~1 TB | Serialization, track-and-trace, label management, environmental monitoring, warehouse and materials, training records, planning staging, and reporting marts | TBD |
 | Total: 10 known databases | ~12 TB | Full known SQL estate | TBD |
 
-### 2.6 Application Downtime Tolerances
+### 2.7 Application Downtime Tolerances
 
 | Application | Downtime Tolerance | Peak Load |
 |---|---:|---:|
@@ -269,7 +283,7 @@ You are the Caldova data science team. Leadership needs a defensible answer in d
 | Batch Release & QA Console | 2 minutes | 200 req/sec |
 | MES / Batch Execution Service | 0 minutes, 24/7 | 100 req/sec |
 
-### 2.7 Current Environment
+### 2.8 Current Environment
 
 #### London Primary Datacenter
 
@@ -282,7 +296,7 @@ You are the Caldova data science team. Leadership needs a defensible answer in d
 - ZAVA-SQL-DR01: SQL Server 2019 CU25, 32 cores, 256 GB RAM
 - Async availability group replication from London
 
-### 2.8 Non-Negotiable Constraints
+### 2.9 Non-Negotiable Constraints
 
 | Constraint | Requirement |
 |---|---|
@@ -291,7 +305,7 @@ You are the Caldova data science team. Leadership needs a defensible answer in d
 | Regulatory Compliance | Migration must preserve data integrity per GMP Annex 11 / 21 CFR Part 11 with full audit trail continuity. |
 | Launch Window | Migration must complete within the 16-week window and cannot collide with V2 process validation runs. |
 
-### 2.9 Network Environment Requirements
+### 2.10 Network Environment Requirements
 
 - No direct internet access from datacenter servers.
 - All traffic routes through Zscaler proxy with SSL inspection.
@@ -302,26 +316,36 @@ You are the Caldova data science team. Leadership needs a defensible answer in d
 - CMO, supplier, and 3PL API endpoints are IP-allowlisted on both sides.
 - Partner-side firewall changes may take up to 4 weeks.
 
-## 3. Rapid Prototyping Using Cora
+## 3. Rapid Prototyping
 
-### 3.1 Rapid Prototyping Steps (Option 1)
+Rapid prototyping turns the exported whiteboard into deployment assets. The deck offers three options. Groups run Option 1, may use Option 2 if they prefer to work in VS Code, and watch Option 3 demonstrated. 
+
+### Option 1: Rapid prototyping with Cora
+
+Attendees use Cora in the CAIP technical workshop web app. They upload the future state architecture picture together with a natural language prompt explaining the architecture, generate deployment assets from that architecture, download those assets locally, generate synthetic data and generate an execution guide. 
+
+In session the flow runs as follows: capture the finished future state whiteboard from the previous step, upload the picture to Cora, or the reference architecture as a backup, prompt Cora to generate sample data, deployment code and an execution guide, then download the code and open it in VS Code to review with GitHub Copilot. Where the exercise goes further, the group chooses the solution accelerator Cora recommends, generates the Bicep template and deployment assets, and validates in VS Code before deploying to the sandbox. 
+
+A worked prompt for testing the multi-agent solution is: Assess the real-time line, shift, and batch-schedule data from all three plants to recommend 7% capacity gap closure. If the entire gap cannot be closed internally, please assess all 11 contract manufacturers to weigh their qualification status, GMP compliance history, available capacity, tech-transfer time, and cost to fully close the 7% capacity gap. 
+
+The agents attendees should expect to see in the generated solution are an orchestrator or supervisor, current capacity analysis, contract manufacturer analysis, a COO recommender and a compliance guardrail. Ask the room which of those five they would trust with an unreviewed decision. It is the fastest route into the governance conversation. 
 
 Here are the steps you will follow to create a rapid prototype for Caldova.
 
 1. Leverage the AI assistant **Cora** in the CAIP technical workshop web app.
-2. Provide the Caldova business problem statement to Cora.
-3. Upload the future-state architecture image created during the whiteboarding exercise.
-4. Ask Cora to explain the architecture and recommend the appropriate solution accelerator.
-5. Choose the appropriate solution accelerator based on Cora's recommendation.
-6. Generate Bicep templates and deployment assets.
-7. Validate the generated assets in VS Code.
-8. Deploy the solution in the sandbox environment.
-9. Review the deployed environment and confirm that all three Caldova challenges are addressed.
-10. Test the multi-agent solution.
+1. Provide the Caldova business problem statement to Cora.
+1. Upload the future-state architecture image created during the whiteboarding exercise.
+1. Ask Cora to explain the architecture and recommend the appropriate solution accelerator.
+1. Choose the appropriate solution accelerator based on Cora's recommendation.
+1. Generate Bicep templates and deployment assets.
+1. Validate the generated assets in VS Code.
+1. Deploy the solution in the sandbox environment.
+1. Review the deployed environment and confirm that all three Caldova challenges are addressed.
+1. Test the multi-agent solution.
 
 #### Steps: Access the Cloud & AI Platform Technical Workshops web application
 
-##### Steps to navigate to CAIP Tech Workshop Web app.
+#### `Steps to navigate to CAIP Tech Workshop Web app.`
 
 1. Click on the **Microsoft Edge** from the Lab VM desktop.
    
@@ -342,12 +366,60 @@ Here are the steps you will follow to create a rapid prototype for Caldova.
 
 1.  On the right side of the page, you'll find **Cora**, the AI-Powered Rapid Prototyping Copilot. Use the chat interface to enter prompts and interact with the workshop outcomes and scenarios as follows:
 
-   - From the left navigation pane, expand **Modernize with Confidence**.
-   - Under **Outcomes**, select **Modernize Faster with Agentic AI**.
-   - Under **Scenarios**, select **Agentic App & Databases Modernization**.
-   - In the **Technical Workshops** section, expand **Prototype using Cora** and select **Cora (Preview) for Roadshows**.
+   - From the left navigation pane, expand **Modernize with Confidence (1)**.
+   - Under **Outcomes**, select **Modernize Faster with Agentic AI (2)**.
+   - Under **Scenarios**, select **Agentic App & Databases Modernization (3)**.
+   - In the **Technical Workshops** section, expand **Prototype using Cora (4)** and select **Cora (Preview) for Roadshows (5)**.
    
      ![Step001](../Roadshow-Caldova/media/ampmm1.png)
+
+1. Continue in the Cora Chat pane for Rapid Prototyping.  
+
+   ![Step001](../Roadshow-Caldova/media/cd9.png)
+
+1. In Cora chat pane, Upload the final `Future State Architecture` screenshot and copy & paste the following statement on Cora. 
+
+   ```
+   Explain this Architecture.
+   ``` 
+
+   ![Step001](../Roadshow-Caldova/media/cd10.png)   
+
+1. Review the Architecture Summary provided by Cora.
+
+   ![Step001](../Roadshow-Caldova/media/cd11.png)   
+
+1. **Copy & paste** the following statement on Cora `Generate Synthetic Data`.
+
+   ![Step001](../Roadshow-Caldova/media/cd12.png)  
+
+    >**Note:** It might take 2-3 minutes to generate the data.
+
+1. Review the tables from the generated data and click on **Download full artifacts.**      
+
+   ![Step001](../Roadshow-Caldova/media/cd13.png)  
+
+1. Copy and paste the following prompt on Cora: 
+
+   ```
+   Generate the deployment artifacts using this Architecture.
+   ```
+
+   ![Step001](../Roadshow-Caldova/media/cd14.png) 
+
+    >**Note:** It might take 1-2 minutes to generate the Deployment artifacts
+
+1. Review the generated files from the Cora and click on **Download the zip file** using the Download button on top left. 
+
+   ![Step001](../Roadshow-Caldova/media/cd15.png) 
+
+1. Save the Downloaded zip file in your preferred location.   
+
+   ![Step001](../Roadshow-Caldova/media/cd16.png)
+
+1. Click on the prompt `Generate the prototype guide using this context`. It will generate the Exercises in the left. 
+
+   ![Step001](../Roadshow-Caldova/media/cd17.png)
 
 ### 3.2 Multi-Agent Solution to Test
 
