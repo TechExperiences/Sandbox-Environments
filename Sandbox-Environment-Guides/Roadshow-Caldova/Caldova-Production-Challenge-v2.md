@@ -4,9 +4,13 @@
 
 >**Note:** This workshop is designed as a hands-on technical roadshow exercise. Participants should use the provided Caldova scenario, current-state details, reference architecture, and sandbox environment to complete the activities.
 
->**Note:** Teams should export their future-state architecture before starting rapid prototyping. The exported image will be used to generate deployment assets with GitHub Copilot.
+>**Note:** Teams should export their future-state architecture before starting Rapid prototyping. The exported image will be used to generate deployment assets with GitHub Copilot.
 
-This CAIP Technical Workshop-Roadshow helps participants solve a real-world pharmaceutical manufacturing transformation scenario for **Caldova**. Participants will use business envisioning, whiteboarding, future-state architecture design, Microsoft Fabric, Microsoft Foundry, and GitHub Copilot to create a rapid prototype that supports manufacturing capacity decisions, data modernization, and governed multi-agent AI.
+This CAIP Technical Workshop-Roadshow helps participants solve a real-world pharmaceutical manufacturing transformation scenario for **Caldova**. Participants will use business envisioning, whiteboarding, future-state architecture design, Microsoft Fabric, Microsoft Foundry, and GitHub Copilot to create a Rapid prototype that supports manufacturing capacity decisions, data modernization, and governed multi-agent AI.
+
+The workshop is modular and connected. Each stage stands on its own and can be delivered independently but run in sequence they compound: the whiteboard output feeds the prototype, and the prototype is what makes an MVP or pilot conversation credible with a customer.
+
+   ![Step701](../Roadshow-Caldova/media/cd1.png)
 
 ## Learning Objectives
 
@@ -18,6 +22,13 @@ After completing this workshop, you will be able to:
 - Rapidly prototype deployment assets from a future-state architecture.
 - Use GitHub Copilot in VS Code to generate ARM/Bicep templates and supporting deployment guidance.
 - Explain how Microsoft Fabric, Fabric IQ, Microsoft Foundry, and multi-agent patterns can address Caldova's operational challenges.
+
+## Caldova Case Study
+
+The case study is introduced in the opening general session, immediately after the workshop overview and before the whiteboarding walkthrough. The deck introduces it as the Caldova Product Launch Challenge: from fragmented manufacturing operations to a launch decision under pressure. An intro video is included in the deck to carry the story. 
+
+By the end of this introduction, participants should be able to articulate the business problem in a single sentence. Everything after that point, the architecture they draw, the agents they generate and the recommendation they defend, is an answer to that sentence. Time spent making the business problem land is never wasted. 
+
 
 ## 1. Caldova Product Launch Challenge
 
