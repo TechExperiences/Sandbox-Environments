@@ -421,7 +421,7 @@ Here are the steps you will follow to create a rapid prototype for Caldova.
 
    ![Step001](../Roadshow-Caldova/media/cd17.png)
 
-### 3.2 Multi-Agent Solution to Test
+#### Multi-Agent Solution to Test
 
 The rapid prototype should include the following agents:
 
@@ -509,9 +509,11 @@ Use a prompt similar to the following:
 
 > Assess the real-time line, shift, and batch-schedule data from all three plants to recommend 7% capacity gap closure. If the entire gap cannot be closed internally, assess all 11 contract manufacturers and weigh their qualification status, GMP compliance history, available capacity, tech-transfer time, and cost to fully close the 7% capacity gap.
 
-## 4. Rapid Prototype Using GitHub Copilot (Option 2)
+## Option 2: Rapid prototyping with GitHub Copilot
 
-### 4.1 GitHub Copilot Role in the Workshop
+Option 2 uses the whiteboarding session to map business challenges to a future-state technical architecture, designs a governed intelligence layer that enables trusted and secure AI agents, and rapidly prototypes deployment assets from the target architecture. GitHub Copilot in VS Code generates the ARM and Bicep templates, synthetic data and the supporting deployment guidance. Use this path to demonstrate how Microsoft Fabric, Fabric IQ, Microsoft Foundry and multi-agent patterns address Caldova's operational challenges and accelerate modernization. 
+
+### GitHub Copilot Role in the Workshop
 
 Use GitHub Copilot to accelerate the creation, validation, and refinement of deployment assets. Copilot should help participants:
 
@@ -523,7 +525,7 @@ Use GitHub Copilot to accelerate the creation, validation, and refinement of dep
 - Identify missing networking, identity, monitoring, or security configuration.
 - Produce deployment instructions for the sandbox environment.
 
-### 4.2 Upload Future State Architecture and Generate ARM/Bicep Template in VS Code
+### Upload Future State Architecture and Generate ARM/Bicep Template in VS Code
 
 Follow these steps in VS Code:
 
@@ -538,7 +540,7 @@ Follow these steps in VS Code:
 9. Ask Copilot to validate dependencies, naming conventions, and resource group assumptions.
 10. Review the generated files before deployment.
 
-#### GitHub Copilot Setup
+### GitHub Copilot Setup
 
 You will use GitHub Copilot to generate ARM or Bicep templates from the provided natural language business use case/scenario.
 
@@ -651,7 +653,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    1. List all Azure resources from the architecture diagram.
    2. Create a new Fabric Capacity using **SKU F16** for the **West US 3** region.
    3. Create a new Fabric Workspace attaching with above newly created capacity.
-   4. Please grant admin access to the UPN: odl_user_2359067@sandboxailabs1002.onmicrosoft.com in the Fabric Workspace 
+   4. Please grant admin access to the UPN: <inject key="AzureAdUserEmail"></inject> in the Fabric Workspace 
    5. Create a Lakehouse and load tables from the Azure SQL Database using Fabric mirroring (Mirrored Azure SQL Database).
    6. Create a Fabric Ontology using the Lakehouse tables with proper relationships and generate the Ontology Graph view.
    7. Create a Data Agent using the Ontology as a data source, and prepare proper Agent Instructions based on the Ontology entities to support the business problem.
@@ -722,7 +724,9 @@ Assess the real-time line, shift, and batch-schedule data from all three plants 
 
 >**Note:** Treat generated templates as a rapid prototype starting point. Teams must validate resource availability, region support, security settings, and workshop sandbox constraints before deployment.
 
-## 5. Multi-Agent Solution with Agentic Loop (Option 3)
+## Option 3: Rapid prototyping using the agentic loop
+
+An agentic loop is how an AI agent works toward a goal: understand, plan, act, check results and adjust. The loop repeats until the agent reaches the desired outcome. In Microsoft Foundry this helps agents complete business workflows more independently and reliably. The instructor demonstrates the loop, and attendees may use it as a third path if time allows. 
 
 If the customer already has unified data in the cloud, the key challenge is to build a governed multi-agent solution.
 
