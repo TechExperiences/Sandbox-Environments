@@ -360,7 +360,7 @@ Here are the steps you will follow to create a rapid prototype for Caldova.
 
 1. After the application loads, you will see the workshop site home page as shown below.
 
-   ![Step701](../Roadshow-Caldova/media/ampmms.png)
+   ![Step701](../Roadshow-Caldova/media/cd18.png)
 
 1. Select the **Modernize with confidence** drop-down menu to explore the available outcomes and workshop scenarios.
 
