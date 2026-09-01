@@ -1,8 +1,8 @@
-## 3. Rapid Prototyping
+# 2. Rapid Prototyping
 
 Rapid prototyping turns the exported whiteboard into deployment assets. The deck offers three options. Groups run Option 1, may use Option 2 if they prefer to work in VS Code, and watch Option 3 demonstrated. 
 
-### Option 1: Rapid prototyping with Cora
+## Option 1: Rapid prototyping with Cora
 
 Attendees use Cora in the CAIP technical workshop web app. They upload the future state architecture picture together with a natural language prompt explaining the architecture, generate deployment assets from that architecture, download those assets locally, generate synthetic data and generate an execution guide. 
 
@@ -25,9 +25,9 @@ Here are the steps you will follow to create a rapid prototype for Caldova.
 1. Review the deployed environment and confirm that all three Caldova challenges are addressed.
 1. Test the multi-agent solution.
 
-#### Steps: Access the Cloud & AI Platform Technical Workshops web application
+### Steps: Access the Cloud & AI Platform Technical Workshops web application
 
-#### `Steps to navigate to CAIP Tech Workshop Web app.`
+### `Steps to navigate to CAIP Tech Workshop Web app.`
 
 1. Click on the **Microsoft Edge** from the Lab VM desktop.
    
@@ -191,3 +191,7 @@ Use a prompt similar to the following:
 ```
 Assess the real-time line, shift, and batch-schedule data from all three plants to recommend 7% capacity gap closure. If the entire gap cannot be closed internally, assess all 11 contract manufacturers and weigh their qualification status, GMP compliance history, available capacity, tech-transfer time, and cost to fully close the 7% capacity gap.
 ```
+
+## This completes the Rapid Prototyping using Cora.
+
+### Now, click on **`Next >>`** from the lower right corner to move on to **`Rapid Prototyping using GitHub Copilot`**.
