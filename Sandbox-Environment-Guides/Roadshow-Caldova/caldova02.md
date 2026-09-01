@@ -59,7 +59,17 @@ Here are the steps you will follow to create a rapid prototype for Caldova.
 
    ![Step001](../Roadshow-Caldova/media/cd9.png)
 
-1. In Cora chat pane, Upload the final `Future State Architecture` screenshot and copy & paste the following statement on Cora. 
+1. Right click on the [Future-State-Architecture](https://sttechexpcommondata01.blob.core.windows.net/caldova-challenge/Future-State-Architecture.png), then select **Copy link** and then paste it on the new browser tab inside the VM.
+
+   ![Step20](../Roadshow-Caldova/media/cd19.png)
+
+1. Once the **Future State Architecture** is shown up, click on **Ctrl+S** to save the Architecture.
+
+1. Navigate to `C:\miq-project` folder **(1)**, enter the name as **Future State Architecture (2)** and then **Save (3)**.
+
+   ![Step12](../Roadshow-Caldova/media/cd20.png)   
+
+1. In Cora chat pane, upload the final `Future State Architecture` screenshot from `C:\miq-project` folder and copy & paste the following statement on Cora. 
 
    ```
    Explain this Architecture.
