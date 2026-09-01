@@ -38,7 +38,7 @@ Here are the steps you will follow to create a rapid prototype for Caldova.
 1. Login with the following credentials:
 
     - Username: **<inject key="AzureAdUserEmail"></inject>**
-    - Passowrd: **<inject key="AzureAdUserPassword"></inject>**
+    - Password: **<inject key="AzureAdUserPassword"></inject>**
 
 1. After the application loads, you will see the workshop site home page as shown below.
 
