@@ -1,4 +1,4 @@
-## 2. Envisioning Session Using Whiteboarding to Solve Caldova Business Problem
+# 1. Envisioning Session Using Whiteboarding to Solve Caldova Business Problem
 
 ## What the Whiteboarding experience is?
 
@@ -6,13 +6,13 @@ The CAIP DREAM whiteboard experience is a single site for Solution Engineers, GB
 
 During business and technical envisioning, sellers collaborate with customers and partners to design tailored architectures for a specific scenario, then export those architectures and use Whiteboard Copilot or VS Code to create deployable ARM and Bicep templates for rapid pilots and proofs of concept. The templates live at aka.ms/CAIPWhiteboards, the DREAM templates experience at aka.ms/dreamwhiteboards, and the Seismic business and technical envisioning page carries the reference guide. 
 
-### 2.1 Workshop Exercise
+### 1.1 Workshop Exercise
 
 - **Exercise:** Envisioning Session Using Whiteboarding
 - **Estimated Time:** 150 minutes team exercise + 15 minutes reporting
 - **Team Size:** TBD
 
-### 2.2 Strategic Mandate
+### 1.2 Strategic Mandate
 
 **Cloud & AI-First Caldova Manufacturing Ops 2027** connects three transformation motions:
 
@@ -23,7 +23,7 @@ During business and technical envisioning, sellers collaborate with customers an
 | Ubiquitous Innovation | Enable teams to rapidly build and deploy governed multi-agent solutions in Microsoft Foundry. |
 
 
-### 2.3 The steps attendees follow:
+### 1.3 The steps attendees follow:
 
 1. Go to the Tech Workshop site at https://aka.ms/CAIPTechWorkshops.
 
@@ -85,3 +85,8 @@ During business and technical envisioning, sellers collaborate with customers an
 
 
    ![Step701](../Roadshow-Caldova/media/cd8.png) 
+
+
+## This completes the Envisioning Session using Microsoft Whiteboarding.
+
+### Now, click on **`Next >>`** from the lower right corner to move on to **`Rapid Prototyping using Cora`**.
