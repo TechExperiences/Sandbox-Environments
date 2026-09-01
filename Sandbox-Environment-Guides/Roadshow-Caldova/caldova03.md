@@ -175,7 +175,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 #### **Prompt 2: Fabric IQ**
 
 **Step 2:** 
-1. Navigate to **Vscode** again
+1. Navigate to **VS Code** again
 
 1. Copy the prompts below into **GitHub Copilot**.
 
@@ -207,7 +207,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. Once deployment is completed, please navigate to Azure portal
 
-1. Click on **Microsoft Cloude Menu** and select **Fabric**
+1. Click on **Microsoft Cloud Menu** and select **Fabric**
 
     ![fabric](../Roadshow-Caldova/media/fabric.png)
 
@@ -215,7 +215,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. Click on **workspaces** and select **Caldova Pharma Fabric IQ** workspace 
 
-1. Click on **CaldoveLakehouse** 
+1. Click on **CaldovaLakehouse** 
 
    ![LH](../Roadshow-Caldova/media/LH.png)
 
