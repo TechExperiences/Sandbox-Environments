@@ -227,7 +227,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. Click on **Overview** to view the graph model.
 
-   ![grpahview](../Roadshow-Caldova/media/grpahview.png)
+   ![graphview](../Roadshow-Caldova/media/graphview.png)
 
 1. Navigate back to workspace and Click on **CaldovaCapacityDataagent**
 
