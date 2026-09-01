@@ -149,10 +149,35 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    Note: Ensure the data is properly relational, with a primary key on every table and explicit foreign key relationship, so it can support Fabric mirroring, Fabric Ontology, and Data Agent creation in the future. Also create markdown(.md) files with deployment instructions and post deployment configurations and start deployment.
    ```
 
+   ![prompt1](../Roadshow-Caldova/media/prompt1.png)
+
+1. Once the deployment is complete, you can verify the deployed resources by navigating to the newly created resource group.
+
+1. Navigate to the [Azure portal](https://portal.azure.com). Search for Resource groups in search tab and click on **Resource Groups**
+
+   ![portal](../Roadshow-Caldova/media/portal.png)
+
+1. Click on **RG_Caldova_Pharma** Resource Group
+    
+   ![rg](../Roadshow-Caldova/media/rg.png)
+
+1. Click on Created **SQLDatabase** 
+
+1. In the left navigation pane, click Query Editor (Preview).
+
+1. If prompted to sign in, click Sign in and complete the authentication process.
+
+1. In the Explorer pane, expand Pharma DB, then expand dbo. Select Tables to view the list of tables in the database.
+
+   ![AzureSQLDB](../Roadshow-Caldova/media/AzureSQLDB.png)
+
 
 #### **Prompt 2: Fabric IQ**
 
-**Step 2:** Copy the prompts below into **GitHub Copilot**.
+**Step 2:** 
+1. Navigate to **Vscode** again
+
+1. Copy the prompts below into **GitHub Copilot**.
 
    ```
    Great, you have created Azure SQL Server and Database. Now follow the instructions below to build **Fabric IQ**.
@@ -180,9 +205,53 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    Then start deploying.
    ```
 
+1. Once deployment is completed, please navigate to Azure portal
+
+1. Click on **Microsoft Cloude Menu** and select **Fabric**
+
+    ![fabric](../Roadshow-Caldova/media/fabric.png)
+
+1. It will open Fabric portal in new tab
+
+1. Click on **workspaces** and select **Caldova Pharma Fabric IQ** workspace 
+
+1. Click on **CaldoveLakehouse** 
+
+   ![LH](../Roadshow-Caldova/media/LH.png)
+
+1. Select Tables to view the list of tables in the Lakehouse.
+
+1. Then Click on **CaldovaCapacityOntology** and then Select **Product** in the Entity Types and Click on **View Entity Type Details**
+
+   ![ontology](../Roadshow-Caldova/media/ontology.png)
+
+1. Click on **Overview** to view the graph model.
+
+   ![grpahview](../Roadshow-Caldova/media/grpahview.png)
+
+1. Navigate back to workspace and Click on **CaldovaCapacityDataagent**
+
+1. Navigate to Test data agent, send the following prompts in Data agent input box 
+
+   ```What CMO capacity offers are currently available?```
+
+   ![caldovaagent1](../Roadshow-Caldova/media/caldovaagent1.png)
+
+   ```Are there any products where forecasted demand exceeds available production capacity?```
+
+   ```Which capacity gaps have been identified, and what actions have been recommended to resolve them?```
+
+1. Click on **Publish** to publish the DataAgent.
+
 #### **Prompt 3: Foundry IQ**
 
-**Step 3:** Copy the prompts below into **GitHub Copilot**.
+**Step 3:** 
+
+1. Navigate back to the GitHub Copilot Chat to deploy the Foundry resources.
+
+1. Navigate back to the GitHub Copilot Chat
+
+1. Copy the below prompt into the chat and send.
 
    ```
    Great, you have created both Azure SQL Database and Fabric IQ. Now follow the instructions below to build **Foundry IQ**.
@@ -205,27 +274,31 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    ```
 
 
-### Supporting Prompt
+   ### Supporting Prompt
 
-If the agent is not visible, use this prompt:
+   If the agent is not visible, use this prompt:
 
->Not able to see agent, please refresh and load it.
+   >Not able to see agent, please refresh and load it.
 
+1. Once deployment is completed, please navigate to Azure portal
 
-### Validation Prompts
+1. Click on **RG_Caldova_Pharma** Resource Group
 
-Once all resources are deployed and the agent is ready, use the prompts below in both the Fabric Data Agent and Microsoft Foundry to validate the Caldova production issue.
+1. Select Foundry Project
 
-#### Validation Prompt 1
+1. Click On **Go to Foundry portal**
 
-```
-List down products per plan wise.
-```
+1. Click on Build
 
-#### Validation Prompt 2
+1. Navigate to Agents and click on the **Capacity-Planning-Foundry-Agent**
 
-```
-Assess the real-time line, shift, and batch-schedule data from all three plants to recommend 7% capacity gap closure. If the entire gap cannot be closed internally, assess all 11 contract manufacturers and weigh their qualification status, GMP compliance history, available capacity, tech-transfer time, and cost to fully close the 7% capacity gap.
-```
+1. Copy the below prompts and paste it in the agent chat window 
+
+   ```Assess the real-time line, shift, and batch-schedule data from all three plants to recommend 7% capacity gap closure. If the entire gap cannot be closed internally, assess all 11 contract manufacturers and weigh their qualification status, GMP compliance history, available capacity, tech-transfer time, and cost to fully close the 7% capacity gap.```
+
+   ![foundry1](../Roadshow-Caldova/media/foundry.png)
+
+   ![foundry2](../Roadshow-Caldova/media/foundry2.png)
+   
 
 >**Note:** Treat generated templates as a rapid prototype starting point. Teams must validate resource availability, region support, security settings, and workshop sandbox constraints before deployment.
