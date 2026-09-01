@@ -6,7 +6,23 @@
       {
         "RawFilePath": "https://raw.githubusercontent.com/TechExperiences/Sandbox-Environments/refs/heads/main/Sandbox-Environment-Guides/Roadshow-Caldova/Caldova-Production-Challenge.md",
         "Order": 1
-      }                  
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/TechExperiences/Sandbox-Environments/refs/heads/main/Sandbox-Environment-Guides/Roadshow-Caldova/caldova01.md",
+        "Order": 2
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/TechExperiences/Sandbox-Environments/refs/heads/main/Sandbox-Environment-Guides/Roadshow-Caldova/caldova02.md",
+        "Order": 3
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/TechExperiences/Sandbox-Environments/refs/heads/main/Sandbox-Environment-Guides/Roadshow-Caldova/caldova03.md",
+        "Order": 4
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/TechExperiences/Sandbox-Environments/refs/heads/main/Sandbox-Environment-Guides/Roadshow-Caldova/caldova04.md",
+        "Order": 5
+      }       
     ]  
   }
 ]
