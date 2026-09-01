@@ -90,7 +90,7 @@ That layer should connect:
 - Trusted web context
 - Identity, permissions, sensitivity, and compliance controls
 
-### 2.4 The Three Challenges
+## 2. The Three Challenges
 
 Your team must address the following three challenges. Document your approach, sequencing, risks, and mitigation plan.
 
@@ -165,7 +165,7 @@ You are the Caldova data science team. Leadership needs a defensible answer in d
 - How does each agent ground reasoning in the Fabric IQ ontology?
 - Why does grounding in shared business concepts matter for trust and reuse?
 
-### 2.5 Current and Reference Architecture Activity
+### 2.1 Current and Reference Architecture Activity
 
 1. Open the current and reference architecture in your Whiteboard.
 1. Fill out the business envisioning sections based on the Caldova case study.
@@ -176,7 +176,7 @@ You are the Caldova data science team. Leadership needs a defensible answer in d
 
 >**Note:** Save the exported future-state architecture image. You will upload it during the rapid prototyping exercise and use it with GitHub Copilot in VS Code.
 
-### 2.6 Database Inventory
+### 2.2 Database Inventory
 
 | Database | Size | Purpose | Special Features |
 |---|---:|---|---|
@@ -186,7 +186,7 @@ You are the Caldova data science team. Leadership needs a defensible answer in d
 | 7 smaller databases | ~1 TB | Serialization, track-and-trace, label management, environmental monitoring, warehouse and materials, training records, planning staging, and reporting marts | TBD |
 | Total: 10 known databases | ~12 TB | Full known SQL estate | TBD |
 
-### 2.7 Application Downtime Tolerances
+### 2.3 Application Downtime Tolerances
 
 | Application | Downtime Tolerance | Peak Load |
 |---|---:|---:|
@@ -194,7 +194,7 @@ You are the Caldova data science team. Leadership needs a defensible answer in d
 | Batch Release & QA Console | 2 minutes | 200 req/sec |
 | MES / Batch Execution Service | 0 minutes, 24/7 | 100 req/sec |
 
-### 2.8 Current Environment
+### 2.4 Current Environment
 
 #### London Primary Datacenter
 
@@ -207,7 +207,7 @@ You are the Caldova data science team. Leadership needs a defensible answer in d
 - ZAVA-SQL-DR01: SQL Server 2019 CU25, 32 cores, 256 GB RAM
 - Async availability group replication from London
 
-### 2.9 Non-Negotiable Constraints
+### 2.5 Non-Negotiable Constraints
 
 | Constraint | Requirement |
 |---|---|
@@ -216,7 +216,7 @@ You are the Caldova data science team. Leadership needs a defensible answer in d
 | Regulatory Compliance | Migration must preserve data integrity per GMP Annex 11 / 21 CFR Part 11 with full audit trail continuity. |
 | Launch Window | Migration must complete within the 16-week window and cannot collide with V2 process validation runs. |
 
-### 2.10 Network Environment Requirements
+### 2.6 Network Environment Requirements
 
 - No direct internet access from datacenter servers.
 - All traffic routes through Zscaler proxy with SSL inspection.
@@ -226,6 +226,8 @@ You are the Caldova data science team. Leadership needs a defensible answer in d
 - MES and IoT historian data crosses only through approved DMZ brokers.
 - CMO, supplier, and 3PL API endpoints are IP-allowlisted on both sides.
 - Partner-side firewall changes may take up to 4 weeks.
+
+### Now, click on **`Next >>`** to continue with **`Envisioning Session Using Whiteboarding`**.
 
 
 <!--
