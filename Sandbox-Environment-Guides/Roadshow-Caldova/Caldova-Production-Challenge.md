@@ -94,13 +94,13 @@ That layer should connect:
 
 Your team must address the following three challenges. Document your approach, sequencing, risks, and mitigation plan.
 
-### Challenge 1: SQL Estate Migration to Azure SQL Managed Instance
+### Challenge 1: SQL Estate Migration to Azure SQL Database
 
-The group acts as Caldova's migration architect team. The CTO has tasked them with moving the SQL Server estate, BatchManufacturingCore, QualityLIMS, SupplierPayments and the supporting operational databases, out of the London and Miami datacenters ahead of the VMware exit and within a 16-week window. Assessment comes first: the estate must be fully inventoried and assessed before anything moves, which is the practical meaning of modernizing with confidence. 
+The group acts as Caldova's migration architect team. The CTO has tasked them with moving the SQL Server estate, BatchManufacturingCore, QualityLIMS, SupplierPayments and the supporting operational databases, out of the London and Miami datacenters ahead of the VMware exit and within a 16-week window. Assessment comes first: the estate must be fully inventoried and assessed before anything moves, which is the practical meaning of modernizing with confidence.
 
-The questions are how the team will inventory the full estate and assess migration readiness including database, instance-level and cross-database dependencies; what the remediation plan is for deprecated syntax, unsupported SQL Server features, cross-database references and CLR assemblies; and what the migration and cutover sequence looks like, how the availability-group HADR model is replaced, and what the rollback plan is if cutover fails. 
+The questions are how the team will inventory the full estate and assess migration readiness including database-level dependencies, application dependencies and cross-database dependencies; what the remediation plan is for deprecated syntax, unsupported SQL Server features, cross-database references and CLR assemblies; and what the migration and cutover sequence looks like, how the existing high-availability and disaster-recovery model is replaced with Azure SQL Database capabilities, and what the rollback plan is if cutover fails.
 
-You are the migration architect team for Caldova. The CTO has tasked you with designing a migration strategy to move the SQL Server estate from the London and Miami datacenters to Azure SQL Managed Instance ahead of the VMware exit and within the 16-week window.
+You are the migration architect team for Caldova. The CTO has tasked you with designing a migration strategy to move the SQL Server estate from the London and Miami data centers to Azure SQL Database ahead of the VMware exit and within the 16-week window.
 
 **Migration Problem:**
 
