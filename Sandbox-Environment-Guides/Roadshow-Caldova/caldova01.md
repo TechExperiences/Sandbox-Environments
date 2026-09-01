@@ -1,4 +1,4 @@
-# 1. Envisioning Session Using Whiteboarding to Solve Caldova Business Problem
+# 1. Envisioning Session Using Whiteboarding to solve Caldova Business Problem
 
 ## What the Whiteboarding experience is?
 
@@ -25,7 +25,7 @@ During business and technical envisioning, sellers collaborate with customers an
 
 ### The steps attendees follow:
 
-1. Go to the Tech Workshop site at https://aka.ms/CAIPTechWorkshops.
+1. Go to the Technical Workshop site at https://aka.ms/CAIPTechWorkshops.
 
 1. Navigate to **Modernize with Confidence** section on the left navigation pane.
 
@@ -82,7 +82,6 @@ During business and technical envisioning, sellers collaborate with customers an
    - Drag and drop icons from the Icon Palette to create **Future State Architecture**. 
 
    - Once complete, take a screenshot of **Future State Architecture** for next section of the workshop. 
-
 
    ![Step701](../Roadshow-Caldova/media/cd8.png) 
 
