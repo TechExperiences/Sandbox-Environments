@@ -1,4 +1,4 @@
-## Option 2: Rapid prototyping with GitHub Copilot
+# Option 2: Rapid prototyping with GitHub Copilot
 
 Option 2 uses the whiteboarding session to map business challenges to a future-state technical architecture, designs a governed intelligence layer that enables trusted and secure AI agents, and rapidly prototypes deployment assets from the target architecture. GitHub Copilot in VS Code generates the ARM and Bicep templates, synthetic data and the supporting deployment guidance. Use this path to demonstrate how Microsoft Fabric, Fabric IQ, Microsoft Foundry and multi-agent patterns address Caldova's operational challenges and accelerate modernization. 
 
@@ -180,7 +180,6 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    Then start deploying.
    ```
 
-
 #### **Prompt 3: Foundry IQ**
 
 **Step 3:** Copy the prompts below into **GitHub Copilot**.
@@ -213,7 +212,6 @@ If the agent is not visible, use this prompt:
 >Not able to see agent, please refresh and load it.
 
 
-
 ### Validation Prompts
 
 Once all resources are deployed and the agent is ready, use the prompts below in both the Fabric Data Agent and Microsoft Foundry to validate the Caldova production issue.
@@ -229,6 +227,5 @@ List down products per plan wise.
 ```
 Assess the real-time line, shift, and batch-schedule data from all three plants to recommend 7% capacity gap closure. If the entire gap cannot be closed internally, assess all 11 contract manufacturers and weigh their qualification status, GMP compliance history, available capacity, tech-transfer time, and cost to fully close the 7% capacity gap.
 ```
-
 
 >**Note:** Treat generated templates as a rapid prototype starting point. Teams must validate resource availability, region support, security settings, and workshop sandbox constraints before deployment.
