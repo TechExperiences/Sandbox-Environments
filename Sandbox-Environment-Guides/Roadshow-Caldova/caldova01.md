@@ -1,8 +1,8 @@
-# 1. Envisioning Session Using Whiteboarding to solve Caldova Business Problem
+# 1. Envisioning Session Using Whiteboarding to Solve Caldova Business Problem
 
-## What the Whiteboarding experience is?
+## What the Whiteboarding Experience is?
 
-The CAIP DREAM whiteboard experience is a single site for Solution Engineers, GBBs and Specialists, carrying Microsoft Whiteboard templates for the top CAIP reference architectures across three solution plays. The templates are customer-facing and curated from GBBs, Engineering, the Gold Standard accelerators team, the Azure Architecture site, SEs and partners. 
+The CAIP DREAM whiteboard experience is a single site for Solution Engineers, GBBs and Specialists, carrying Microsoft Whiteboard templates for the top CAIP reference architectures across three solution plays. The templates are customer-facing and curated from GBBs, Engineering, the Gold Standard Accelerators team, the Azure Architecture site, SEs and partners. 
 
 During business and technical envisioning, sellers collaborate with customers and partners to design tailored architectures for a specific scenario, then export those architectures and use Whiteboard Copilot or VS Code to create deployable ARM and Bicep templates for rapid pilots and proofs of concept. The templates live at aka.ms/CAIPWhiteboards, the DREAM templates experience at aka.ms/dreamwhiteboards, and the Seismic business and technical envisioning page carries the reference guide. 
 
@@ -27,7 +27,7 @@ During business and technical envisioning, sellers collaborate with customers an
 
 1. Go to the Technical Workshop site at https://aka.ms/CAIPTechWorkshops.
 
-1. Navigate to **Modernize with Confidence** section on the left navigation pane.
+1. Navigate to the **Modernize with Confidence** section on the left navigation pane.
 
    ![Step701](../Roadshow-Caldova/media/cd2.png)
 
@@ -43,7 +43,7 @@ During business and technical envisioning, sellers collaborate with customers an
 
      ![Step701](../Roadshow-Caldova/media/cd3.png)   
 
-1. In Cora chat pane, copy paste the following business problem statement to Cora. 
+1. In Cora chat pane, copy and paste the following business problem statement to Cora. 
 
    ```
    My customer Caldova is a pharmaceutical manufacturer who plans to launch their new V2 product. I have three comments 
