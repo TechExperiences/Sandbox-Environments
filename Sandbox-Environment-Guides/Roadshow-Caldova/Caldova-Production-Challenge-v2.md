@@ -183,7 +183,7 @@ During business and technical envisioning, sellers collaborate with customers an
 
 Your team must address the following three challenges. Document your approach, sequencing, risks, and mitigation plan.
 
-#### Challenge 1: SQL Estate Migration to Azure SQL Managed Instance
+### Challenge 1: SQL Estate Migration to Azure SQL Managed Instance
 
 The group acts as Caldova's migration architect team. The CTO has tasked them with moving the SQL Server estate, BatchManufacturingCore, QualityLIMS, SupplierPayments and the supporting operational databases, out of the London and Miami datacenters ahead of the VMware exit and within a 16-week window. Assessment comes first: the estate must be fully inventoried and assessed before anything moves, which is the practical meaning of modernizing with confidence. 
 
@@ -210,7 +210,7 @@ You are the migration architect team for Caldova. The CTO has tasked you with de
 - What is your migration and cutover sequence?
 - What is your rollback plan if cutover fails?
 
-#### Challenge 2: Unified Data Intelligence Layer with Fabric IQ
+### Challenge 2: Unified Data Intelligence Layer with Fabric IQ
 
 The group acts as the Caldova data engineering team. With the estate modernizing, the CDO wants one governed, context-rich intelligence layer that every future AI agent can trust, built on Microsoft Fabric with Fabric IQ in readiness for the agent fleet. Operational data is siloed across six systems, each with its own definition of plant, batch and capacity. Agents built directly against raw tables drift, duplicate logic and cannot be audited, which is unacceptable for GxP manufacturing, and identity, permissions and sensitivity labels must be honoured end to end from source system to agent answer. 
 
@@ -232,7 +232,7 @@ You are part of the Caldova data engineering team. The CDO wants one governed, c
 - How will agents reason over shared business concepts instead of raw tables?
 - How will access controls, sensitivity labels, and auditability be preserved?
 
-#### Challenge 3: Multi-Agent Solution for CMO Recommendation
+### Challenge 3: Multi-Agent Solution for CMO Recommendation
 
 The group acts as the Caldova data science team. Leadership needs a defensible answer in days, not weeks. Internal headroom analysis requires real-time line, shift and batch-schedule data from all three plants and is currently a multi-week manual exercise. Contract manufacturer selection must weigh qualification status, GMP compliance history, available capacity, tech-transfer time and cost, with the data spread across supplier and ERP systems, quality systems and external sources. Every recommendation must carry a GxP-compliant audit trail recording which data, which agent and which reasoning. 
 
