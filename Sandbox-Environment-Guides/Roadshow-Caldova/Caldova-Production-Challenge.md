@@ -227,7 +227,7 @@ You are the Caldova data science team. Leadership needs a defensible answer in d
 - CMO, supplier, and 3PL API endpoints are IP-allowlisted on both sides.
 - Partner-side firewall changes may take up to 4 weeks.
 
-### Now, click on **`Next >>`** to continue with **`Envisioning Session Using Whiteboarding`**.
+### Now, click on **`Next >>`** to continue with **`Envisioning Session using Whiteboarding`**.
 
 
 <!--
