@@ -312,4 +312,4 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    ```
    
 
->**Note:** Treat generated templates as a rapid prototype starting point. Teams must validate resource availability, region support, security settings, and workshop sandbox constraints before deployment.
+   >**Note:** Treat generated templates as a rapid prototype starting point. Teams must validate resource availability, region support, security settings, and workshop sandbox constraints before deployment.
