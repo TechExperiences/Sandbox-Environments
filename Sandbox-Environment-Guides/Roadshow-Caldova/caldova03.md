@@ -257,11 +257,12 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    Instructions
    1. List all Azure Foundry-related resources from the architecture diagram.
    2. Create Foundry resources in Azure.
-   3. In the Foundry Project, create one standard model: **gpt-5-mini**.
-   4. In the Foundry Project, create an agent named **Capacity-Planning-Foundry-Agent** and attach the Fabric Data Agent, **Capacity-Planning-Agent**, by tool calling.
-   5. Create proper instructions for the agent so it provides useful responses.
-   6. Once **Capacity-Planning-Foundry-Agent** is created, validate that the prompt works and returns valid results, then provide confirmation.
-   7. Ensure the agent instruction, prompt, and response fulfill the problem statement.
+   3. In the Foundry Project, create one standard model: **gpt-5-mini**. Set the model deployment capacity to 90K TPM.
+   4. Grant the Foundry project's managed identity the Foundry User role, scoped to the Foundry project, so it can access project resources such as datasets and connected data sources. Verify this role assignment is active before proceeding.
+   5. In the Foundry Project, create an agent named **Capacity-Planning-Foundry-Agent** and attach the Fabric Data Agent, **Capacity-Planning-Agent**, by tool calling.
+   6. Create proper instructions for the agent so it provides useful responses.
+   7. Once **Capacity-Planning-Foundry-Agent** is created, validate that the prompt works and returns valid results, then provide confirmation.
+   8. Ensure the agent instruction, prompt, and response fulfill the problem statement.
    Completion Requirement: 
    After completing all steps successfully, create a Markdown file with:
    - Deployment instructions
