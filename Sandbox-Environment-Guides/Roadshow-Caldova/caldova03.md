@@ -82,16 +82,6 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 #### **Prompt 1: Azure SQL Database**
 
-1. Right click on the [Future-State-Architecture](https://sttechexpcommondata01.blob.core.windows.net/caldova-challenge/Future-State-Architecture.png), then select **Copy link** and then paste it on the new browser tab inside the VM.
-
-   ![Step20](../Roadshow-Caldova/media/cd19.png)
-
-1. Once the **Future State Architecture** is shown up, click on **Ctrl+S** to save the Architecture.
-
-1. Navigate to `C:\miq-project` folder **(1)**, enter the name as **Future State Architecture (2)** and then **Save (3)**.
-
-   ![Step12](../Roadshow-Caldova/media/cd20.png)
-
 1. Navigate back to **VS Code.**
 
 1. Select **File (1)** and then **Open Folder (2)**.
