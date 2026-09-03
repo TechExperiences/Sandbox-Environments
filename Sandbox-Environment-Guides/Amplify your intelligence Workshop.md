@@ -1,5 +1,6 @@
 # 	Microsoft Technical Workshop: Build AI Context Across People, Business & Knowledge with Microsoft IQ
 
+- [LabGuidePreview](https://experience.cloudlabs.ai/#labguidepreview/ea4060af-c0d7-4864-9e61-09e8d3166724)
 
 ### Overview about Amplify Your Intelligence
 
