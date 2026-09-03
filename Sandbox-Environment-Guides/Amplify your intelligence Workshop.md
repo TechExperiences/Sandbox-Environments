@@ -1,13 +1,13 @@
 # 	Microsoft Technical Workshop: Build AI Context Across People, Business & Knowledge with Microsoft IQ
 
-- [LabGuidePreview](https://experience.cloudlabs.ai/#labguidepreview/ea4060af-c0d7-4864-9e61-09e8d3166724)
-
 ### Overview about Amplify Your Intelligence
 
 **Workshop Purpose:** This workshop helps technical teams design and deliver integrated Microsoft IQ solutions that unify work context, business data, and enterprise knowledge into a single intelligence layer. 
 ![](../Sandbox-Environment-Guides/Images/AmplifyImg.png)
 
 ## Accessing your Sandbox Environment
+
+- [LabGuidePreview](https://experience.cloudlabs.ai/#labguidepreview/ea4060af-c0d7-4864-9e61-09e8d3166724)
 
 1. Once you're ready to dive in, your Virtual machine and Guide will be right at your fingertips within your web browser.
 
