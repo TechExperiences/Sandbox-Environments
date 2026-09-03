@@ -4,6 +4,8 @@
 
 ## 1. Overview about Amplify Your intelligence
 
+- [labguidepreview](https://experience.cloudlabs.ai/#labguidepreview/44aa7942-1e5e-43e1-a7ab-21a89506d0b2)
+
 **Workshop Purpose:** This workshop helps technical teams design and deliver integrated Microsoft IQ solutions that unify work context, business data, and enterprise knowledge into a single intelligence layer. Participants learn how to architect end-to-end solutions, connect data and context across systems, and guide customer conversations toward meaningful proof-of-concept outcomes.
 
 **Modularity / flexibility:** The workshop can be delivered end-to-end as a structured engagement or broken into targeted modules focused on work context, business context, or knowledge integration depending on customer priorities.
