@@ -7,7 +7,6 @@
 
 ## Accessing your Sandbox Environment
 
-- [LabGuidePreview](https://experience.cloudlabs.ai/#labguidepreview/ea4060af-c0d7-4864-9e61-09e8d3166724)
 
 1. Once you're ready to dive in, your Virtual machine and Guide will be right at your fingertips within your web browser.
 
