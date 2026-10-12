@@ -1,5 +1,24 @@
 # CAIP Technical Workshop-Roadshow: Caldova Product Launch Challenge
 
+## What is a Sandbox Environment? 
+
+A Sandbox is a temporary, isolated Azure environment provisioned for the duration of your session. This sandbox environment includes a dedicated Lab VM as well — along with the licenses and the proper permissions needed to deploy services, run commands, and complete hands-on activities. 
+
+The sandbox environment will include all licenses and products covered under the CAIP conversation. It will also provide instructions that sellers can modify based on their customer scenarios.  
+
+## Licenses and Products included in this Sandbox 
+
+- Microsoft 365 E5 
+- Microsoft 365 Copilot Business 
+- Agent 365 
+- Microsoft Copilot Studio 
+- Microsoft Copilot Studio User License 
+- Teams Essentials 
+- GitHub Enterprise 
+- GitHub Copilot Enterprise
+- Fabric
+- Foundry
+
 ## Overview
 
 >**Note:** This workshop is designed as a hands-on technical roadshow exercise. Participants should use the provided Caldova scenario, current-state details, reference architecture, and sandbox environment to complete the activities.
