@@ -100,9 +100,17 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![Step17](../Roadshow-Caldova/media/amp30.png)
 
-1. Click **Auto (1)** and then set the model to **Claude Sonnet 5 (2)**.
+1. Click **Auto (1)** and then **turn off (2)** the **Auto** toggle. 
 
-   ![Step18](../Roadshow-Caldova/media/b7.png)
+   ![Step18](../Roadshow-Caldova/media/u31.png)
+
+1. Expand **Other Models**.
+
+   ![Step18](../Roadshow-Caldova/media/u32.png)
+
+1. Set the model to **Claude Sonnet 5**.
+
+   ![Step18](../Roadshow-Caldova/media/u33.png)
 
 1. Click on **Default permission (1)** and then set it to **Allow all (2)**.
 
@@ -118,7 +126,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. From the **GitHub Copilot Chat**, click on **+ (1)** and then select the **Future-State-Architecture.png (2)**.
 
-   ![](../Images/b89.png)   
+   ![Step18](../Roadshow-Caldova/media/u34.png)
 
 1. Send the prompts below into **GitHub Copilot Chat** along with the attached **Future State Architecture**.
 
